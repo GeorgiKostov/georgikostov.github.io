@@ -8,7 +8,7 @@ title: Home
 
   <div class="profile-info">
     <h1 class="profile-name">Georgi Kostov</h1>
-    <p class="profile-tagline">Unity Developer | Lecturer | XR Enthusiast</p>
+    <p class="profile-tagline">Senior Unity Developer | Educator | XR Enthusiast | Cinema Geek</p>
 
     <div class="social-links">
       <a href="https://www.linkedin.com/in/kostovg/" target="_blank" aria-label="LinkedIn">
@@ -28,31 +28,31 @@ In my professional experience I have worked on games and simulations in a variet
 
 In my free time I love traveling, cycling, hiking, swimming, spending time with friends and family. I am an avid gamer, sometimes write film critique and always aim to learn something new about the world, which I can reflect in my projects.
 
-<a href="/pages/projects/" class="button">Explore Projects</a> <a href="/pages/blog/" class="button">Read My Blog</a> <a href="/pages/publications/" class="button">View Publications</a> 
+<div class="button-group">
+  <a href="/pages/projects/" class="button-link">Explore Projects</a>
+  <a href="/pages/blog/" class="button-link">Read My Blog</a>
+  <a href="/pages/publications/" class="button-link">View Publications</a>
+</div>
 
 ---
-
 ## Professional Timeline
-<div class="timeline">
+
+<ul class="timeline">
   {% for item in site.data.timeline %}
-    <div class="timeline-item">
-      <div class="timeline-dot">
-        <span class="timeline-time">{{ item.duration }}</span>
-      </div>
-      <div class="timeline-details">
-        <h3>{{ item.title }}</h3>
-        <p><strong>{{ item.role }}</strong></p>
+    <li class="timeline-item">
+      <p class="timeline-date">{{ item.duration }}</p>
+      <div class="timeline-content">
+        <h3>{{ item.role }}</h3>
+        <p><strong>{{ item.title }}</strong></p>
         <ul>
-          {% for point in item.description | split: '\n' %}
-            <li>{{ point }}</li>
+          {% for point in item.description %}
+            <li>{{ point | strip }}</li>
           {% endfor %}
         </ul>
       </div>
-    </div>
+    </li>
   {% endfor %}
-</div>
-
-
+</ul>
 ## Teaching
 
 
