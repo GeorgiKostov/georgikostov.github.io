@@ -1,0 +1,24 @@
+title: Georgi Kostov's Portfolio
+description: A portfolio and blog for Georgi Kostov
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-cayman
+remote_theme: pages-themes/cayman@v0.2.0
+
+# Navigation Links
+# Customize the navigation bar links
+links:
+  Home: "/"
+  Projects: "/pages/projects/"
+  Publications: "/pages/publications/"
+  Blog: "/pages/blog/"
+
+  # Blog Configuration
+collections:
+  posts:
+    output: true
+    permalink: /blog/:title/  # Clean URLs for blog posts
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+
+
