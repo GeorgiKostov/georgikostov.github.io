@@ -322,19 +322,52 @@ a:hover { text-decoration: underline; }
 
 .site-footer-credits { color: #819198; }
 
-/* Centering the profile container */
-.profile-container { display: flex; flex-direction: column; align-items: center; margin: 2rem 0; position: relative; }
+.profile-container { display: flex; flex-direction: row; /* Align profile image and info side by side */ align-items: center; gap: 2rem; /* Spacing between image and text */ margin: 2rem 0; position: relative; }
 
-/* Circular profile image */
-.profile-image { display: block; width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 0px solid #157878; /* Optional: Border color */ }
+.profile-image { display: block; width: 200px; height: 200px; border-radius: 50%; object-fit: cover; border: 0px solid #157878; }
 
-/* Social links container */
-.social-links { display: flex; justify-content: center; gap: 1rem; margin-top: 1rem; }
+.profile-info { display: flex; flex-direction: column; gap: 0.5rem; /* Spacing between name, tagline, and social links */ }
 
-/* Individual social link buttons */
-.social-links a { display: inline-block; width: 40px; /* Adjust button size */ height: 40px; background-color: #157878; /* Background color */ border-radius: 50%; display: flex; justify-content: center; align-items: center; transition: background-color 0.3s ease; }
+.profile-name { font-size: 2rem; font-weight: bold; margin: 0; color: #157878; }
 
-.social-links a:hover { background-color: #105f56; /* Hover color */ }
+.profile-tagline { font-size: 1.2rem; margin: 0; color: #555; }
 
-/* Social icon images */
-.social-icon { width: 40px; /* Icon size */ height: 40px; }
+.social-links { display: flex; gap: 1rem; }
+
+.social-icon { width: 32px; height: 32px; transition: transform 0.2s; }
+
+.social-icon:hover { transform: scale(1.1); }
+
+/* Timeline Container */
+.timeline { margin: 2rem 0; padding: 0; list-style: none; border-left: 2px solid #157878; /* Vertical line for the timeline */ }
+
+/* Timeline Item */
+.timeline-item { position: relative; margin-bottom: 2rem; padding-left: 2rem; }
+
+.timeline-item:before { content: ""; position: absolute; top: 0; left: -7px; width: 14px; height: 14px; background-color: #157878; border-radius: 50%; /* Circular bullet */ }
+
+/* Timeline Header */
+.timeline-header h3 { margin: 0; font-size: 1.2rem; color: #157878; }
+
+.timeline-header p { margin: 0.3rem 0; font-size: 0.9rem; color: #555; }
+
+/* Timeline Content */
+.timeline-content ul { margin: 0.5rem 0 0; padding: 0; list-style: disc inside; }
+
+.timeline-content ul li { margin: 0.3rem 0; font-size: 0.9rem; color: #333; }
+
+.video-container { position: relative; width: 100%; padding-bottom: 56.25%; /* 16:9 aspect ratio */ height: 0; overflow: hidden; }
+
+.video-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; }
+
+.button { display: inline-block; padding: 10px 20px; margin: 10px 0; font-size: 16px; font-weight: bold; color: #fff; background-color: #157878; text-decoration: none; border-radius: 5px; transition: background-color 0.3s ease; }
+
+.button:hover { background-color: #105f56; }
+
+.page-header { display: flex; align-items: center; justify-content: space-between; padding: 10px 20px; background-color: #157878; color: #fff; }
+
+.page-header h1 { margin: 0; font-size: 24px; color: #fff; }
+
+.back-button { text-decoration: none; font-size: 16px; font-weight: bold; color: #fff; background-color: #105f56; padding: 8px 12px; border-radius: 5px; transition: background-color 0.3s ease; }
+
+.back-button:hover { background-color: #0d463f; }

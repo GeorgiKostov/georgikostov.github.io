@@ -3,31 +3,9 @@ layout: default
 title: Projects
 ---
 
-# Projects
-
-## Ocean Maps
-![Ocean Maps](https://kostovsolutions.com/wp-content/uploads/2024/10/image-1-512x347.png)
-
-**Role**: Developer  
-**Key Contributions**:
-- Developed new features, planned architecture, and maintained the codebase.
-- Focused on UX and interface design, conceptualizing future tools.
-- Managed junior developers and oversaw project organization.
-
----
-
-## Trackbar
-![Trackbar](https://kostovsolutions.com/wp-content/uploads/2024/10/image-512x494.png)
-
-**Role**: Unity Developer  
-**Key Contributions**:
-- Built Unity widgets for Flutter applications, visualizing workout curves.
-- Developed innovative game concepts to expand the app's features.
-
----
-
 ## HektAR
-[Watch Video](https://youtu.be/EFyVnfK4LEY)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EFyVnfK4LEY?si=pVa8qMgiuh7Oj1ss" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 **Description**:
 In HektAR, players take control of a small virtual farm to meet the needs of a growing community as sustainably as possible.  
@@ -40,7 +18,8 @@ In HektAR, players take control of a small virtual farm to meet the needs of a g
 ---
 
 ## Logistify
-[Watch Video](https://youtu.be/gR3ciDCLlIQ)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gR3ciDCLlIQ?si=j4LxDUTbPKGH0SZF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 **Description**:
 Logistify teaches players about transport, supply chains, and resource efficiency.  
@@ -53,7 +32,8 @@ Logistify teaches players about transport, supply chains, and resource efficienc
 ---
 
 ## CATRINA
-[Watch Video](https://youtu.be/Ltod694yfA0)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ltod694yfA0?si=YUFgxZBurxufT_VR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 **Description**:
 CATRINA is a VR simulation of civil courage situations.  
@@ -67,7 +47,7 @@ CATRINA is a VR simulation of civil courage situations.
 ---
 
 ## The Game Changer Suite
-[Watch Video](https://www.youtube.com/watch?v=gmM1EaHA_BA)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gmM1EaHA_BA?si=nnzIo9bjlBoHmVhe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 **Description**:
 A collection of games designed for large-scale public play spaces.  
@@ -80,7 +60,7 @@ A collection of games designed for large-scale public play spaces.
 ---
 
 ## PIEDeck
-[Watch Video](https://www.youtube.com/watch?v=7Q2MfE01my4)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7Q2MfE01my4?si=LZYxTSSsLs6pUWRs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 **Description**:
 An experimental co-located installation combining VR and a laser tracking system.  
@@ -93,7 +73,7 @@ An experimental co-located installation combining VR and a laser tracking system
 ---
 
 ## Invisible Walls
-[Watch Video](https://www.youtube.com/watch?v=lzxrbJNKuW8&t=2s)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lzxrbJNKuW8?si=toRa3cjtURnYqCrH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 **Description**:
 An art installation combining VR and public projection.  
@@ -117,7 +97,7 @@ A project exploring how traditional board games can be enhanced with augmented r
 ---
 
 ## Play!UC
-[Watch Video](https://www.youtube.com/watch?v=wbl0d12rEWg&t=64s)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wbl0d12rEWg?si=kYH1aCi-4NvJG9MZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 **Description**:
 Investigates using computer games to support urban development participatory processes.  
