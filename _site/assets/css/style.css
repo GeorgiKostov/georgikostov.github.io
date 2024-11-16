@@ -322,39 +322,43 @@ a:hover { text-decoration: underline; }
 
 .site-footer-credits { color: #819198; }
 
-.profile-container { display: flex; flex-direction: row; /* Align profile image and info side by side */ align-items: center; gap: 2rem; /* Spacing between image and text */ margin: 2rem 0; position: relative; }
+/* Profile Section */
+.profile-container { display: flex; flex-direction: row; /* Side-by-side layout for larger screens */ align-items: center; gap: 2rem; margin: 2rem 0; position: relative; }
 
 .profile-image { display: block; width: 200px; height: 200px; border-radius: 50%; object-fit: cover; border: 0px solid #157878; }
 
-.profile-info { display: flex; flex-direction: column; gap: 0.5rem; /* Spacing between name, tagline, and social links */ }
+.profile-info { display: flex; flex-direction: column; gap: 0.5rem; }
 
 .profile-name { font-size: 2rem; font-weight: bold; margin: 0; color: #157878; }
 
 .profile-tagline { font-size: 1.2rem; margin: 0; color: #555; }
 
-.social-links { display: flex; gap: 1rem; }
+.social-links { display: flex; gap: 1rem; justify-content: flex-start; /* Default alignment for landscape and larger screens */ }
 
 .social-icon { width: 32px; height: 32px; transition: transform 0.2s; }
 
 .social-icon:hover { transform: scale(1.1); }
 
-/* Timeline Container */
+/* Media query for portrait mode */
+@media (orientation: portrait) { .profile-container { flex-direction: column; /* Stack items vertically */ align-items: center; /* Center all items horizontally */ }
+  .social-links { justify-content: center; /* Center the social links horizontally */ margin-top: 1rem; /* Add spacing above the links */ } }
+/* Responsive Profile Section */
+@media (max-width: 768px) { .profile-container { flex-direction: column; /* Stack profile image and info vertically */ align-items: center; text-align: center; }
+  .profile-name { font-size: 1.8rem; /* Slightly smaller font size for tablets */ }
+  .profile-tagline { font-size: 1rem; } }
+/* Timeline */
 .timeline { margin: 2rem 0; padding: 0; list-style: none; position: relative; border-left: 2px solid #157878; /* Vertical timeline line */ }
 
-/* Timeline Item */
-.timeline-item { position: relative; margin-bottom: 2rem; display: flex; align-items: flex-start; }
+.timeline-item { position: relative; margin-bottom: 2rem; display: flex; justify-content: space-between; /* Align content and date on opposite sides */ }
 
-/* Timeline Circle (Dot) */
-.timeline-item:before { content: ""; position: absolute; top: 0; left: -13px; width: 18px; height: 18px; background-color: #157878; border: 3px solid #f9f9f9; /* Outline for visibility */ border-radius: 50%; /* Circular shape */ transition: transform 0.3s ease, box-shadow 0.3s ease; }
+.timeline-item:before { content: ""; position: absolute; top: 0; left: -13px; width: 18px; height: 18px; background-color: #157878; border: 3px solid #f9f9f9; border-radius: 50%; transition: transform 0.3s ease, box-shadow 0.3s ease; }
 
 /* Hover Effect for Circle */
 .timeline-item:hover:before { transform: scale(1.2); box-shadow: 0 0 10px rgba(21, 120, 120, 0.8); }
 
-/* Date Styling */
-.timeline-date { font-size: 0.9rem; /* Smaller font size for date */ font-weight: bold; color: #157878; position: absolute; left: -160px; /* Position date to the left of the circle */ text-align: right; /* Align text to the right */ width: 140px; /* Fixed width to prevent wrapping */ white-space: nowrap; /* Prevent text from wrapping */ }
+.timeline-date { font-size: 0.9rem; font-weight: bold; color: #157878; text-align: left; /* Align text for date */ min-width: 140px; /* Fixed width to prevent wrapping */ padding-left: 10px; /* Space between timeline and date */ white-space: nowrap; /* Prevent text wrapping */ }
 
-/* Timeline Content */
-.timeline-content { background: #f9f9f9; border: 1px solid #ddd; border-radius: 8px; padding: 1rem; flex: 1; margin-left: 2rem; /* Move the cards further to the right */ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); }
+.timeline-content { background: #f9f9f9; border: 1px solid #ddd; border-radius: 8px; padding: 1rem; margin-left: 2rem; /* Move the cards further to the right */ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); flex: 1; /* Allow timeline content to take available space */ }
 
 .timeline-content h3 { margin: 0; font-size: 1.2rem; color: #157878; font-weight: bold; }
 
@@ -364,47 +368,31 @@ a:hover { text-decoration: underline; }
 
 .timeline-content ul li { margin: 0.5rem 0; font-size: 0.9rem; color: #333; }
 
-.button { display: inline-block; padding: 10px 20px; margin: 10px 0; font-size: 16px; font-weight: bold; color: #fff; background-color: #157878; text-decoration: none; border-radius: 5px; transition: background-color 0.3s ease; }
+/* Responsive Timeline */
+@media (max-width: 768px) { .timeline { border-left: none; }
+  .timeline-item { flex-direction: column; /* Stack content vertically */ align-items: flex-start; /* Align items to the left */ }
+  .timeline-item:before { display: none; /* Hide the dots */ }
+  .timeline-date { margin-bottom: 0.5rem; /* Add space below the date */ padding-left: 0; /* Remove padding */ text-align: left; /* Align text to the left */ font-size: 1rem; /* Slightly larger font for better readability */ }
+  .timeline-content { margin-left: 0; /* Remove left margin */ width: 100%; /* Full width for content */ } }
+@media (max-width: 480px) { .timeline { border-left: none; /* Hide vertical line */ }
+  .timeline-item { margin-bottom: 1.5rem; /* Reduce spacing between items */ }
+  .timeline-date { font-size: 0.9rem; /* Adjust font size for mobile */ color: #157878; margin-bottom: 0.3rem; }
+  .timeline-content { padding: 1rem; font-size: 0.9rem; /* Adjust content font size */ } }
+/* Button Link */
+.button-group { display: flex; flex-wrap: wrap; /* Allow buttons to wrap to the next line */ gap: 20px; /* Space between buttons */ margin: 2rem 0; }
 
-.button:hover { background-color: #105f56; }
+.button-link { display: inline-block; padding: 10px 20px; font-size: 16px; font-weight: bold; color: #fff; background-color: #157878; text-decoration: none; border-radius: 5px; transition: background-color 0.3s ease, transform 0.3s ease; text-align: center; max-width: 200px; /* Prevent buttons from being too wide */ margin: 0 auto; /* Center the button horizontally */ }
 
-.page-header { display: flex; align-items: center; justify-content: space-between; padding: 10px 20px; background-color: #157878; color: #fff; }
-
-.page-header h1 { margin: 0; font-size: 24px; color: #fff; }
-
-.back-button { text-decoration: none; font-size: 16px; font-weight: bold; color: #fff; background-color: #105f56; padding: 8px 12px; border-radius: 5px; transition: background-color 0.3s ease; }
-
-.back-button:hover { background-color: #0d463f; }
-
-.button-group { display: flex; gap: 15px; margin: 2rem 0; }
-
-.button-link { display: inline-block; padding: 10px 20px; font-size: 16px; /* Default font size for larger screens */ font-weight: bold; color: #fff; background-color: #157878; text-decoration: none; border-radius: 5px; transition: background-color 0.3s ease, transform 0.3s ease; text-align: center; /* Ensures proper alignment for smaller screens */ }
-
-/* Hover effect */
 .button-link:hover { background-color: #105f56; transform: translateY(-3px); }
 
-/* Media query for tablets */
-@media (max-width: 768px) { .button-link { font-size: 14px; /* Adjust font size for tablets */ padding: 8px 16px; /* Reduce padding for smaller screens */ } }
-/* Media query for mobile devices */
-@media (max-width: 480px) { .button-link { font-size: 12px; /* Smaller font size for mobile */ padding: 6px 12px; /* Compact padding for narrow screens */ display: block; /* Stack buttons vertically */ margin: 5px 0; /* Add spacing between stacked buttons */ } }
-/* Blog Overview */
-.blog-list { display: flex; flex-direction: column; gap: 2rem; margin-top: 2rem; }
-
-.blog-summary h2 { margin: 0; font-size: 1.5rem; color: #157878; }
-
-.blog-summary h2 a { text-decoration: none; color: inherit; transition: color 0.3s; }
-
-.blog-summary h2 a:hover { color: #105f56; }
-
-.post-meta { font-size: 0.9rem; color: #555; }
-
-.blog-summary p { margin: 0.5rem 0; }
-
-/* Blog Cards Container */
+/* Responsive Buttons */
+@media (max-width: 768px) { .button-group { flex-direction: column; /* Stack buttons vertically */ align-items: center; /* Center buttons in the container */ gap: 15px; /* Space between stacked buttons */ }
+  .button-link { padding: 8px 16px; font-size: 14px; max-width: 180px; /* Reduce width further on smaller devices */ } }
+@media (max-width: 480px) { .button-link { padding: 6px 12px; font-size: 12px; max-width: 150px; /* Ensure buttons are narrower on very small screens */ } }
+/* Blog Cards */
 .blog-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin: 2rem 0; }
 
-/* Individual Blog Card */
-.blog-card { display: block; padding: 1.5rem; background-color: #f9f9f9; border: 2px solid #e6e6e6; border-radius: 8px; text-decoration: none; transition: transform 0.3s ease, box-shadow 0.3s ease; }
+.blog-card { padding: 1.5rem; background-color: #f9f9f9; border: 2px solid #e6e6e6; border-radius: 8px; text-decoration: none; transition: transform 0.3s ease, box-shadow 0.3s ease; }
 
 .blog-card:hover { transform: translateY(-5px); box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); }
 
@@ -412,6 +400,7 @@ a:hover { text-decoration: underline; }
 
 .blog-card p { margin: 0; color: #555; font-size: 1rem; line-height: 1.4; }
 
-.video-container { position: relative; width: 100%; /* Make the container span full width */ padding-bottom: 56.25%; /* Aspect ratio: 16:9 (height/width * 100%) */ height: 0; /* Set height to 0 to make padding-bottom control the height */ overflow: hidden; /* Ensure nothing exceeds the container bounds */ }
+/* Responsive Video Embed */
+.video-container { position: relative; width: 100%; padding-bottom: 56.25%; /* Aspect ratio 16:9 */ height: 0; overflow: hidden; }
 
-.video-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; /* Optional: remove border if the browser adds any */ }
+.video-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
