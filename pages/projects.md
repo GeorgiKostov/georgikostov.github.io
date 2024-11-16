@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Projects
+permalink: /pages/projects/
 ---
 
 ## HektAR

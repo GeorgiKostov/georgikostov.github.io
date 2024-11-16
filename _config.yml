@@ -4,7 +4,7 @@ author: "Georgi Kostov"
 theme: jekyll-theme-cayman
 
 # Base URL for GitHub Pages
-baseurl: "" # No baseurl needed since you're using the default username.github.io domain
+baseurl: "" # Leave this empty if you’re not using a subdirectory
 url: "https://georgikostov.github.io"
 
 # Navigation Links
@@ -33,9 +33,6 @@ markdown: kramdown
 kramdown:
   input: GFM # GitHub Flavored Markdown
 
-# Pagination Configuration
-paginate: 5                      # Number of posts per page
-paginate_path: /blog/page:num/   # Path for paginated pages
 
 # Exclude Unnecessary Files and Directories
 exclude:

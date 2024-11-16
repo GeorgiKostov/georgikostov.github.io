@@ -29,9 +29,9 @@ In my professional experience I have worked on games and simulations in a variet
 In my free time I love traveling, cycling, hiking, swimming, spending time with friends and family. I am an avid gamer, sometimes write film critique and always aim to learn something new about the world, which I can reflect in my projects.
 
 <div class="button-group">
-  <a href="/pages/projects/" class="button-link">Explore Projects</a>
-  <a href="/pages/blog/" class="button-link">Read My Blog</a>
-  <a href="/pages/publications/" class="button-link">View Publications</a>
+  <a href="{{ '/pages/projects/' | relative_url }}" class="button-link">Explore Projects</a>
+  <a href="{{ '/pages/blog/' | relative_url }}" class="button-link">Read My Blog</a>
+  <a href="{{ '/pages/publications/' | relative_url }}" class="button-link">View Publications</a>
 </div>
 
 ---

@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "HektAR — A Game About Food and Land"
+title: HektAR — A Game About Food and Land
+permalink: /posts/hektar-game/
 ---
-
 ### Introduction
 
 During my time at Playful Interactive Environments, a research lab at the University of Applied Sciences Upper Austria, I worked on a variety of game projects with an educational purpose. In the case of HektAR, I was responsible for the concept, development, and publishing and was supported by a 3D artist, who took care of visuals, and a team of environmental experts, who provided a lot of the data and content for the game. Creating the entire game took around 1200 hours.
