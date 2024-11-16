@@ -6,7 +6,9 @@ permalink: /pages/projects/
 
 ## HektAR
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EFyVnfK4LEY?si=pVa8qMgiuh7Oj1ss" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/EFyVnfK4LEY?si=pVa8qMgiuh7Oj1ss" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 **Description**:
 In HektAR, players take control of a small virtual farm to meet the needs of a growing community as sustainably as possible.  
@@ -20,7 +22,9 @@ In HektAR, players take control of a small virtual farm to meet the needs of a g
 
 ## Logistify
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/gR3ciDCLlIQ?si=j4LxDUTbPKGH0SZF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/gR3ciDCLlIQ?si=j4LxDUTbPKGH0SZF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 **Description**:
 Logistify teaches players about transport, supply chains, and resource efficiency.  
@@ -34,7 +38,9 @@ Logistify teaches players about transport, supply chains, and resource efficienc
 
 ## CATRINA
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Ltod694yfA0?si=YUFgxZBurxufT_VR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/Ltod694yfA0?si=YUFgxZBurxufT_VR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 **Description**:
 CATRINA is a VR simulation of civil courage situations.  
@@ -48,7 +54,10 @@ CATRINA is a VR simulation of civil courage situations.
 ---
 
 ## The Game Changer Suite
-<iframe width="560" height="315" src="https://www.youtube.com/embed/gmM1EaHA_BA?si=nnzIo9bjlBoHmVhe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/gmM1EaHA_BA?si=nnzIo9bjlBoHmVhe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 **Description**:
 A collection of games designed for large-scale public play spaces.  
@@ -61,7 +70,10 @@ A collection of games designed for large-scale public play spaces.
 ---
 
 ## PIEDeck
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7Q2MfE01my4?si=LZYxTSSsLs6pUWRs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/7Q2MfE01my4?si=LZYxTSSsLs6pUWRs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 **Description**:
 An experimental co-located installation combining VR and a laser tracking system.  
@@ -74,7 +86,10 @@ An experimental co-located installation combining VR and a laser tracking system
 ---
 
 ## Invisible Walls
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lzxrbJNKuW8?si=toRa3cjtURnYqCrH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/lzxrbJNKuW8?si=toRa3cjtURnYqCrH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 **Description**:
 An art installation combining VR and public projection.  
@@ -86,7 +101,10 @@ An art installation combining VR and public projection.
 ---
 
 ## i2f – Interface2Face Mixed Reality Game
-![i2f](https://kostovsolutions.com/wp-content/uploads/2023/04/TankMission1-512x256.jpg)
+
+<div class="video-container">
+  <iframe src="https://kostovsolutions.com/wp-content/uploads/2023/04/TankMission1-512x256.jpg" title="i2f Mixed Reality Game" frameborder="0" allowfullscreen></iframe>
+</div>
 
 **Description**:
 A project exploring how traditional board games can be enhanced with augmented reality.  
@@ -98,7 +116,10 @@ A project exploring how traditional board games can be enhanced with augmented r
 ---
 
 ## Play!UC
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wbl0d12rEWg?si=kYH1aCi-4NvJG9MZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/wbl0d12rEWg?si=kYH1aCi-4NvJG9MZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 **Description**:
 Investigates using computer games to support urban development participatory processes.  

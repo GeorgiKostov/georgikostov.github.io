@@ -60,4 +60,13 @@ In my free time I love traveling, cycling, hiking, swimming, spending time with 
 I teach courses on games with a purpose, mixed reality, and location-based technologies at [University of Applied Sciences Upper Austria, Campus Hagenberg](https://fh-ooe.at/campus-hagenberg). The courses include a theoretical component, where core concepts from XR and game design are explored, and a practical component, where students develop projects throughout the semester under my mentorship. I also lead an introduction to making games with Unity workshop for the Master’s program in Interface Cultures at the [University of Art and Design Linz](https://www.kunstuni-linz.at/en/studies/degree-programmes/interface-cultures/master-programme/courses).
 
 ### Student Projects 2023/2024
-<iframe width="560" height="315" src="https://www.youtube.com/embed/11QtNfz-3rc?si=LaHVU8-6pop8pJYK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="video-container">
+    <iframe 
+        src="https://www.youtube.com/embed/11QtNfz-3rc?si=LaHVU8-6pop8pJYK" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen>
+    </iframe>
+</div>
