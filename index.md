@@ -3,8 +3,21 @@ layout: default
 title: Home
 ---
 
-![Georgi Kostov](assets/me.jpeg)
+<div class="profile-container">
+  <img src="assets/me.jpeg" alt="Georgi Kostov" class="profile-image" />
 
+  <div class="social-links">
+    <a href="https://www.linkedin.com/in/kostovg/" target="_blank" aria-label="LinkedIn">
+      <img src="assets/icons/linkedin.png" alt="LinkedIn" class="social-icon" />
+    </a>
+    <a href="https://x.com/KostovSolutions" target="_blank" aria-label="Twitter">
+      <img src="assets/icons/twitter.png" alt="Twitter" class="social-icon" />
+    </a>
+    <a href="mailto:georgikostov1337@gmail.com?subject=Project%20Inquiry" aria-label="Mail">
+      <img src="assets/icons/mail.png" alt="Mail" class="social-icon" />
+    </a>
+  </div>
+</div>
 # Welcome to My Portfolio
 
 In my professional experience, I have worked on XR games, digital twins, and simulations with topics such as education, climate change, agriculture, logistics, city planning, sport, health, and civil courage. I am an experienced Unity3D developer with 10 years of practice in every stage of game development – concept, design, programming, UX, graphics, publishing, and analytics. In addition, I am a lecturer, guiding and mentoring several student projects each year.

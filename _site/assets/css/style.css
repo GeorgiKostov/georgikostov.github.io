@@ -321,3 +321,20 @@ a:hover { text-decoration: underline; }
 .site-footer-owner { display: block; font-weight: bold; }
 
 .site-footer-credits { color: #819198; }
+
+/* Centering the profile container */
+.profile-container { display: flex; flex-direction: column; align-items: center; margin: 2rem 0; position: relative; }
+
+/* Circular profile image */
+.profile-image { display: block; width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 0px solid #157878; /* Optional: Border color */ }
+
+/* Social links container */
+.social-links { display: flex; justify-content: center; gap: 1rem; margin-top: 1rem; }
+
+/* Individual social link buttons */
+.social-links a { display: inline-block; width: 40px; /* Adjust button size */ height: 40px; background-color: #157878; /* Background color */ border-radius: 50%; display: flex; justify-content: center; align-items: center; transition: background-color 0.3s ease; }
+
+.social-links a:hover { background-color: #105f56; /* Hover color */ }
+
+/* Social icon images */
+.social-icon { width: 40px; /* Icon size */ height: 40px; }
