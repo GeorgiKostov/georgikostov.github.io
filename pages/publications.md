@@ -3,9 +3,6 @@ layout: default
 title: Publications
 permalink: /pages/publications/
 ---
-
-# Publications
-
 1. **Designing a Framework for Collaborative Mixed Reality Training**  
    *Georgi Kostov, Josef Wolfartsberger*  
    *Procedia Computer Science, Volume 200, 2022*  

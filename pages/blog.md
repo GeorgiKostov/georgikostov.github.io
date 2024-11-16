@@ -3,9 +3,6 @@ layout: default
 title: Blog
 permalink: /pages/blog/
 ---
-
-# Blog
-
 <div class="blog-cards">
   <a href="{{ '/posts/hektar-game/' | relative_url }}" class="blog-card">
     <h2>HektAR — A Game About Food and Land</h2>
