@@ -1,1 +1,0 @@
-# georgikostov.github.io
