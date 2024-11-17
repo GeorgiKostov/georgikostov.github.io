@@ -43,5 +43,5 @@ permalink: /pages/publications/
 ---
 
 <a href="https://www.researchgate.net/profile/Georgi-Kostov" class="external-link" target="_blank" rel="noopener noreferrer">
-  Visit ResearchGate
+ResearchGate
 </a>

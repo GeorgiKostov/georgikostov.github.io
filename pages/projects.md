@@ -73,7 +73,7 @@ Programming, branching story system, interaction design, publishing and UX.
 The Game Changer Suite is a collection of multiplayer game prototypes developed by students at the Hagenberg campus of the University of Applied Sciences Upper Austria. The focus of the Game Changer project is to explore cooperative and competitive gameplay in a co-located setting. Developed specifically for the Ars Electronica Center’s Deep Space, each of the games utilizes the room’s unique laser ranging system as the primary interface. Players can choose between any of the five game prototypes by simply standing on the desired game window; in this way, game selection is a collective, democratic process.
 
 **My Role**:
-Designed and developed the game *Tower of Power*, co-design of *Beelzeball*; continued maintanance including implementing 4K graphics and networking capabilities
+Designed and developed the game *Tower of Power*, co-designed *Beelzeball*; maintanance including implementing 4K graphics and networking capabilities
 
 <a href="https://ars.electronica.art/center/en/game-changer-suite/" class="external-link" target="_blank" rel="noopener noreferrer">Visit The Game Changer Suite</a>
 
