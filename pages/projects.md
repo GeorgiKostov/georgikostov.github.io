@@ -11,12 +11,14 @@ permalink: /pages/projects/
 </div>
 
 **Description**:
-In HektAR, players take control of a small virtual farm to meet the needs of a growing community as sustainably as possible.  
-**My Role**:
-- Designed the game.
-- Programmed game logic and published the project.
+HektAR is a farming simulation game where players manage a small virtual farm to meet the needs of a growing community sustainably. By utilizing resources like land, water, and labor, players grow crops, raise animals, and navigate challenges such as soil degradation, water consumption, and climate change-induced phenomena like droughts, pests, and increased rainfall. The game emphasizes decision-making and highlights the relationship between agricultural production and environmental impact.
 
-[Learn More](https://pie-lab.at/projects/hektar/)
+Unlike detailed simulations like Farming Simulator, HektAR simplifies agricultural complexities for shorter gameplay while fostering awareness of nutrition, production, and sustainability. Designed for educational use in schools and museums, it encourages players to make choices that promote sustainable agriculture and combat climate change.
+
+**My Role**:
+Game design, programming, publishing, and UX.
+
+<a href="https://hektar-game.app/" class="external-link" target="_blank" rel="noopener noreferrer">Play HektAR</a>
 
 ---
 
@@ -27,12 +29,17 @@ In HektAR, players take control of a small virtual farm to meet the needs of a g
 </div>
 
 **Description**:
-Logistify teaches players about transport, supply chains, and resource efficiency.  
-**My Role**:
-- Game design, logic, publishing, and UX.
-- Redesigned graphics and added mini-games.
+Logistify is an educational augmented reality (AR) game designed to teach players about logistics and transportation, developed in collaboration with the Logistikum in Steyr. It focuses on topics such as supply chains, resource efficiency, and logistics professions.
+* Game 1: Players use AR markers to navigate a printed map of a harbor. Containers with different cargo must be loaded onto the optimal transportation—train, truck, or ship—based on weight, time, and cost considerations.
+* Game 2: Players set up logistics chains for various products using printed cards to represent each link. The app verifies and animates the chain.
+* Game 3: A chat-based interface introduces players to different logistics roles, providing insight into career paths in the field.
 
-[Learn More](https://pie-lab.at/projects/logistify/)
+The combination of interactive elements and AR technology makes Logistify a unique and engaging educational tool.
+
+**My Role**:
+Game design, programming, publishing, and UX.
+
+<a href="https://logistify.app/" class="external-link" target="_blank" rel="noopener noreferrer">Play Logistify</a>
 
 ---
 
@@ -43,13 +50,16 @@ Logistify teaches players about transport, supply chains, and resource efficienc
 </div>
 
 **Description**:
-CATRINA is a VR simulation of civil courage situations.  
-**My Role**:
-- Programmed the branching story using a visual node-based tool.
-- Designed simple interaction for hand and gaze-based VR interactions.
-- Created an in-game smartphone for dynamic user engagement.
+CATRINA explores how gender and diversity-specific factors influence moral courage and how persuasive gaming concepts can encourage such behavior. Through game-based methods like hybrid board games, VR, and urban games, the project identifies key factors and use cases for persuasive technologies, aiming to raise awareness and stimulate behavioral change.
 
-[Learn More](https://pie-lab.at/projects/catrina/)
+The project reexamines the role of gender and diversity in moral courage, offering insights for training activities and measures to promote moral courage at both national and international levels. Its playful approach targets groups less receptive to traditional methods or indifferent to the topic.
+
+A VR game developed for the Oculus Quest 2 immerses players in scenarios requiring moral courage. Using hand-tracking and gaze interaction—no controllers needed—it allows players to explore safe, interactive environments where they can make impactful decisions.
+
+**My Role**:
+Programming, branching story system, interaction design, publishing and UX.
+
+<a href="https://pie-lab.at/projects/catrina/" class="external-link" target="_blank" rel="noopener noreferrer">Visit CATRINA</a>
 
 ---
 
@@ -60,12 +70,12 @@ CATRINA is a VR simulation of civil courage situations.
 </div>
 
 **Description**:
-A collection of games designed for large-scale public play spaces.  
-**My Role**:
-- Designed and developed games like *Tower of Power* and *Beelzeball*.
-- Upgraded graphics to 4K and added networking capabilities.
+The Game Changer Suite is a collection of multiplayer game prototypes developed by students at the Hagenberg campus of the University of Applied Sciences Upper Austria. The focus of the Game Changer project is to explore cooperative and competitive gameplay in a co-located setting. Developed specifically for the Ars Electronica Center’s Deep Space, each of the games utilizes the room’s unique laser ranging system as the primary interface. Players can choose between any of the five game prototypes by simply standing on the desired game window; in this way, game selection is a collective, democratic process.
 
-[Learn More](https://pie-lab.at/projects/game-changer/)
+**My Role**:
+Designed and developed the game *Tower of Power*, co-design of *Beelzeball*; continued maintanance including implementing 4K graphics and networking capabilities
+
+<a href="https://ars.electronica.art/center/en/game-changer-suite/" class="external-link" target="_blank" rel="noopener noreferrer">Visit The Game Changer Suite</a>
 
 ---
 
@@ -76,12 +86,12 @@ A collection of games designed for large-scale public play spaces.
 </div>
 
 **Description**:
-An experimental co-located installation combining VR and a laser tracking system.  
-**My Role**:
-- Designed and implemented the VR project.
-- Solved technical challenges like calibration and latency management.
+PIEdeck serves as an experimental environment to explore novel game concepts and other forms of co-located interaction in a hybrid-reality context, combining real physical movement with virtual content in a large-scale setting.
 
-[Learn More](https://pie-lab.at/projects/piedeck/)
+**My Role**:
+Design, programming, networking, UX
+
+<a href="https://pie-lab.at/projects/piedeck/" class="external-link" target="_blank" rel="noopener noreferrer">Visit PIEDeck</a>
 
 ---
 
@@ -92,27 +102,28 @@ An experimental co-located installation combining VR and a laser tracking system
 </div>
 
 **Description**:
-An art installation combining VR and public projection.  
-**My Role**:
-- Programmed visual effects and interaction design.
+Invisible Walls is an experimental interaction space that was developed for Austria’s largest design festival, the Vienna Design Week 2016. Based on the PIEdeck prototype, the art installation consists of a large-scale projection, a virtual reality (VR) headset that supports hand and finger motions as input, and a sensitive laser position tracking system from the technology forge of the Ars Electronica Futurelab in Linz. Multiple persons can move simultaneously in a 50 square meters room, affect it, thus entering into virtual and real interaction. Additionally, the VR player can get in contact with the other participants with his hands that are also represented in the VR space. With his/her fingers the VR player can manipulate the others’ virtual representation by simply pointing at them or carrying out swipe gestures. This way, Invisible Walls focuses on the theme of reducing the gap between the real and the virtual worlds by granting participants to interact with each other.
 
-[Learn More](https://pie-lab.at/projects/invisible-walls/)
+**My Role**:
+Programming, interaction design, VFX
+
+<a href="https://pie-lab.at/projects/invisible-walls/" class="external-link" target="_blank" rel="noopener noreferrer">Visit Invisible Walls</a>
 
 ---
 
 ## i2f – Interface2Face Mixed Reality Game
 
-<div class="video-container">
-  <iframe src="https://kostovsolutions.com/wp-content/uploads/2023/04/TankMission1-512x256.jpg" title="i2f Mixed Reality Game" frameborder="0" allowfullscreen></iframe>
+<div class="image-container">
+  <img src="/assets/images/i2f_3.jpg" alt="i2f Mixed Reality Game">
 </div>
 
 **Description**:
-A project exploring how traditional board games can be enhanced with augmented reality.  
+The goal of this project is to enhance the classic board game experience with mixed reality technology, allowing multiple players to interact simultaneously (face-to-face) with both real and virtual elements. For the first time, components like game boards, dice, and figures will be combined with AR technology, communication sensors, and software to create a unique, surprising, and exciting game for up to four players. Active player involvement will enable continuous development and refinement of the game. The project aims to define the requirements for this complex system, collaboratively develop concepts, and create a functional and testable prototype.
+
 **My Role**:
-- Designed Unity-based software architecture and multiple AR game prototypes.
+Programming, game design, UI, augmented reality prototyping, designed multiple board and card game prototypes, software architecture
 
-[Learn More](https://projekte.ffg.at/projekt/3262914)
-
+<a href="https://projekte.ffg.at/projekt/3262914" class="external-link" target="_blank" rel="noopener noreferrer">Visit i2f</a>
 ---
 
 ## Play!UC
@@ -122,8 +133,9 @@ A project exploring how traditional board games can be enhanced with augmented r
 </div>
 
 **Description**:
-Investigates using computer games to support urban development participatory processes.  
-**My Role**:
-- Designed and developed AR board and card game prototypes.
+Play!UC explores the potential of serious games to support participatory processes in urban development projects, addressing challenges like maintaining participant motivation and engaging traditionally underrepresented groups. The project focuses on young adults and their decisions affecting carbon footprints, using games to simplify complex urban planning scenarios. By examining existing and novel game mechanics, Play!UC seeks to develop a toolbox of methods tailored for participatory urban development. These methods are tested in three Living Lab environments in Holland, Belgium, and Austria, ensuring their applicability in real-world settings. The ultimate goal is to create a tested suite of game-based approaches that enhance engagement, promote understanding of urban planning issues, and foster sustainability and inclusivity in decision-making processes.
 
-[Learn More](http://play-uc.net/)
+**My Role**:
+Designed and developed multiple augmented reality and board/card game prototypes.
+
+<a href="https://jpi-urbaneurope.eu/project/playuc/" class="external-link" target="_blank" rel="noopener noreferrer">Visit Play-UC</a>
