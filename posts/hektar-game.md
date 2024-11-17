@@ -43,13 +43,19 @@ Our primary goal was to showcase the relationships between resources using real 
 
 Below is a glimpse of the data we collected and utilized in the game’s logic.
 <div class="image-container">
-  <img src="/assets/images/hektar/hektar_3.jpeg" alt="Hektar">
+  <a href="/assets/images/hektar/hektar_3.jpeg" target="_blank">
+    <img src="/assets/images/hektar/hektar_3.jpeg" alt="Hektar">
+  </a>
 </div>
 <div class="image-container">
-  <img src="/assets/images/hektar/hektar_4.jpeg" alt="Hektar">
+  <a href="/assets/images/hektar/hektar_4.jpeg" target="_blank">
+    <img src="/assets/images/hektar/hektar_4.jpeg" alt="Hektar">
+  </a>
 </div>
 <div class="image-container">
-  <img src="/assets/images/hektar/hektar_5.jpeg" alt="Hektar">
+  <a href="/assets/images/hektar/hektar_5.jpeg" target="_blank">
+    <img src="/assets/images/hektar/hektar_5.jpeg" alt="Hektar">
+  </a>
 </div>
 
 ### Summary
