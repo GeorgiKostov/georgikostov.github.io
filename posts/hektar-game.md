@@ -1,6 +1,6 @@
 ---
 layout: default
-title: HektAR — A Game About Food and Land
+title: The Making Of HektAR
 permalink: /posts/hektar-game/
 ---
 ### Introduction
