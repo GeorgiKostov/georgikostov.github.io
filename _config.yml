@@ -28,6 +28,7 @@ plugins:
   - jekyll-sitemap       # Creates a sitemap for search engines
   - jekyll-paginate      # Enables pagination for blog posts
 
+
 # Markdown Configuration
 markdown: kramdown
 kramdown:
