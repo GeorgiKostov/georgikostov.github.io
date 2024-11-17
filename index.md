@@ -28,10 +28,19 @@ In my professional experience I have worked on games and simulations in a variet
 
 In my free time I love traveling, cycling, hiking, swimming, spending time with friends and family. I am an avid gamer, sometimes write film critique and always aim to learn something new about the world, which I can reflect in my projects.
 
-<div class="button-group">
-  <a href="{{ '/pages/projects/' | relative_url }}" class="button-link">Projects</a>
-  <a href="{{ '/pages/blog/' | relative_url }}" class="button-link">Blog</a>
-  <a href="{{ '/pages/publications/' | relative_url }}" class="button-link">Publications</a>
+<div class="link-cards">
+  <a href="{{ '/pages/projects/' | relative_url }}" class="link-card">
+    <h3>Projects</h3>
+    <p>Explore my work in XR, games, and simulations.</p>
+  </a>
+  <a href="{{ '/pages/blog/' | relative_url }}" class="link-card">
+    <h3>Blog</h3>
+    <p>Read articles and insights on technology and design.</p>
+  </a>
+  <a href="{{ '/pages/publications/' | relative_url }}" class="link-card">
+    <h3>Publications</h3>
+    <p>Discover my research and academic contributions.</p>
+  </a>
 </div>
 
 ---
