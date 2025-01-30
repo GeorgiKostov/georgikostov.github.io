@@ -1,4 +1,10 @@
-- duration: "since 2023"
+- duration: "since 2025"
+  title: "NXRT"
+  role: "Senior Unity Developer"
+  description:
+    - "Develop new features, plan architecture, and maintain the codebase."
+
+- duration: "2023-2024"
   title: "Ocean Maps"
   role: "Senior Unity Developer"
   description:
