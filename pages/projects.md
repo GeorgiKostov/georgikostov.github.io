@@ -4,6 +4,10 @@ title: Projects
 permalink: /pages/projects/
 ---
 
+{% include independent-work.html %}
+
+## Professional & Research Projects
+
 ## HektAR
 
 <div class="video-container">
