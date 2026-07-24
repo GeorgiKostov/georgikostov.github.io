@@ -1,0 +1,579 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="Application CV for Georgi Kostov, Senior Unity Developer, Game Designer, and Educator.">
+  <title>Georgi Kostov - Senior Unity Developer - CV</title>
+  <style>
+    :root {
+      --ink: #1c2b31;
+      --muted: #5c6b70;
+      --accent: #126f72;
+      --accent-soft: #e8f2f2;
+      --line: #d8e2e3;
+      --paper: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      background: #e9eff0;
+      color: var(--ink);
+      font-family: Inter, Aptos, "Segoe UI", Arial, sans-serif;
+      font-size: 15px;
+      line-height: 1.45;
+    }
+
+    body {
+      margin: 0;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration-thickness: 1px;
+      text-underline-offset: 2px;
+    }
+
+    .skip-link {
+      position: absolute;
+      left: -9999px;
+    }
+
+    .skip-link:focus {
+      top: 12px;
+      left: 12px;
+      z-index: 10;
+      padding: 8px 12px;
+      border-radius: 6px;
+      background: var(--paper);
+    }
+
+    .screen-actions {
+      display: flex;
+      max-width: 210mm;
+      margin: 20px auto 0;
+      justify-content: flex-end;
+    }
+
+    .print-button {
+      padding: 10px 16px;
+      border: 0;
+      border-radius: 8px;
+      background: var(--accent);
+      color: #ffffff;
+      font: inherit;
+      font-weight: 700;
+      cursor: pointer;
+      box-shadow: 0 6px 18px rgba(18, 111, 114, 0.2);
+    }
+
+    .print-button:hover {
+      background: #0e5e61;
+    }
+
+    .cv-page {
+      width: min(210mm, calc(100% - 32px));
+      min-height: 297mm;
+      margin: 16px auto 40px;
+      padding: 15mm 16mm 16mm;
+      background: var(--paper);
+      box-shadow: 0 20px 55px rgba(28, 43, 49, 0.14);
+    }
+
+    .cv-header {
+      padding-bottom: 7mm;
+      border-bottom: 2px solid var(--accent);
+    }
+
+    .header-row,
+    .role-row,
+    .education-row {
+      display: flex;
+      gap: 18px;
+      align-items: baseline;
+      justify-content: space-between;
+    }
+
+    h1,
+    h2,
+    h3,
+    p {
+      margin-top: 0;
+    }
+
+    h1 {
+      margin-bottom: 2px;
+      color: #14252b;
+      font-size: 31px;
+      line-height: 1.08;
+      letter-spacing: -0.025em;
+    }
+
+    .headline {
+      margin: 0;
+      color: var(--accent);
+      font-size: 17px;
+      font-weight: 700;
+    }
+
+    .location {
+      margin: 3px 0 0;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .contact-list {
+      display: flex;
+      margin: 5mm 0 0;
+      padding: 0;
+      gap: 5px 18px;
+      flex-wrap: wrap;
+      list-style: none;
+      font-size: 13px;
+    }
+
+    .contact-list li {
+      white-space: nowrap;
+    }
+
+    main {
+      display: block;
+    }
+
+    .section {
+      margin-top: 7mm;
+    }
+
+    .section-title {
+      display: flex;
+      margin-bottom: 3.5mm;
+      align-items: center;
+      gap: 9px;
+      color: #14252b;
+      font-size: 17px;
+      line-height: 1.2;
+      letter-spacing: 0.01em;
+      text-transform: uppercase;
+    }
+
+    .section-title::after {
+      height: 1px;
+      flex: 1;
+      background: var(--line);
+      content: "";
+    }
+
+    .summary {
+      max-width: 74ch;
+      margin-bottom: 0;
+      font-size: 14px;
+      line-height: 1.55;
+    }
+
+    .strengths {
+      display: flex;
+      margin: 4mm 0 0;
+      padding: 0;
+      gap: 6px;
+      flex-wrap: wrap;
+      list-style: none;
+    }
+
+    .strengths li {
+      padding: 4px 9px;
+      border: 1px solid #cfe0e1;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: #225b5d;
+      font-size: 12px;
+      font-weight: 650;
+    }
+
+    .job,
+    .education-item,
+    .publication-item {
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+
+    .job + .job {
+      margin-top: 5mm;
+    }
+
+    .role-row {
+      margin-bottom: 1px;
+    }
+
+    .role-row h3 {
+      margin-bottom: 0;
+      color: #17292f;
+      font-size: 15px;
+      line-height: 1.25;
+    }
+
+    .dates {
+      flex: 0 0 auto;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 650;
+      white-space: nowrap;
+    }
+
+    .company {
+      margin: 0 0 4px;
+      color: var(--accent);
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .job ul {
+      margin: 0;
+      padding-left: 18px;
+    }
+
+    .job li {
+      margin: 2px 0;
+      padding-left: 2px;
+      font-size: 12.8px;
+      line-height: 1.43;
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 5mm;
+    }
+
+    .skill-group h3 {
+      margin-bottom: 2px;
+      color: var(--accent);
+      font-size: 12.8px;
+    }
+
+    .skill-group p {
+      margin-bottom: 0;
+      color: #35474d;
+      font-size: 12.3px;
+      line-height: 1.45;
+    }
+
+    .education-item + .education-item,
+    .publication-item + .publication-item {
+      margin-top: 3mm;
+    }
+
+    .education-row h3,
+    .publication-item h3 {
+      margin-bottom: 1px;
+      color: #17292f;
+      font-size: 13.5px;
+    }
+
+    .education-item p,
+    .publication-item p {
+      margin-bottom: 0;
+      color: var(--muted);
+      font-size: 12.2px;
+    }
+
+    .detail-grid {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 9mm;
+    }
+
+    .language-list {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      font-size: 12.5px;
+    }
+
+    .language-list li + li {
+      margin-top: 2px;
+    }
+
+    .language-list strong {
+      color: #17292f;
+    }
+
+    .footer-note {
+      margin: 7mm 0 0;
+      color: #78868a;
+      font-size: 10.5px;
+      text-align: center;
+    }
+
+    @media (max-width: 720px) {
+      .screen-actions {
+        width: calc(100% - 32px);
+      }
+
+      .cv-page {
+        width: calc(100% - 24px);
+        padding: 28px 24px;
+      }
+
+      .header-row,
+      .role-row,
+      .education-row {
+        display: block;
+      }
+
+      .dates {
+        display: block;
+        margin-top: 2px;
+      }
+
+      .skills-grid,
+      .detail-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @page {
+      size: A4;
+      margin: 13mm 15mm 15mm;
+    }
+
+    @media print {
+      html,
+      body {
+        background: #ffffff;
+      }
+
+      html {
+        font-size: 9.6pt;
+      }
+
+      .screen-actions,
+      .skip-link {
+        display: none;
+      }
+
+      .cv-page {
+        width: auto;
+        min-height: 0;
+        margin: 0;
+        padding: 0;
+        box-shadow: none;
+      }
+
+      a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+
+      .cv-header {
+        padding-bottom: 5mm;
+      }
+
+      .section {
+        margin-top: 5.5mm;
+      }
+
+      .job + .job {
+        margin-top: 3.8mm;
+      }
+
+      .footer-note {
+        margin-top: 5mm;
+      }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#cv-content">Skip to CV content</a>
+
+  <div class="screen-actions">
+    <button class="print-button" type="button" onclick="window.print()">Print / Save as PDF</button>
+  </div>
+
+  <article class="cv-page" id="cv-content">
+    <header class="cv-header">
+      <div class="header-row">
+        <div>
+          <h1>Georgi Kostov</h1>
+          <p class="headline">Senior Unity Developer | Game Designer | Educator</p>
+          <p class="location">Linz, Austria</p>
+        </div>
+      </div>
+
+      <ul class="contact-list" aria-label="Contact details">
+        <li><a href="mailto:georgikostov1337@gmail.com">georgikostov1337@gmail.com</a></li>
+        <li><a href="https://www.linkedin.com/in/kostovg/">linkedin.com/in/kostovg</a></li>
+        <li><a href="https://kostovsolutions.com/">kostovsolutions.com</a></li>
+      </ul>
+    </header>
+
+    <main>
+      <section class="section" aria-labelledby="profile-title">
+        <h2 class="section-title" id="profile-title">Profile</h2>
+        <p class="summary">
+          Senior Unity developer and game designer with 10+ years of experience delivering interactive products,
+          games, simulations, and XR experiences from concept through release. Strong across Unity and C# engineering,
+          architecture, UX, prototyping, performance optimization, and cross-device QA. Experienced in technical
+          collaboration, code review, mentoring, and translating complex requirements into clear, maintainable
+          experiences.
+        </p>
+        <ul class="strengths" aria-label="Core strengths">
+          <li>Unity and C#</li>
+          <li>XR and Mixed Reality</li>
+          <li>Game and Interaction Design</li>
+          <li>Architecture and Code Quality</li>
+          <li>Performance and Device QA</li>
+          <li>Mentoring and Teaching</li>
+          <li>Applied AI Workflows</li>
+        </ul>
+      </section>
+
+      <section class="section" aria-labelledby="experience-title">
+        <h2 class="section-title" id="experience-title">Experience</h2>
+
+        <article class="job">
+          <div class="role-row">
+            <h3>Senior Unity Developer</h3>
+            <span class="dates">2025 - Present</span>
+          </div>
+          <p class="company">NXRT</p>
+          <ul>
+            <li>Design and implement new HeroShow features in Unity and C#, collaborating closely with the development team.</li>
+            <li>Review pull requests and reinforce clean, maintainable code through code reviews, documentation, and shared engineering practices.</li>
+            <li>Improve stability and performance through profiling, bug fixing, platform-specific optimization, and QA across tablets, XR headsets, and other target devices.</li>
+          </ul>
+        </article>
+
+        <article class="job">
+          <div class="role-row">
+            <h3>Senior Unity Developer</h3>
+            <span class="dates">2023 - 2024</span>
+          </div>
+          <p class="company">Ocean Maps</p>
+          <ul>
+            <li>Developed and maintained Unity and C# features for interactive 3D products, contributing to architecture and long-term codebase quality.</li>
+            <li>Owned UX and interface design for new tools, translated product needs into technical concepts, and supported junior developers.</li>
+            <li>Coordinated project organization and maintained specifications and software documentation in ClickUp.</li>
+          </ul>
+        </article>
+
+        <article class="job">
+          <div class="role-row">
+            <h3>Part-time Lecturer and Unity Workshop Lead</h3>
+            <span class="dates">2023 - Present</span>
+          </div>
+          <p class="company">University of Applied Sciences Upper Austria | University of Art and Design Linz</p>
+          <ul>
+            <li>Teach game design with purpose, mixed reality, location-based technologies, and practical Unity development.</li>
+            <li>Guide student teams from research and concept development to playable prototypes, reviews, and final presentations.</li>
+          </ul>
+        </article>
+
+        <article class="job">
+          <div class="role-row">
+            <h3>Unity Developer</h3>
+            <span class="dates">2022 - 2023</span>
+          </div>
+          <p class="company">Trackbar</p>
+          <ul>
+            <li>Embedded a Unity module in a Flutter application to visualize real-time workout curves from a custom tracking sensor.</li>
+            <li>Designed game concepts and interaction ideas to expand the product's feature set and user engagement.</li>
+          </ul>
+        </article>
+
+        <article class="job">
+          <div class="role-row">
+            <h3>Unity Game Developer</h3>
+            <span class="dates">2015 - 2022</span>
+          </div>
+          <p class="company">Playful Interactive Environments</p>
+          <ul>
+            <li>Led strategy and simulation game development from concept to publication using Unity and C#.</li>
+            <li>Integrated AR, VR, mapping, tracking, and networking technologies including ARKit, ARCore, Vuforia, Mapbox, SteamVR, MRTK, UNET, and Mirror.</li>
+            <li>Contributed to applied game research, created audiovisual assets, and mentored student projects.</li>
+          </ul>
+        </article>
+
+        <article class="job">
+          <div class="role-row">
+            <h3>Earlier Media Production Experience</h3>
+            <span class="dates">2011 - 2015</span>
+          </div>
+          <p class="company">redaktion24.de | V4 GmbH</p>
+          <ul>
+            <li>Produced and edited digital video, motion graphics, and visual effects, building a strong foundation in audiovisual storytelling and production workflows.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="section" aria-labelledby="skills-title">
+        <h2 class="section-title" id="skills-title">Technical Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-group">
+            <h3>Engineering</h3>
+            <p>Unity, C#, architecture, clean code, code review, Git, debugging, profiling, performance optimization</p>
+          </div>
+          <div class="skill-group">
+            <h3>XR and Platforms</h3>
+            <p>AR, VR, mixed reality, Meta Quest/Oculus, ARKit, ARCore, MRTK, SteamVR, Vuforia, tablets and mobile</p>
+          </div>
+          <div class="skill-group">
+            <h3>Product and Delivery</h3>
+            <p>Game design, UX/UI, prototyping, interaction design, device QA, documentation, mentoring, applied AI workflows</p>
+          </div>
+        </div>
+      </section>
+
+      <div class="detail-grid">
+        <section class="section" aria-labelledby="education-title">
+          <h2 class="section-title" id="education-title">Education</h2>
+          <article class="education-item">
+            <div class="education-row">
+              <h3>M.Sc. Game and Interactive Media Design</h3>
+              <span class="dates">2013 - 2015</span>
+            </div>
+            <p>University of Applied Sciences Upper Austria</p>
+          </article>
+          <article class="education-item">
+            <div class="education-row">
+              <h3>B.Eng. Audiovisual Media</h3>
+              <span class="dates">2009 - 2013</span>
+            </div>
+            <p>Stuttgart Media University</p>
+          </article>
+        </section>
+
+        <section class="section" aria-labelledby="languages-title">
+          <h2 class="section-title" id="languages-title">Languages</h2>
+          <ul class="language-list">
+            <li><strong>Bulgarian:</strong> Native</li>
+            <li><strong>English:</strong> Full professional proficiency</li>
+            <li><strong>German:</strong> Full professional proficiency</li>
+          </ul>
+        </section>
+      </div>
+
+      <section class="section" aria-labelledby="publications-title">
+        <h2 class="section-title" id="publications-title">Selected Publications</h2>
+        <article class="publication-item">
+          <h3>Invisible Walls: Co-Presence in a Co-located Augmented Virtuality Installation</h3>
+          <p>CHI PLAY, 2017</p>
+        </article>
+        <article class="publication-item">
+          <h3>City Makers: Insights on the Development of a Serious Game to Support Collective Reflection and Knowledge Transfer</h3>
+          <p>International Journal of E-Planning Research, 2017</p>
+        </article>
+        <article class="publication-item">
+          <h3>Singularity: Designing a Cooperative Mixed Reality Game for a Co-located Setting</h3>
+          <p>DiGRA/FDG, 2016</p>
+        </article>
+      </section>
+    </main>
+
+    <p class="footer-note">Application CV | Updated July 2026</p>
+  </article>
+</body>
+</html>

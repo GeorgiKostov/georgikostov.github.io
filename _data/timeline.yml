@@ -2,7 +2,9 @@
   title: "NXRT"
   role: "Senior Unity Developer"
   description:
-    - "Develop new features, plan architecture, and maintain the codebase."
+    - "Design and implement new HeroShow features in Unity and C#, working closely with the development team."
+    - "Review pull requests and support clean, maintainable code through code reviews, documentation, and shared engineering practices."
+    - "Improve stability and performance through profiling, bug fixing, platform-specific optimization, and QA across tablets, XR headsets, and other target devices."
 
 - duration: "2023-2024"
   title: "Ocean Maps"
