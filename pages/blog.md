@@ -4,6 +4,10 @@ title: Blog
 permalink: /pages/blog/
 ---
 <div class="blog-cards">
+  <a href="{{ '/posts/okolo-event-pipeline/' | relative_url }}" class="blog-card">
+    <h2>From municipal websites to map pins: how Okolo builds its event pipeline</h2>
+    <p>A technical tour of the crawling, LLM extraction, geocoding, deduplication, and map-serving pipeline behind Okolo.</p>
+  </a>
   <a href="{{ '/posts/llm-gauntlet/' | relative_url }}" class="blog-card">
     <h2>The 25-model gauntlet: picking the LLM that interviews your grandparents</h2>
     <p>What a voice-first memoir app learned benchmarking ~25 LLMs across 7 languages for speed, cost, and quality.</p>

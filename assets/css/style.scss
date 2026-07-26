@@ -417,6 +417,144 @@
   border-radius: 8px; /* Optional rounded corners */
 }
 
+/* Long-form technical articles */
+.article-lead {
+  margin: 0 0 2rem;
+  padding: 1rem 1.25rem;
+  border-left: 4px solid #157878;
+  border-radius: 0 12px 12px 0;
+  background: rgba(21, 120, 120, 0.07);
+  color: #3f5351;
+  font-size: 1.12rem;
+  line-height: 1.65;
+}
+
+.article-lead p {
+  margin: 0;
+}
+
+.article-figure {
+  width: 100%;
+  margin: 2.25rem auto;
+}
+
+.article-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--surface-border);
+  border-radius: 16px;
+  background: #f7fbfa;
+  box-shadow: var(--surface-shadow);
+}
+
+.article-figure--hero {
+  max-width: 900px;
+}
+
+.article-figure figcaption {
+  margin-top: 0.7rem;
+  color: #687977;
+  font-size: 0.9rem;
+  line-height: 1.45;
+  text-align: center;
+}
+
+.metric-chart {
+  box-sizing: border-box;
+  margin: 2.25rem 0;
+  padding: 1.5rem;
+  border: 1px solid var(--surface-border);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: var(--surface-shadow);
+}
+
+.metric-chart__title {
+  margin-bottom: 1.4rem;
+  color: #273a38;
+  font-size: 1.1rem;
+  font-weight: 750;
+}
+
+.metric-chart__title span {
+  display: block;
+  margin-top: 0.25rem;
+  color: #6b7c7a;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.metric-chart__row {
+  display: grid;
+  grid-template-columns: minmax(150px, 1.3fr) minmax(180px, 2fr) 58px;
+  gap: 1rem;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.metric-chart__label {
+  display: flex;
+  flex-direction: column;
+  color: #314542;
+  font-size: 0.92rem;
+}
+
+.metric-chart__label span {
+  color: #748482;
+  font-size: 0.78rem;
+}
+
+.metric-chart__track {
+  height: 14px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: #e5efed;
+}
+
+.metric-chart__track span {
+  display: block;
+  height: 100%;
+  min-width: 5px;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #157878, #24948f);
+}
+
+.metric-chart__row--rose .metric-chart__track span {
+  background: linear-gradient(90deg, #bd3153, #d84d6c);
+}
+
+.metric-chart__row--muted .metric-chart__track span {
+  background: #91a7a4;
+}
+
+.metric-chart__value {
+  color: #314542;
+  font-size: 0.92rem;
+  text-align: right;
+}
+
+@media (max-width: 650px) {
+  .metric-chart {
+    padding: 1.2rem;
+  }
+
+  .metric-chart__row {
+    grid-template-columns: 1fr 52px;
+    gap: 0.5rem 0.75rem;
+  }
+
+  .metric-chart__track {
+    grid-column: 1 / -1;
+    grid-row: 2;
+  }
+
+  .metric-chart__value {
+    grid-column: 2;
+    grid-row: 1;
+  }
+}
+
 
 /* Card Container */
 .link-cards {
