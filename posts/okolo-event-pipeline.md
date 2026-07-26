@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "From municipal websites to map pins: how Okolo builds its event pipeline"
+header_title: "Okolo's event pipeline"
 date: 2026-07-26
 description: "A technical tour of the crawling, LLM extraction, geocoding, deduplication, and map-serving pipeline behind Okolo."
 author: George Kostov

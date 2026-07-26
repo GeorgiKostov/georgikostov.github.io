@@ -21,7 +21,7 @@
       {% unless page.url == "/" %}
         <a href="/" class="back-button">←</a>
       {% endunless %}
-      <h1 class="page-title">{{ page.title | default: site.title }}</h1>
+      <h1 class="page-title">{{ page.header_title | default: page.title | default: site.title }}</h1>
     </header>
 
     <!-- Main Content -->
