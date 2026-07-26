@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 920" role="img" aria-labelledby="title desc">
+  <title id="title">Storykept StoryEngine pipeline</title>
+  <desc id="desc">Solo recordings, family contributions, typed stories, and live interviews flow through preserved evidence, typed StoryEngine capabilities, fidelity checking, and family-facing story outputs.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8fbfa"/>
+      <stop offset="1" stop-color="#edf6f4"/>
+    </linearGradient>
+    <linearGradient id="engine" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#126f72"/>
+      <stop offset="1" stop-color="#18566f"/>
+    </linearGradient>
+    <linearGradient id="output" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c94567"/>
+      <stop offset="1" stop-color="#a83257"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#183a39" flood-opacity=".13"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0 0L10 5 0 10z" fill="#78908d"/>
+    </marker>
+    <style>
+      .t { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #243735; }
+      .white { fill: #fff !important; }
+      .eyebrow { font-size: 20px; font-weight: 760; letter-spacing: 2.4px; fill: #157878; }
+      .heading { font-size: 33px; font-weight: 780; }
+      .subhead { font-size: 25px; font-weight: 740; }
+      .body { font-size: 20px; fill: #526764; }
+      .small { font-size: 17px; fill: #667a77; }
+      .card { fill: #fff; stroke: #cfe0dd; stroke-width: 2; }
+      .line { fill: none; stroke: #78908d; stroke-width: 5; marker-end: url(#arrow); }
+    </style>
+  </defs>
+
+  <rect width="1600" height="920" rx="36" fill="url(#bg)"/>
+  <text x="70" y="76" class="t eyebrow">A HUMAN SOURCE, A REPLACEABLE AI PIPELINE</text>
+  <text x="70" y="125" class="t heading">From conversation to durable family story</text>
+
+  <!-- Capture -->
+  <g filter="url(#shadow)">
+    <rect x="70" y="190" width="300" height="555" rx="28" class="card"/>
+  </g>
+  <text x="110" y="238" class="t eyebrow">CAPTURE</text>
+  <text x="110" y="281" class="t subhead">Four ways in</text>
+  <g class="t body">
+    <rect x="105" y="320" width="230" height="68" rx="16" fill="#eff7f5"/>
+    <circle cx="136" cy="354" r="15" fill="#157878"/>
+    <path d="M136 344v20M129 353a7 7 0 0014 0" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+    <text x="168" y="362">Solo recording</text>
+
+    <rect x="105" y="405" width="230" height="68" rx="16" fill="#eff7f5"/>
+    <circle cx="136" cy="439" r="15" fill="#157878"/>
+    <path d="M129 443c2-8 12-8 14 0M136 430a5 5 0 110 10 5 5 0 010-10" stroke="#fff" stroke-width="2.8" fill="none"/>
+    <text x="168" y="447">Family link</text>
+
+    <rect x="105" y="490" width="230" height="68" rx="16" fill="#eff7f5"/>
+    <circle cx="136" cy="524" r="15" fill="#157878"/>
+    <path d="M130 518h12M130 524h12M130 530h8" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/>
+    <text x="168" y="532">Typed story</text>
+
+    <rect x="105" y="575" width="230" height="68" rx="16" fill="#eff7f5"/>
+    <circle cx="136" cy="609" r="15" fill="#157878"/>
+    <path d="M128 609c4-9 12-9 16 0M132 601a4 4 0 118 0" stroke="#fff" stroke-width="2.7" fill="none" stroke-linecap="round"/>
+    <text x="168" y="617">Live interview</text>
+  </g>
+  <text x="105" y="691" class="t small">Language follows the</text>
+  <text x="105" y="716" class="t small" font-weight="700">storyteller, not the model.</text>
+
+  <path d="M370 465H435" class="line"/>
+
+  <!-- Evidence -->
+  <g filter="url(#shadow)">
+    <rect x="435" y="245" width="250" height="440" rx="28" class="card"/>
+  </g>
+  <text x="475" y="295" class="t eyebrow">EVIDENCE</text>
+  <text x="475" y="337" class="t subhead">Never overwritten</text>
+  <rect x="475" y="378" width="170" height="92" rx="18" fill="#fff4f6" stroke="#efc7d1" stroke-width="2"/>
+  <circle cx="516" cy="424" r="22" fill="#c33d60"/>
+  <path d="M516 409v30M507 421a9 9 0 0018 0" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+  <text x="552" y="419" class="t body" font-weight="700">Original</text>
+  <text x="552" y="444" class="t small">audio</text>
+  <rect x="475" y="493" width="170" height="92" rx="18" fill="#fff4f6" stroke="#efc7d1" stroke-width="2"/>
+  <circle cx="516" cy="539" r="22" fill="#c33d60"/>
+  <path d="M507 530h18M507 538h18M507 546h12" stroke="#fff" stroke-width="3.3" stroke-linecap="round"/>
+  <text x="552" y="534" class="t body" font-weight="700">Raw</text>
+  <text x="552" y="559" class="t small">transcript</text>
+  <text x="475" y="627" class="t small">AI output stays a</text>
+  <text x="475" y="652" class="t small" font-weight="700">derived, reversible layer.</text>
+
+  <path d="M685 465H750" class="line"/>
+
+  <!-- Engine -->
+  <g filter="url(#shadow)">
+    <rect x="750" y="175" width="500" height="580" rx="30" fill="url(#engine)"/>
+  </g>
+  <text x="795" y="227" class="t white eyebrow">STORYENGINE</text>
+  <text x="795" y="270" class="t white subhead">Typed capability contracts</text>
+
+  <g>
+    <rect x="795" y="310" width="185" height="100" rx="18" fill="#fff" opacity=".13"/>
+    <text x="820" y="348" class="t white subhead" font-size="22">Transcribe</text>
+    <text x="820" y="379" class="t white small" opacity=".86">speech → words</text>
+
+    <rect x="1015" y="310" width="190" height="100" rx="18" fill="#fff" opacity=".19"/>
+    <text x="1040" y="348" class="t white subhead" font-size="22">Analyze</text>
+    <text x="1040" y="379" class="t white small" opacity=".86">state + question</text>
+
+    <rect x="795" y="435" width="185" height="100" rx="18" fill="#fff" opacity=".13"/>
+    <text x="820" y="473" class="t white subhead" font-size="22">Rewrite</text>
+    <text x="820" y="504" class="t white small" opacity=".86">one narrator</text>
+
+    <rect x="1015" y="435" width="190" height="100" rx="18" fill="#fff" opacity=".13"/>
+    <text x="1040" y="473" class="t white subhead" font-size="22">Merge</text>
+    <text x="1040" y="504" class="t white small" opacity=".86">many contributors</text>
+
+    <rect x="795" y="560" width="185" height="100" rx="18" fill="#fff" opacity=".13"/>
+    <text x="820" y="598" class="t white subhead" font-size="22">Compose</text>
+    <text x="820" y="629" class="t white small" opacity=".86">live interview</text>
+
+    <rect x="1015" y="560" width="190" height="100" rx="18" fill="#fff" opacity=".19"/>
+    <text x="1040" y="598" class="t white subhead" font-size="22">Fidelity</text>
+    <text x="1040" y="629" class="t white small" opacity=".86">claims ↔ transcript</text>
+  </g>
+  <rect x="795" y="690" width="410" height="36" rx="18" fill="#fff" opacity=".14"/>
+  <text x="1000" y="714" text-anchor="middle" class="t white small" font-weight="700">versioned prompts · failover · cost/latency logs</text>
+
+  <path d="M1250 465H1310" class="line"/>
+
+  <!-- Output -->
+  <g filter="url(#shadow)">
+    <rect x="1310" y="245" width="220" height="440" rx="28" fill="url(#output)"/>
+  </g>
+  <text x="1345" y="295" class="t white eyebrow">FAMILY VIEW</text>
+  <g class="t white">
+    <text x="1345" y="350" class="subhead white">Title</text>
+    <text x="1345" y="391" class="subhead white">Preview</text>
+    <text x="1345" y="432" class="subhead white">Story</text>
+    <text x="1345" y="473" class="subhead white">People</text>
+    <text x="1345" y="514" class="subhead white">Places</text>
+    <text x="1345" y="555" class="subhead white">Themes</text>
+    <text x="1345" y="596" class="subhead white">Audio</text>
+  </g>
+  <line x1="1345" y1="625" x2="1495" y2="625" stroke="#fff" stroke-opacity=".35" stroke-width="2"/>
+  <text x="1345" y="651" class="t white small">Editable, exportable,</text>
+  <text x="1345" y="674" class="t white small">linked to its source.</text>
+
+  <rect x="435" y="812" width="1095" height="52" rx="26" fill="#dcebe8"/>
+  <text x="982" y="846" text-anchor="middle" class="t body" font-weight="700">The AI can be replaced. The family's source recording remains.</text>
+</svg>

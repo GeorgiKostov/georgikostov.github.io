@@ -4,13 +4,21 @@ title: Blog
 permalink: /pages/blog/
 ---
 <div class="blog-cards">
+  <a href="{{ '/posts/storykept-story-engine/' | relative_url }}" class="blog-card">
+    <h2>Inside Storykept's StoryEngine: turning a conversation into a family story</h2>
+    <p>How transcription, structured interviewing, synthesis, model routing, and fidelity checks turn raw speech into a durable family story.</p>
+  </a>
+  <a href="{{ '/posts/rebuilt-content-system/' | relative_url }}" class="blog-card">
+    <h2>How we engineered 203 Rebuilt lessons without turning them into AI content sludge</h2>
+    <p>The writing, evidence, visual, schema, and release rules behind Rebuilt's 203-lesson life-skills library.</p>
+  </a>
   <a href="{{ '/posts/okolo-event-pipeline/' | relative_url }}" class="blog-card">
     <h2>From municipal websites to map pins: how Okolo builds its event pipeline</h2>
     <p>A technical tour of the crawling, LLM extraction, geocoding, deduplication, and map-serving pipeline behind Okolo.</p>
   </a>
   <a href="{{ '/posts/llm-gauntlet/' | relative_url }}" class="blog-card">
     <h2>The 25-model gauntlet: picking the LLM that interviews your grandparents</h2>
-    <p>What a voice-first memoir app learned benchmarking ~25 LLMs across 7 languages for speed, cost, and quality.</p>
+    <p>Updated with a second production-prompt benchmark, live tail-latency data, and the architecture change that replaced the original winner.</p>
   </a>
   <a href="{{ '/posts/hektar-game/' | relative_url }}" class="blog-card">
     <h2>The Making Of HektAR</h2>

@@ -1,8 +1,10 @@
 ---
 layout: default
 title: "The 25-model gauntlet: picking the LLM that interviews your grandparents"
+header_title: "The LLM gauntlet"
 date: 2026-05-31
-description: "What a voice-first memoir app learned benchmarking ~25 LLMs across 7 languages for speed, cost, and quality."
+updated: 2026-07-26
+description: "What a voice-first memoir app learned from two LLM benchmarks, seven languages, and a month of production latency."
 author: George Kostov
 permalink: /posts/llm-gauntlet/
 ---
@@ -18,6 +20,10 @@ The part doing the listening is what we call the analyzer. After every spoken tu
 - **Reliable on messy speech.** Real talk is full of "no wait, it was sixty-seven, not sixty-five."
 
 Picking it took a few days and about 25 models across five providers. Here's what shook out.
+
+<div class="article-lead">
+  <p><strong>Updated July 2026:</strong> the May benchmark below is still the experiment we ran, but it is no longer the end of the story. Production traffic exposed a long-context latency problem, we rebuilt the benchmark around the exact shipped prompt, and Claude Haiku 4.5 replaced the original winner. I have kept the first result intact and added what changed after we had real users waiting.</p>
+</div>
 
 ## A bench, not a vibe check
 
@@ -87,13 +93,68 @@ Two things jump out. Claude Haiku is the best extractor of anything I tested, in
 
 **4. Cap your agents.** I run a lot of this through coding agents, and I let one off the leash with "if it errors, retry and debug" and no time limit. A thinking-model JSON failure sent it into a 35-minute loop writing probe scripts before I killed it. Now every run has a hard timeout and a per-call abort, and no agent gets "debug until it works." An agent without a time budget doesn't stop on its own.
 
-## What I shipped
+## What I shipped in May
 
 I kept **Groq Llama 3.3 70B** in production. It's the fastest by a wide margin, its quality gaps close with prompting (and I closed them), and it runs on the same provider as my speech-to-text, so there's one less network hop. Claude Haiku 4.5 is the documented fallback when I want maximum extraction quality and can spend the latency. Gemini 2.5 Flash is the balanced option if I ever switch providers.
 
 The bigger keeper was the harness. It lists every provider's current models, scores latency, cost and per-language quality, and runs a dirty-content tier that already caught one shipped bug and saved me from one bad swap. Next time a model drops, picking it is one command instead of three more days.
 
 If you're putting an LLM on a hot path, build the mean little benchmark first. Test it dirty, turn the thinking off, and measure speed where the user actually feels it.
+
+## July update: production changed the question
+
+The original gauntlet sent short, deliberately dirty fixtures through a common task. That was the right test for multilingual extraction. It did not reproduce the thing that became expensive in production: on every turn, the analyzer was receiving the entire interview again.
+
+A 30-day snapshot from `storykept_ai_calls` made the tail visible:
+
+| Production analyzer metric | Before the redesign |
+|---|---:|
+| Calls in the snapshot | 113 |
+| Median latency | 4.0s |
+| p95 latency | 10.3s |
+| Slowest call | 26.7s |
+| Average input | 5,185 tokens |
+| Average output | 172 tokens |
+| Total model cost | $0.10 |
+
+Cost was still noise. Waiting was not. The median was survivable, but a 10-second p95 breaks the rhythm of an interview.
+
+So the second benchmark stopped asking, “Which model extracts this fixture fastest?” It imported the byte-identical production prompt and graded the complete job: question craft, story-type classification, entity retention, median latency, worst-case latency, and cost. An Opus judge scored the follow-up questions without knowing which model wrote them.
+
+The definitive run used four passes across eight fixtures and all nine story types. **Claude Haiku 4.5 won both main axes:** a 2,201ms median and 4.14/5 question quality. It retained all required entities in 8/8 fixtures, classified 7/8 correctly, and kept its worst case to 7.3 seconds. A model with a slightly tempting median was rejected because its tail reached 16 seconds. On a conversational hot path, the worst wait matters almost as much as the typical one.
+
+That result looks inconsistent with the May table, where Haiku averaged about three seconds and Groq dominated. It is not. The prompts, fixtures, judging, and production constraints changed. The first benchmark found the fastest acceptable extractor. The second found the best interviewer running the code we actually shipped.
+
+## The model swap was only half the fix
+
+Changing providers did not solve the structural problem of resending an ever-growing interview. We added a small persisted analyzer state:
+
+- a faithful running summary of the story so far
+- six completeness grades: setting, people, setup, action, outcome, and significance
+- the turn count
+- the people, places, dates, and themes already established
+
+After a story passes eight turns, the next call receives that state plus the last three exchanges instead of the complete transcript. The full entity set, prior questions, storyteller coverage, and family roster still travel separately, so the model does not forget an early name just because the raw line has left the window.
+
+We ran the windowed and full-history paths against long English and Bulgarian fixtures of 16–26 turns. They produced identical six-axis completeness, identical completion decisions, byte-identical next questions, full entity retention, and a tied blind quality judgment. Tokens fell by about 10% at those fixture lengths, with the saving growing as the story gets longer. Only then did we turn the windowed path on by default, with a kill switch left in place.
+
+The static instructions are also prompt-cached, and the live chain is now:
+
+```text
+Claude Haiku 4.5
+        ↓ provider failure
+OpenAI gpt-4o-mini
+```
+
+Groq was removed from the production chain in July as a provider decision, not because the May timing numbers were false. The cross-provider fallback is deliberate: an Anthropic outage should not take the interviewer down with it.
+
+## The lesson after two benchmarks
+
+An LLM benchmark is not a permanent ranking. It is an executable description of what you currently care about.
+
+In May, we cared about multilingual correction handling and sub-second response. In July, real sessions taught us to care about question craft, classification, retained context, and tail latency under a growing prompt. The harness had to evolve with the product.
+
+That is the result I trust now: not “Haiku is the best model,” but “Haiku is the best current fit for this exact production contract, and the contract is measured well enough that we can change our mind again.”
 
 ---
 

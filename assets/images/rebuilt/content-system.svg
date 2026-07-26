@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 920" role="img" aria-labelledby="title desc">
+  <title id="title">Rebuilt content production system</title>
+  <desc id="desc">Research and a clear lesson promise move through voice and safety rules, canonical Markdown, runtime structure, visual review, automated release gates, and the mobile product.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8fbfa"/>
+      <stop offset="1" stop-color="#eef5f3"/>
+    </linearGradient>
+    <linearGradient id="dark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#163f44"/>
+      <stop offset="1" stop-color="#172b3f"/>
+    </linearGradient>
+    <linearGradient id="rose" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d24868"/>
+      <stop offset="1" stop-color="#af3157"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#173c39" flood-opacity=".13"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0 0L10 5 0 10z" fill="#7b918e"/>
+    </marker>
+    <style>
+      .t { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #243735; }
+      .white { fill: #fff !important; }
+      .eyebrow { font-size: 20px; font-weight: 760; letter-spacing: 2.3px; fill: #157878; }
+      .heading { font-size: 33px; font-weight: 780; }
+      .subhead { font-size: 24px; font-weight: 750; }
+      .body { font-size: 19px; fill: #526764; }
+      .small { font-size: 16px; fill: #687a78; }
+      .card { fill: #fff; stroke: #cfe0dd; stroke-width: 2; }
+      .line { fill: none; stroke: #7b918e; stroke-width: 5; marker-end: url(#arrow); }
+    </style>
+  </defs>
+
+  <rect width="1600" height="920" rx="36" fill="url(#bg)"/>
+  <text x="70" y="76" class="t eyebrow">CONTENT-AS-CODE, WITH EDITORIAL JUDGMENT</text>
+  <text x="70" y="125" class="t heading">A lesson is finished when every layer agrees</text>
+
+  <!-- Top row -->
+  <g filter="url(#shadow)">
+    <rect x="70" y="195" width="280" height="245" rx="26" class="card"/>
+  </g>
+  <circle cx="112" cy="240" r="24" fill="#157878"/>
+  <text x="112" y="248" text-anchor="middle" class="t white" font-size="22" font-weight="800">1</text>
+  <text x="150" y="248" class="t subhead">Promise</text>
+  <text x="105" y="300" class="t body">One user problem</text>
+  <text x="105" y="333" class="t body">One mechanism</text>
+  <text x="105" y="366" class="t body">One usable move</text>
+  <text x="105" y="408" class="t small">Research begins with the</text>
+  <text x="105" y="430" class="t small" font-weight="700">job, not the word count.</text>
+
+  <path d="M350 318H405" class="line"/>
+
+  <g filter="url(#shadow)">
+    <rect x="405" y="195" width="340" height="245" rx="26" class="card"/>
+  </g>
+  <circle cx="447" cy="240" r="24" fill="#157878"/>
+  <text x="447" y="248" text-anchor="middle" class="t white" font-size="22" font-weight="800">2</text>
+  <text x="485" y="248" class="t subhead">Editorial rules</text>
+  <rect x="443" y="287" width="265" height="34" rx="17" fill="#edf6f4"/>
+  <text x="575" y="310" text-anchor="middle" class="t small" font-weight="700">incident-recall opening</text>
+  <rect x="443" y="334" width="265" height="34" rx="17" fill="#edf6f4"/>
+  <text x="575" y="357" text-anchor="middle" class="t small" font-weight="700">mechanism before moral</text>
+  <rect x="443" y="381" width="265" height="34" rx="17" fill="#edf6f4"/>
+  <text x="575" y="404" text-anchor="middle" class="t small" font-weight="700">named evidence · low shame</text>
+
+  <path d="M745 318H800" class="line"/>
+
+  <g filter="url(#shadow)">
+    <rect x="800" y="195" width="330" height="245" rx="26" fill="url(#dark)"/>
+  </g>
+  <circle cx="842" cy="240" r="24" fill="#fff" opacity=".18"/>
+  <text x="842" y="248" text-anchor="middle" class="t white" font-size="22" font-weight="800">3</text>
+  <text x="880" y="248" class="t white subhead">Canonical content</text>
+  <text x="840" y="307" class="t white body" font-weight="700">Markdown for review</text>
+  <text x="840" y="342" class="t white body" font-weight="700">JSON for runtime</text>
+  <text x="840" y="377" class="t white body" font-weight="700">Stable IDs + graph links</text>
+  <text x="840" y="414" class="t white small" opacity=".8">hook → mechanism → action → recap</text>
+
+  <path d="M1130 318H1185" class="line"/>
+
+  <g filter="url(#shadow)">
+    <rect x="1185" y="195" width="345" height="245" rx="26" fill="url(#rose)"/>
+  </g>
+  <circle cx="1227" cy="240" r="24" fill="#fff" opacity=".2"/>
+  <text x="1227" y="248" text-anchor="middle" class="t white" font-size="22" font-weight="800">4</text>
+  <text x="1265" y="248" class="t white subhead">Visual decision</text>
+  <text x="1225" y="306" class="t white body" font-weight="700">Chart?</text>
+  <text x="1350" y="306" class="t white body">real quantities</text>
+  <text x="1225" y="344" class="t white body" font-weight="700">Image?</text>
+  <text x="1350" y="344" class="t white body">one object-led idea</text>
+  <text x="1225" y="382" class="t white body" font-weight="700">Reuse?</text>
+  <text x="1350" y="382" class="t white body">approved nearby art</text>
+  <text x="1225" y="420" class="t white small">Source · square · portrait crop gate</text>
+
+  <!-- connectors down -->
+  <path d="M1357 440V503H1048" class="line"/>
+
+  <!-- Bottom row -->
+  <g filter="url(#shadow)">
+    <rect x="755" y="505" width="580" height="235" rx="28" class="card"/>
+  </g>
+  <circle cx="800" cy="551" r="24" fill="#157878"/>
+  <text x="800" y="559" text-anchor="middle" class="t white" font-size="22" font-weight="800">5</text>
+  <text x="840" y="559" class="t subhead">Automated gates</text>
+  <g>
+    <rect x="795" y="595" width="145" height="42" rx="21" fill="#edf6f4"/>
+    <text x="868" y="622" text-anchor="middle" class="t small" font-weight="700">content parity</text>
+    <rect x="955" y="595" width="145" height="42" rx="21" fill="#edf6f4"/>
+    <text x="1028" y="622" text-anchor="middle" class="t small" font-weight="700">references</text>
+    <rect x="1115" y="595" width="180" height="42" rx="21" fill="#edf6f4"/>
+    <text x="1205" y="622" text-anchor="middle" class="t small" font-weight="700">visual inventory</text>
+    <rect x="795" y="653" width="145" height="42" rx="21" fill="#edf6f4"/>
+    <text x="868" y="680" text-anchor="middle" class="t small" font-weight="700">media optimize</text>
+    <rect x="955" y="653" width="145" height="42" rx="21" fill="#edf6f4"/>
+    <text x="1028" y="680" text-anchor="middle" class="t small" font-weight="700">DB plan</text>
+    <rect x="1115" y="653" width="180" height="42" rx="21" fill="#edf6f4"/>
+    <text x="1205" y="680" text-anchor="middle" class="t small" font-weight="700">post-release parity</text>
+  </g>
+
+  <path d="M755 623H685" class="line"/>
+
+  <g filter="url(#shadow)">
+    <rect x="375" y="505" width="310" height="235" rx="28" fill="url(#dark)"/>
+  </g>
+  <circle cx="418" cy="551" r="24" fill="#fff" opacity=".18"/>
+  <text x="418" y="559" text-anchor="middle" class="t white" font-size="22" font-weight="800">6</text>
+  <text x="458" y="559" class="t white subhead">Release</text>
+  <text x="415" y="613" class="t white body" font-weight="700">Plan before apply</text>
+  <text x="415" y="650" class="t white body">Database + storage</text>
+  <text x="415" y="687" class="t white body">Offline-ready bundle</text>
+  <text x="415" y="719" class="t white small" opacity=".8">A reviewable diff, not a hopeful script.</text>
+
+  <path d="M375 623H315" class="line"/>
+
+  <g filter="url(#shadow)">
+    <rect x="70" y="505" width="245" height="235" rx="28" fill="#fff" stroke="#cfe0dd" stroke-width="2"/>
+  </g>
+  <rect x="130" y="535" width="125" height="177" rx="24" fill="#152d35"/>
+  <rect x="142" y="551" width="101" height="83" rx="14" fill="#29434b"/>
+  <circle cx="192" cy="592" r="24" fill="#d24868" opacity=".78"/>
+  <rect x="145" y="649" width="82" height="8" rx="4" fill="#fff" opacity=".9"/>
+  <rect x="145" y="665" width="94" height="7" rx="3.5" fill="#fff" opacity=".38"/>
+  <rect x="145" y="680" width="70" height="7" rx="3.5" fill="#fff" opacity=".28"/>
+  <text x="192" y="772" text-anchor="middle" class="t subhead">Mobile lesson</text>
+
+  <rect x="70" y="810" width="1460" height="58" rx="29" fill="#dcebe8"/>
+  <text x="800" y="847" text-anchor="middle" class="t body" font-weight="750">203 lessons · 21 modules · 1,683 steps · one repeatable release path</text>
+</svg>
