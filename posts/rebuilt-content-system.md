@@ -14,7 +14,7 @@ permalink: /posts/rebuilt-content-system/
   <p>AI can produce a hundred lessons quickly. It can also produce a hundred versions of the same beige article: vague hook, anonymous “research,” five tips, motivational close. Scaling useful content required us to engineer judgment, not just generation.</p>
 </div>
 
-<figure class="article-figure article-figure--hero">
+<figure class="article-figure article-figure--phone">
   <img src="/assets/images/projects/rebuilt-learning.png" alt="Rebuilt mobile lesson experience with dark editorial cards and practical life-skills content">
 </figure>
 

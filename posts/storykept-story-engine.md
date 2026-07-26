@@ -14,7 +14,7 @@ permalink: /posts/storykept-story-engine/
   <p>A memoir app should not behave like a dictation tool with a “make this prettier” button. It has to listen for the shape of a memory, ask what is missing, preserve who said what, and improve the prose without quietly improving the facts.</p>
 </div>
 
-<figure class="article-figure article-figure--hero">
+<figure class="article-figure article-figure--phone">
   <img src="/assets/images/projects/storykept-capture.png" alt="Storykept voice capture screen showing a family story being recorded">
 </figure>
 

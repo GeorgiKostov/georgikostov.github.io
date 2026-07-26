@@ -452,6 +452,16 @@
   max-width: 900px;
 }
 
+.article-figure--phone {
+  max-width: 520px;
+}
+
+.article-figure--phone img {
+  max-height: 760px;
+  object-fit: cover;
+  object-position: top;
+}
+
 .article-figure figcaption {
   margin-top: 0.7rem;
   color: #687977;
