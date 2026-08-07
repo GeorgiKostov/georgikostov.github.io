@@ -4,6 +4,10 @@ title: Blog
 permalink: /pages/blog/
 ---
 <div class="blog-cards">
+  <a href="{{ '/posts/51-4-dolby-atmos-home-theater/' | relative_url }}" class="blog-card">
+    <h2>How I built and calibrated my 5.1.4 Dolby Atmos home theater</h2>
+    <p>The speakers, placement compromises, Dirac Live calibration, costs, and movie scenes behind my 5.1.4 room with a 120-inch projector setup.</p>
+  </a>
   <a href="{{ '/posts/storykept-story-engine/' | relative_url }}" class="blog-card">
     <h2>Inside Storykept's StoryEngine: turning a conversation into a family story</h2>
     <p>How transcription, structured interviewing, synthesis, model routing, and fidelity checks turn raw speech into a durable family story.</p>
