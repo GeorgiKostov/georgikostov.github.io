@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" role="img" aria-labelledby="title desc">
   <title id="title">Top-down plan of the 5.1.4 home theater</title>
-  <desc id="desc">A 4.5 by 3.35 metre room with a 120-inch diagonal image at the front, front Atmos speakers directly above the front left and right speakers, rear surrounds directly below the rear Atmos speakers, a left-side subwoofer, and a sofa one metre from the rear wall.</desc>
+  <desc id="desc">A 4.5 by 3.35 metre room with a 120-inch diagonal image at the front, front Atmos speakers directly above the front left and right speakers, rear surrounds directly below the rear Atmos speakers in the rear-wall corners, a left-side subwoofer, and a sofa one metre from the rear wall.</desc>
   <defs>
     <style>
       .wall{fill:#fff;stroke:#171717;stroke-width:5}.object{fill:#fff;stroke:#171717;stroke-width:3}.soft{fill:#f1f1f1;stroke:#171717;stroke-width:2.5}.height{fill:none;stroke:#555;stroke-width:2.5;stroke-dasharray:8 6}.guide{fill:none;stroke:#777;stroke-width:2;stroke-dasharray:6 6}.dim{fill:none;stroke:#171717;stroke-width:1.8}.callout{fill:#fff;stroke:none}.label{font:600 18px Arial,sans-serif;fill:#171717}.small{font:15px Arial,sans-serif;fill:#444}.tiny{font:13px Arial,sans-serif;fill:#555}.center{text-anchor:middle}.end{text-anchor:end}

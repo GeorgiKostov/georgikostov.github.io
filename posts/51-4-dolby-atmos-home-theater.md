@@ -59,8 +59,8 @@ With nine amplified channels, the receiver made me choose between 7.1.2 and 5.1.
 These are dimensioned layout drawings, not an as-built CAD survey. The room, screen, listening distance, and sofa clearance are measured. The angle guide assumes a seated ear height of about **1.0 m** and Atmos speaker centres around **2.3 m**, so those two values remain estimates until I measure the installed centres precisely.
 
 <figure class="article-figure">
-  <img src="/assets/images/home-theater/layout-top-down.svg" alt="Dimensioned top-down plan of the 4.5 by 3.35 metre home theater, with a 120-inch diagonal image, aligned front and rear speaker stacks, 3 metre listening distance, and a sofa one metre from the rear wall">
-  <figcaption>The top-down plan. The front Atmos speakers are directly above the front left and right speakers, the rear surrounds are directly below the rear Atmos pair, and the front L/R centres are roughly 3.0 m apart.</figcaption>
+  <img src="/assets/images/home-theater/layout-top-down.svg" alt="Dimensioned top-down plan of the 4.5 by 3.35 metre home theater, with a 120-inch diagonal image, aligned front speaker stacks, rear surrounds and rear Atmos speakers in the rear-wall corners, a 3 metre listening distance, and a sofa one metre from the rear wall">
+  <figcaption>The top-down plan. The front Atmos speakers are directly above the front left and right speakers. The rear surrounds and rear Atmos pair are aligned in the rear-wall corners, about one metre behind the sofa. The front L/R centres are roughly 3.0 m apart.</figcaption>
 </figure>
 
 <figure class="article-figure">
@@ -98,7 +98,7 @@ Room correction cannot repair bad placement. I move and aim the speakers first, 
 
 The **[ViewSonic PX701HD](https://www.viewsonic.com/eu/products/projectors/PX701HD?app=1)** has been good: bright, dependable, and capable of producing the 120-inch Full HD image that shaped the rest of the system. Mine is old now and has used roughly **70% of its bulb life**.
 
-I am starting to look at a projector upgrade in the next year or two, possibly together with a nicer fixed screen. A better subwoofer is the other obvious upgrade, but the current system is already balanced enough that neither change is urgent.
+For version 2, I am considering a suspended ceiling with built-in speakers replacing the four wall-mounted Polk height speakers. I would also upgrade the projector, possibly to a model in the **XGIMI HORIZON 20 series**, and may add a nicer fixed screen. A better subwoofer is the other obvious upgrade, but the current system is already balanced enough that none of these changes is urgent or final yet.
 
 ## What mattered most
 
