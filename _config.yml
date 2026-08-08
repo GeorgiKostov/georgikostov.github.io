@@ -1,11 +1,37 @@
-title: "Georgi Kostov's Portfolio"
-description: "A portfolio and blog for Georgi Kostov"
-author: "Georgi Kostov"
+title: "Georgi Kostov"
+tagline: "Unity Developer, XR Specialist & Educator"
+description: "Senior Unity developer, XR specialist, educator, and technical writer building games, simulations, digital twins, and AI-powered products."
+lang: en
+locale: en_US
+timezone: Europe/Vienna
+author:
+  name: "Georgi Kostov"
+  url: "https://kostovsolutions.com/"
+  twitter: KostovSolutions
 theme: jekyll-theme-cayman
 
 # Base URL for GitHub Pages
 baseurl: "" # Leave this empty if you’re not using a subdirectory
-url: "https://georgikostov.github.io"
+url: "https://kostovsolutions.com"
+
+# Identity and social profiles used by jekyll-seo-tag.
+twitter:
+  username: KostovSolutions
+  card: summary_large_image
+social:
+  name: "Georgi Kostov"
+  links:
+    - "https://www.linkedin.com/in/kostovg/"
+    - "https://x.com/KostovSolutions"
+    - "https://www.researchgate.net/profile/Georgi-Kostov"
+
+# Give every rendered page a crawlable social preview unless it defines a
+# more specific image in front matter.
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: "/thumbnail.png"
 
 # Navigation Links
 links:
@@ -37,6 +63,12 @@ kramdown:
 
 # Exclude Unnecessary Files and Directories
 exclude:
+  - index.html
+  - another-page.md
+  - docs
+  - script
+  - jekyll-theme-cayman.gemspec
+  - LICENSE
   - node_modules
   - vendor
   - Gemfile

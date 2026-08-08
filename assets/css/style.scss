@@ -644,6 +644,12 @@ body {
   animation: page-enter 0.45s ease-out both;
 }
 
+.article-meta {
+  margin: 0 0 1.5rem;
+  color: #5a6969;
+  font-size: 0.92rem;
+}
+
 .page-header {
   background: linear-gradient(120deg, rgba(21, 120, 120, 0.96), rgba(23, 107, 125, 0.94));
   border-bottom-color: rgba(255, 255, 255, 0.16);

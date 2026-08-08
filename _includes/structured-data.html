@@ -1,0 +1,35 @@
+{% if page.url == "/" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "@id": "{{ '/' | absolute_url }}#profile",
+  "url": "{{ '/' | absolute_url }}",
+  "name": "Georgi Kostov — Unity Developer, XR Specialist & Educator",
+  "mainEntity": {
+    "@type": "Person",
+    "@id": "{{ '/' | absolute_url }}#person",
+    "name": "Georgi Kostov",
+    "url": "{{ '/' | absolute_url }}",
+    "image": "{{ '/assets/images/me.jpeg' | absolute_url }}",
+    "jobTitle": "Senior Unity Developer",
+    "description": "Senior Unity developer, XR specialist, educator, and technical writer building games, simulations, digital twins, and AI-powered products.",
+    "knowsAbout": [
+      "Unity",
+      "XR",
+      "virtual reality",
+      "augmented reality",
+      "serious games",
+      "simulations",
+      "digital twins",
+      "AI product development"
+    ],
+    "sameAs": [
+      "https://www.linkedin.com/in/kostovg/",
+      "https://x.com/KostovSolutions",
+      "https://www.researchgate.net/profile/Georgi-Kostov"
+    ]
+  }
+}
+</script>
+{% endif %}

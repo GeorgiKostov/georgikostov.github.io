@@ -2,6 +2,8 @@
 layout: default
 title: Projects
 permalink: /pages/projects/
+description: "Selected Unity, XR, serious-game, simulation, digital-twin, education, climate, logistics, and participatory-design projects by Georgi Kostov."
+image: /assets/images/projects/nova-concept.png
 ---
 
 {% include independent-work.html %}
@@ -11,7 +13,7 @@ permalink: /pages/projects/
 ## HektAR
 
 <div class="video-container">
-  <iframe src="https://www.youtube.com/embed/EFyVnfK4LEY?si=pVa8qMgiuh7Oj1ss" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/EFyVnfK4LEY?si=pVa8qMgiuh7Oj1ss" title="HektAR sustainable farming game video" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 **Description**:
@@ -29,7 +31,7 @@ Game design, programming, publishing, and UX.
 ## Logistify
 
 <div class="video-container">
-  <iframe src="https://www.youtube.com/embed/gR3ciDCLlIQ?si=j4LxDUTbPKGH0SZF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/gR3ciDCLlIQ?si=j4LxDUTbPKGH0SZF" title="Logistify augmented reality logistics game video" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 **Description**:
@@ -50,7 +52,7 @@ Game design, programming, publishing, and UX.
 ## CATRINA
 
 <div class="video-container">
-  <iframe src="https://www.youtube.com/embed/Ltod694yfA0?si=YUFgxZBurxufT_VR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/Ltod694yfA0?si=YUFgxZBurxufT_VR" title="CATRINA moral courage virtual reality game video" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 **Description**:
@@ -70,7 +72,7 @@ Programming, branching story system, interaction design, publishing and UX.
 ## The Game Changer Suite
 
 <div class="video-container">
-  <iframe src="https://www.youtube.com/embed/gmM1EaHA_BA?si=nnzIo9bjlBoHmVhe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/gmM1EaHA_BA?si=nnzIo9bjlBoHmVhe" title="Game Changer Suite multiplayer games video" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 **Description**:
@@ -86,7 +88,7 @@ Designed and developed the game *Tower of Power*, co-designed *Beelzeball*; main
 ## PIEDeck
 
 <div class="video-container">
-  <iframe src="https://www.youtube.com/embed/7Q2MfE01my4?si=LZYxTSSsLs6pUWRs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/7Q2MfE01my4?si=LZYxTSSsLs6pUWRs" title="PIEdeck hybrid reality interaction video" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 **Description**:
@@ -102,7 +104,7 @@ Design, programming, networking, UX
 ## Invisible Walls
 
 <div class="video-container">
-  <iframe src="https://www.youtube.com/embed/lzxrbJNKuW8?si=toRa3cjtURnYqCrH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/lzxrbJNKuW8?si=toRa3cjtURnYqCrH" title="Invisible Walls augmented virtuality installation video" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 **Description**:
@@ -133,7 +135,7 @@ Programming, game design, UI, augmented reality prototyping, designed multiple b
 ## Play!UC
 
 <div class="video-container">
-  <iframe src="https://www.youtube.com/embed/wbl0d12rEWg?si=kYH1aCi-4NvJG9MZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/wbl0d12rEWg?si=kYH1aCi-4NvJG9MZ" title="Play UC participatory serious games video" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 **Description**:

@@ -1,9 +1,12 @@
 ---
 layout: default
 title: The Making Of HektAR
+date: 2024-11-16
+description: "How HektAR, a Unity farming simulation for schools and museums, teaches sustainable agriculture, climate change, resource management, and trade-offs."
+image: /assets/images/hektar/hektar_1.jpeg
 permalink: /posts/hektar-game/
 ---
-### Introduction
+## Introduction
 
 <div class="image-container">
   <img src="/assets/images/hektar/hektar_1.jpeg" alt="Hektar">
@@ -11,7 +14,7 @@ permalink: /posts/hektar-game/
 
 During my time at Playful Interactive Environments, a research lab at the University of Applied Sciences Upper Austria, I worked on a variety of game projects with an educational purpose. In the case of HektAR, I was responsible for the concept, development, and publishing and was supported by a 3D artist, who took care of visuals, and a team of environmental experts, who provided a lot of the data and content for the game. Creating the entire game took around 1200 hours.
 
-### Overview
+## Overview
 <div class="image-container">
   <img src="/assets/images/hektar/hektar_2.jpeg" alt="Hektar">
 </div>
@@ -21,9 +24,9 @@ HektAR does not aim to compete with farm simulations such as the Farming Simulat
 
 
 
-### Gameplay
+## Gameplay
 <div class="video-container">
-  <iframe src="https://www.youtube.com/embed/EFyVnfK4LEY?si=pVa8qMgiuh7Oj1ss" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/EFyVnfK4LEY?si=pVa8qMgiuh7Oj1ss" title="HektAR sustainable farming game video" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 The game is played over several years (rounds) and consists of individual steps (phases). Each year consists of three main phases: Annual Planning, Production, and Annual Review. Upon completion, the game moves on to the next year.
 
@@ -36,7 +39,7 @@ The performance of a game round is evaluated at the end of the year. A graphic p
 
 
 
-### Data
+## Data
 One of the main challenges we faced in the project was designing a simulation based on real data. Given the complexity of agriculture and the multitude of factors influencing crop yields, it was impossible to achieve a 100% accurate representation of reality. Since our target audience was school students, we needed to keep the complexity low and present information in a clear and understandable manner.
 
 Our primary goal was to showcase the relationships between resources using real data as a basis, while acknowledging that certain shortcuts were necessary to create a playable simulation. Our environmental advisors and partners conducted extensive research on the topic, providing us with estimates on crop yield and water consumption. With this data, we were able to calculate how much the player needed to produce to sustain their community with meals for an entire year. To ensure player comprehension, we simplified certain numbers, such as water requirements.
@@ -58,7 +61,7 @@ Below is a glimpse of the data we collected and utilized in the game’s logic.
   </a>
 </div>
 
-### Summary
+## Summary
 
 HektAR was an exciting project to work on and I’m happy we managed to publish the game on the app stores. Designing the simulation posed an exciting challenge as we aimed to integrate real data and portray intricate relationships, all while maintaining a balanced experience that offered intriguing strategic choices to the players. Farming games, like HektAR, present a unique opportunity to harness real data and introduce players to fascinating real-world problems, all within an entertaining gaming experience. In the future, I aim to work on more projects like HektAR and explore innovative ways to better represent reality in games, leveraging them as educational tools while igniting a genuine excitement for the world around us.
 

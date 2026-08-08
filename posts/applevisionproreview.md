@@ -1,9 +1,11 @@
 ---
 layout: default
 title: Apple Vision Pro Impressions
+date: 2025-01-30
+description: "Hands-on Apple Vision Pro impressions covering 3D movies, spatial video, ergonomics, passthrough, productivity, gaming, and value."
+image: /assets/images/avp.jpg
 permalink: /posts/applevisionproreview/
 ---
-# Apple Vision Pro Impressions
 
 <div class="image-container">
   <img src="/assets/images/avp.jpg" alt="AVP">
@@ -45,6 +47,6 @@ I’ve seen a lot about it, so I knew what to expect, but I was still surprised 
   Otherwise, it feels like a weird mix of a VR headset that tries really hard to not be a VR headset.  
   **Smaller face pad and no peripheral blockers is the way.**
 
-### **Final Verdict**
+## Final verdict
 Overall, I liked it as a **3D TV** and for **recording 3D footage**, not much else.  
 **4,000 euros?** Definitely not worth it—get a **Meta Quest** for 10 times less and you can do a lot more.

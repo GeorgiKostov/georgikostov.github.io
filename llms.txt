@@ -1,0 +1,27 @@
+---
+layout: null
+permalink: /llms.txt
+---
+# Georgi Kostov
+
+> Senior Unity developer, XR specialist, educator, and technical writer building games, simulations, digital twins, and AI-powered products.
+
+Canonical site: {{ '/' | absolute_url }}
+
+## Main sections
+
+- [Projects]({{ '/pages/projects/' | absolute_url }}): Selected Unity, XR, serious-game, simulation, education, and research work.
+- [Blog]({{ '/pages/blog/' | absolute_url }}): First-hand engineering case studies and practical technical essays.
+- [Publications]({{ '/pages/publications/' | absolute_url }}): Research on mixed reality, augmented reality games, serious games, and participatory systems.
+
+## Technical articles
+
+- [Storykept StoryEngine]({{ '/posts/storykept-story-engine/' | absolute_url }}): A traceable pipeline for turning recorded conversations into faithful family stories.
+- [Rebuilt content system]({{ '/posts/rebuilt-content-system/' | absolute_url }}): Evidence, schema, visual, and release rules behind a 203-lesson library.
+- [Okolo event pipeline]({{ '/posts/okolo-event-pipeline/' | absolute_url }}): Crawling, extraction, geocoding, deduplication, and serving for municipal events.
+- [LLM model gauntlet]({{ '/posts/llm-gauntlet/' | absolute_url }}): Multilingual quality, latency, and cost benchmarking for a voice-first memoir product.
+- [5.1.4 Dolby Atmos build]({{ '/posts/51-4-dolby-atmos-home-theater/' | absolute_url }}): Measured room geometry, equipment choices, placement, calibration, and test references.
+- [Making HektAR]({{ '/posts/hektar-game/' | absolute_url }}): Building a Unity farming simulation about sustainable agriculture and climate trade-offs.
+- [Apple Vision Pro impressions]({{ '/posts/applevisionproreview/' | absolute_url }}): Hands-on observations about spatial media, ergonomics, productivity, and value.
+
+The canonical HTML pages contain the full text, author information, dates, source links, and structured data.

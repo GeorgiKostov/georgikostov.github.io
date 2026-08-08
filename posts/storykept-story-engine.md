@@ -4,11 +4,9 @@ title: "Inside Storykept's StoryEngine: turning a conversation into a family sto
 header_title: "Storykept's StoryEngine"
 date: 2026-07-26
 description: "How Storykept transcribes, interviews, structures, rewrites, merges, and fidelity-checks a family memory without losing the original."
-author: George Kostov
+image: /assets/images/projects/storykept-capture.png
 permalink: /posts/storykept-story-engine/
 ---
-
-# Inside Storykept's StoryEngine: turning a conversation into a family story
 
 <div class="article-lead">
   <p>A memoir app should not behave like a dictation tool with a “make this prettier” button. It has to listen for the shape of a memory, ask what is missing, preserve who said what, and improve the prose without quietly improving the facts.</p>

@@ -4,11 +4,9 @@ title: "How we engineered 203 Rebuilt lessons without turning them into AI conte
 header_title: "Rebuilt's content system"
 date: 2026-07-26
 description: "The writing, evidence, visual, schema, and release rules behind Rebuilt's 203-lesson life-skills library."
-author: George Kostov
+image: /assets/images/projects/rebuilt-learning.png
 permalink: /posts/rebuilt-content-system/
 ---
-
-# How we engineered 203 Rebuilt lessons without turning them into AI content sludge
 
 <div class="article-lead">
   <p>AI can produce a hundred lessons quickly. It can also produce a hundred versions of the same beige article: vague hook, anonymous “research,” five tips, motivational close. Scaling useful content required us to engineer judgment, not just generation.</p>

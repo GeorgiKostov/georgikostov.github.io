@@ -4,11 +4,9 @@ title: "From municipal websites to map pins: how Okolo builds its event pipeline
 header_title: "Okolo's event pipeline"
 date: 2026-07-26
 description: "A technical tour of the crawling, LLM extraction, geocoding, deduplication, and map-serving pipeline behind Okolo."
-author: George Kostov
+image: /assets/images/projects/okolo-linz.png
 permalink: /posts/okolo-event-pipeline/
 ---
-
-# From municipal websites to map pins: how Okolo builds its event pipeline
 
 <div class="article-lead">
   <p>Building an event map is easy when every organizer gives you a clean API. Building one from small-town calendars, municipal CMS templates, RSS feeds, iCal files, and photographed posters is a very different problem.</p>

@@ -1,39 +1,42 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" role="img" aria-labelledby="title desc">
   <title id="title">Top-down plan of the 5.1.4 home theater</title>
-  <desc id="desc">A 4.5 by 3.35 metre room with the screen at the front, speakers at the room edges, a sofa one metre from the rear wall, surrounds beside the sofa, and four height channels.</desc>
+  <desc id="desc">A 4.5 by 3.35 metre room with a 120-inch diagonal image at the front, front Atmos speakers directly above the front left and right speakers, rear surrounds directly below the rear Atmos speakers, a left-side subwoofer, and a sofa one metre from the rear wall.</desc>
   <defs>
     <style>
-      .wall{fill:#fff;stroke:#171717;stroke-width:5}.object{fill:#fff;stroke:#171717;stroke-width:3}.soft{fill:#f1f1f1;stroke:#171717;stroke-width:2.5}.height{fill:#fff;stroke:#555;stroke-width:2.5;stroke-dasharray:8 6}.guide{fill:none;stroke:#777;stroke-width:2;stroke-dasharray:6 6}.dim{fill:none;stroke:#171717;stroke-width:1.8}.label{font:600 18px Arial,sans-serif;fill:#171717}.small{font:15px Arial,sans-serif;fill:#444}.tiny{font:13px Arial,sans-serif;fill:#555}.center{text-anchor:middle}.end{text-anchor:end}
+      .wall{fill:#fff;stroke:#171717;stroke-width:5}.object{fill:#fff;stroke:#171717;stroke-width:3}.soft{fill:#f1f1f1;stroke:#171717;stroke-width:2.5}.height{fill:none;stroke:#555;stroke-width:2.5;stroke-dasharray:8 6}.guide{fill:none;stroke:#777;stroke-width:2;stroke-dasharray:6 6}.dim{fill:none;stroke:#171717;stroke-width:1.8}.callout{fill:#fff;stroke:none}.label{font:600 18px Arial,sans-serif;fill:#171717}.small{font:15px Arial,sans-serif;fill:#444}.tiny{font:13px Arial,sans-serif;fill:#555}.center{text-anchor:middle}.end{text-anchor:end}
     </style>
     <marker id="arrow" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto-start-reverse"><path d="M0,0 L8,4 L0,8 Z" fill="#171717"/></marker>
   </defs>
 
   <rect width="1000" height="720" fill="#fff"/>
   <text x="500" y="42" class="label center">Top-down layout</text>
-  <text x="500" y="67" class="small center">Front wall and 120-inch image at left</text>
+  <text x="500" y="67" class="small center">Front wall and 120-inch diagonal image at left</text>
 
   <rect x="140" y="110" width="720" height="536" class="wall"/>
   <line x1="140" y1="165" x2="140" y2="591" stroke="#fff" stroke-width="12"/>
   <line x1="143" y1="165" x2="143" y2="591" stroke="#171717" stroke-width="8"/>
-  <text x="162" y="390" class="small" transform="rotate(-90 162 390)">120-inch image</text>
+  <text x="162" y="390" class="small" transform="rotate(-90 162 390)">120-inch diagonal image</text>
 
-  <!-- Front L/C/R and subwoofer -->
+  <!-- Atmos positions share the same plan coordinates as the speakers below -->
+  <g aria-label="four height speakers shown as dashed outlines">
+    <rect x="164" y="112" width="58" height="66" rx="6" class="height"/>
+    <rect x="164" y="578" width="58" height="66" rx="6" class="height"/>
+    <rect x="701" y="117" width="58" height="56" rx="6" class="height"/>
+    <rect x="701" y="583" width="58" height="56" rx="6" class="height"/>
+  </g>
+
+  <!-- Front L/C/R and left-side subwoofer -->
   <g aria-label="front speakers">
     <rect x="172" y="116" width="42" height="58" rx="4" class="object"/><circle cx="193" cy="145" r="10" class="soft"/>
     <rect x="172" y="582" width="42" height="58" rx="4" class="object"/><circle cx="193" cy="611" r="10" class="soft"/>
     <rect x="151" y="350" width="74" height="42" rx="4" class="object"/><circle cx="174" cy="371" r="8" class="soft"/><circle cx="202" cy="371" r="8" class="soft"/>
     <rect x="236" y="526" width="68" height="68" rx="5" class="soft"/><circle cx="270" cy="560" r="18" class="object"/>
   </g>
-  <text x="230" y="102" class="tiny">Front L/R at room edges</text>
-
-  <!-- Height layer projected onto the plan -->
-  <g aria-label="four height speakers">
-    <rect x="270" y="124" width="48" height="48" rx="5" class="height"/><circle cx="294" cy="148" r="9" class="guide"/>
-    <rect x="270" y="584" width="48" height="48" rx="5" class="height"/><circle cx="294" cy="608" r="9" class="guide"/>
-    <rect x="706" y="124" width="48" height="48" rx="5" class="height"/><circle cx="730" cy="148" r="9" class="guide"/>
-    <rect x="706" y="584" width="48" height="48" rx="5" class="height"/><circle cx="730" cy="608" r="9" class="guide"/>
-  </g>
-  <text x="512" y="139" class="tiny center">Dashed = Atmos, just below ceiling</text>
+  <text x="230" y="102" class="tiny">Front L/R + Atmos aligned</text>
+  <rect x="356" y="119" width="300" height="28" rx="5" class="callout"/>
+  <text x="506" y="138" class="tiny center">Dashed outline = Atmos directly above</text>
+  <rect x="236" y="502" width="68" height="22" rx="4" class="callout"/>
+  <text x="270" y="518" class="tiny center">Subwoofer · left</text>
 
   <!-- Sofa and surrounds -->
   <g aria-label="sofa and surrounds">
@@ -42,8 +45,8 @@
     <line x1="666" y1="224" x2="666" y2="532" class="guide"/>
     <circle cx="626" cy="378" r="9" fill="#171717"/>
     <text x="626" y="410" class="tiny center">Main seat</text>
-    <rect x="618" y="118" width="44" height="42" rx="4" class="object"/><circle cx="640" cy="139" r="8" class="soft"/>
-    <rect x="618" y="596" width="44" height="42" rx="4" class="object"/><circle cx="640" cy="617" r="8" class="soft"/>
+    <rect x="708" y="124" width="44" height="42" rx="4" class="object"/><circle cx="730" cy="145" r="8" class="soft"/>
+    <rect x="708" y="590" width="44" height="42" rx="4" class="object"/><circle cx="730" cy="611" r="8" class="soft"/>
   </g>
 
   <!-- Listening geometry -->
@@ -53,9 +56,10 @@
   <text x="527" y="337" class="tiny end">≈27°</text>
   <text x="527" y="426" class="tiny end">≈27°</text>
 
-  <line x1="244" y1="145" x2="244" y2="611" class="dim" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
-  <line x1="193" y1="145" x2="252" y2="145" class="dim"/><line x1="193" y1="611" x2="252" y2="611" class="dim"/>
-  <text x="265" y="378" class="tiny center" transform="rotate(-90 265 378)">≈2.9 m L/R centre spacing</text>
+  <line x1="330" y1="145" x2="330" y2="611" class="dim" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <line x1="193" y1="145" x2="338" y2="145" class="dim"/><line x1="193" y1="611" x2="338" y2="611" class="dim"/>
+  <rect x="338" y="284" width="27" height="188" rx="5" class="callout"/>
+  <text x="357" y="378" class="tiny center" transform="rotate(-90 357 378)">≈3.0 m L/R centre spacing</text>
 
   <!-- Room dimensions -->
   <line x1="140" y1="675" x2="860" y2="675" class="dim" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
@@ -67,8 +71,9 @@
   <text x="76" y="378" class="label center" transform="rotate(-90 76 378)">3.35 m</text>
 
   <line x1="700" y1="555" x2="860" y2="555" class="dim" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
-  <text x="780" y="580" class="label center">1.0 m</text>
-  <text x="780" y="603" class="tiny center">sofa to rear wall</text>
+  <rect x="732" y="527" width="96" height="48" rx="5" class="callout"/>
+  <text x="780" y="546" class="label center">1.0 m</text>
+  <text x="780" y="568" class="tiny center">sofa to rear wall</text>
 
   <line x1="140" y1="190" x2="626" y2="190" class="dim" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
   <line x1="626" y1="180" x2="626" y2="208" class="dim"/>

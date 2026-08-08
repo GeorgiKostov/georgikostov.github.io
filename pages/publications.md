@@ -2,9 +2,9 @@
 layout: default
 title: Publications
 permalink: /pages/publications/
+description: "Research publications by Georgi Kostov on collaborative mixed reality, augmented reality games, serious games, co-presence, and urban participation."
+image: /assets/images/me.jpeg
 ---
-
-# Publications
 
 1. **Designing a Framework for Collaborative Mixed Reality Training**  
    *Georgi Kostov, Josef Wolfartsberger*  

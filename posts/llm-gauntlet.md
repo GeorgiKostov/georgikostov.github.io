@@ -3,13 +3,11 @@ layout: default
 title: "The 25-model gauntlet: picking the LLM that interviews your grandparents"
 header_title: "The LLM gauntlet"
 date: 2026-05-31
-updated: 2026-07-26
+last_modified_at: 2026-07-26
 description: "What a voice-first memoir app learned from two LLM benchmarks, seven languages, and a month of production latency."
-author: George Kostov
+image: /assets/images/projects/storykept-capture.png
 permalink: /posts/llm-gauntlet/
 ---
-
-# The 25-model gauntlet: picking the LLM that interviews your grandparents
 
 I'm building [Storykept](https://storykept.app), a voice-first app that records family stories. You talk, an AI listens, works out what's missing from the memory, and asks one good follow-up: "what year was that?", "who else was there?" Then it stitches the answers into a clean chapter.
 

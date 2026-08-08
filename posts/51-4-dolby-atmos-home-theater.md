@@ -3,12 +3,11 @@ layout: default
 title: "How I built and calibrated my 5.1.4 Dolby Atmos home theater"
 header_title: "My 5.1.4 Dolby Atmos build"
 date: 2026-08-07
+last_modified_at: 2026-08-08
 description: "Speaker choices, measured room layout, Atmos placement, Dirac Live calibration, projector notes, and listening references from my 5.1.4 home theater."
-author: Georgi Kostov
+image: /thumbnail.png
 permalink: /posts/51-4-dolby-atmos-home-theater/
 ---
-
-# How I built and calibrated my 5.1.4 Dolby Atmos home theater
 
 <div class="article-lead">
   <p>The difficult part was not buying nine speakers. It was fitting them into a real room, then calibrating them until they stopped sounding like separate boxes.</p>
@@ -60,8 +59,8 @@ With nine amplified channels, the receiver made me choose between 7.1.2 and 5.1.
 These are dimensioned layout drawings, not an as-built CAD survey. The room, screen, listening distance, and sofa clearance are measured. The angle guide assumes a seated ear height of about **1.0 m** and Atmos speaker centres around **2.3 m**, so those two values remain estimates until I measure the installed centres precisely.
 
 <figure class="article-figure">
-  <img src="/assets/images/home-theater/layout-top-down.svg" alt="Dimensioned top-down plan of the 4.5 by 3.35 metre home theater, with a 120-inch image, 3 metre listening distance, sofa one metre from the rear wall, and 5.1.4 speaker positions">
-  <figcaption>The top-down plan. The front left and right speakers sit at the room edges, roughly 2.9 m apart, giving an estimated 27° angle to either side of the centre line.</figcaption>
+  <img src="/assets/images/home-theater/layout-top-down.svg" alt="Dimensioned top-down plan of the 4.5 by 3.35 metre home theater, with a 120-inch diagonal image, aligned front and rear speaker stacks, 3 metre listening distance, and a sofa one metre from the rear wall">
+  <figcaption>The top-down plan. The front Atmos speakers are directly above the front left and right speakers, the rear surrounds are directly below the rear Atmos pair, and the front L/R centres are roughly 3.0 m apart.</figcaption>
 </figure>
 
 <figure class="article-figure">
@@ -70,8 +69,8 @@ These are dimensioned layout drawings, not an as-built CAD survey. The room, scr
 </figure>
 
 <figure class="article-figure">
-  <img src="/assets/images/home-theater/layout-seated-view.svg" alt="Dimensioned front elevation from the main seat, showing a 120-inch image, speakers at the edges of the 3.35 metre wide room, center, subwoofer, and front heights below the ceiling">
-  <figcaption>The front elevation from the sofa: a 120-inch 16:9 image is approximately 2.66 × 1.49 m.</figcaption>
+  <img src="/assets/images/home-theater/layout-seated-view.svg" alt="Dimensioned front elevation from the main seat, showing a 120-inch diagonal image, speakers at the edges of the 3.35 metre wide room, center speaker, left-side subwoofer, and front Atmos speakers below the ceiling">
+  <figcaption>The front elevation from the sofa: the subwoofer is on the left, and the 120-inch diagonal 16:9 image is approximately 2.66 × 1.49 m.</figcaption>
 </figure>
 
 ## The placement compromise

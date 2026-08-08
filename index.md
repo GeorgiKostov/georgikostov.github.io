@@ -1,21 +1,24 @@
 ---
 layout: default
-title: Home
+title: Georgi Kostov
+header_title: Georgi Kostov
+description: "Senior Unity developer, XR specialist, educator, and technical writer building games, simulations, digital twins, and AI-powered products."
+image: /assets/images/me.jpeg
 ---
 
 <div class="profile-container">
-  <img src="assets/images/me.jpeg" alt="Georgi Kostov" class="profile-image" />
+  <img src="assets/images/me.jpeg" alt="Georgi Kostov" class="profile-image" width="200" height="200" fetchpriority="high" decoding="async" />
 
   <div class="profile-info">
-    <h1 class="profile-name">Georgi Kostov</h1>
+    <p class="profile-name">Georgi Kostov</p>
     <p class="profile-tagline">Senior Unity Developer | Educator | XR Enthusiast | Cinema Geek</p>
 
     <div class="social-links">
       <a href="https://www.linkedin.com/in/kostovg/" target="_blank" aria-label="LinkedIn">
-        <img src="assets/icons/linkedin.png" alt="LinkedIn" class="social-icon" />
+        <img src="assets/icons/linkedin.png" alt="LinkedIn" class="social-icon" width="22" height="22" />
       </a>
       <a href="https://x.com/KostovSolutions" target="_blank" aria-label="Twitter">
-        <img src="assets/icons/twitter.png" alt="Twitter" class="social-icon" />
+        <img src="assets/icons/twitter.png" alt="Twitter" class="social-icon" width="22" height="22" />
       </a>
     </div>
   </div>
@@ -69,7 +72,8 @@ I teach courses on games with a purpose, mixed reality and location-based techno
 <div class="video-container">
     <iframe 
         src="https://www.youtube.com/embed/11QtNfz-3rc?si=LaHVU8-6pop8pJYK" 
-        title="YouTube video player" 
+        title="Student games project showcase video"
+        loading="lazy"
         frameborder="0" 
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
         referrerpolicy="strict-origin-when-cross-origin" 
