@@ -113,20 +113,20 @@ Whenever I change the calibration, move a speaker, or want to demonstrate the sy
 
 | Movie | Timestamp(s) | What I listen for |
 | --- | --- | --- |
+| **Ready Player One** | 0:20, 1:36 | Racing and battle sequences with strong 360-degree movement |
+| **War of the Worlds** | 0:20, 1:05 | Extreme low end, environmental destruction, and scale |
+| **Mad Max: Fury Road** | Intro, 0:16, 0:20, 0:27 | Engines, vehicles, impacts, and constant directional motion |
+| **Interstellar** | 1:00, 2:10, 2:17 | Organ, dynamics, spacecraft, bass, and an enormous soundstage |
+| **1917** | 0:27, 1:07 | Environmental ambience, transitions, and explosive dynamics |
 | **Top Gun: Maverick** | 1:35 | Jets, engine weight, aggressive panning, and height information |
 | **Blade Runner 2049** | 0:13, 0:20, 0:43, 0:58, 2:18 | Huge low end, electronic score, ambience, and room scale |
-| **Interstellar** | 1:00, 2:10, 2:17 | Organ, dynamics, spacecraft, bass, and an enormous soundstage |
-| **Ready Player One** | 0:20, 1:36 | Racing and battle sequences with strong 360-degree movement |
 | **Dunkirk** | 0:06, 0:15, 0:35, 0:38, 1:12, 1:18, 1:23 | Aircraft, gunfire, tension, dynamics, and directionality |
-| **1917** | 0:27, 1:07 | Environmental ambience, transitions, and explosive dynamics |
 | **The Matrix** | 1:45, 1:54 | Gunfire, bullet movement, impacts, and surround panning |
 | **Dune** | 1:05 | Massive bass, scale, machinery, and score |
 | **Dune: Part Two** | 0:54, 2:00, 2:13 | Sand, war, huge dynamics, and low-frequency energy |
 | **The Lost World: Jurassic Park** | 1:05, 1:20, 1:50 | Dinosaurs, jungle atmosphere, impact, and low-frequency effects |
 | **Saving Private Ryan** | 0:07 | Chaotic surround placement during the Omaha Beach sequence |
-| **War of the Worlds** | 0:20, 1:05 | Extreme low end, environmental destruction, and scale |
 | **Tenet** | 0:40, 1:15, 1:30 | Bass, score, movement, and deliberately overwhelming dynamics |
-| **Mad Max: Fury Road** | Intro, 0:16, 0:20, 0:27 | Engines, vehicles, impacts, and constant directional motion |
 | **The Lord of the Rings: The Two Towers** | 2:48 | Battle scale, crowds, score, and the surround field |
 | **The Matrix Reloaded** | 1:30 | Freeway action, vehicle movement, and aggressive panning |
 | **Edge of Tomorrow** | 0:17, 1:08 | Battlefield chaos, machinery, and explosions |
@@ -169,6 +169,9 @@ The number in the first column is the track's position in the full playlist.
 
 | # | Track | Artist | What I listen for |
 | ---: | --- | --- | --- |
+| 45 | [Bubbles](https://open.spotify.com/track/2MYPFXScWdR3PQihBQxu7x) | Yosi Horikawa | Precise object placement, depth, height cues, and transient realism |
+| 112 | [Chocolate Chip Trip](https://open.spotify.com/track/3VcEEhf6NL8oq2e1IxFUVM) | Tool | Drum-kit positioning, huge transient swings, low-end impact, and room scale |
+| 25 | [Keith Don't Go](https://open.spotify.com/track/40krTfxpE4g2wuSRn1ubrs) | Nils Lofgren | Acoustic-guitar transients, speed, string detail, and crowd ambience |
 | 1 | [Roxane](https://open.spotify.com/track/1UPIzmQYoMytTCkZ8PJEpV) | Petra Magoni, Ferruccio Spinetti | Vocal presence, upright-bass texture, and the space of the live room |
 | 2 | [Sympathy for the Devil](https://open.spotify.com/track/4sFbojhVXQv7dBC9PVCcRn) | The Rolling Stones | Percussion placement, the gradual build, and separation as the mix fills up |
 | 3 | [Get Lucky](https://open.spotify.com/track/69kOkLUCkxIZYexIgSG8rq) | Daft Punk, Pharrell Williams, Nile Rodgers | Kick definition, rhythm-guitar transients, groove, and polished top-end detail |
@@ -187,7 +190,6 @@ The number in the first column is the track's position in the full playlist.
 | 21 | [Detach](https://open.spotify.com/track/567CYqTviMxFdbC1ImEwPz) | Hans Zimmer | Organ weight, slow dynamic escalation, and large-scale low end |
 | 22 | [Little Wing](https://open.spotify.com/track/36RlHKPmB8uiS422NQWsTi) | Stevie Ray Vaughan | Electric-guitar body, amplifier texture, and sustained dynamics |
 | 23 | [A Woman's Worth (Live – Unplugged)](https://open.spotify.com/track/2OEe6KRveFhpTcjEwWs5K3) | Alicia Keys | Vocal power, piano weight, audience ambience, and live-stage depth |
-| 25 | [Keith Don't Go](https://open.spotify.com/track/40krTfxpE4g2wuSRn1ubrs) | Nils Lofgren | Acoustic-guitar transients, speed, string detail, and crowd ambience |
 | 26 | [Bass & Drum Intro – Live](https://open.spotify.com/track/06PqxXPvQxw75qLTHroB7b) | Nils Lofgren | Bass articulation, kick impact, drum attack, and live dynamics |
 | 27 | [Take Me Into Your Skin](https://open.spotify.com/track/5RQqQkd8Z8gcscl9ce6ESk) | Trentemøller | Sub-bass control, electronic layers, and a soundstage that expands gradually |
 | 32 | [Janie Runaway](https://open.spotify.com/track/7JIRmMwJpqepCjWYCVUcwl) | Steely Dan | Studio precision, horn separation, tonal balance, and small mix details |
@@ -195,7 +197,6 @@ The number in the first column is the track's position in the full playlist.
 | 40 | [Little Sadie](https://open.spotify.com/track/2SiQKjD5mANk0qkNTx2BmO) | Crooked Still | String texture, bow attack, vocal placement, and acoustic separation |
 | 43 | [Walk on the Wild Side](https://open.spotify.com/track/5p3JunprHCxClJjOmcLV8G) | Lou Reed | The double bass line, centered vocal, backing-vocal spread, and saxophone tone |
 | 44 | [Three O'Clock Blues](https://open.spotify.com/track/66rd5lx86Ya5dYyJXGdE1C) | Eric Clapton, B.B. King | Two guitars occupying distinct spaces, vocal tone, and restrained dynamics |
-| 45 | [Bubbles](https://open.spotify.com/track/2MYPFXScWdR3PQihBQxu7x) | Yosi Horikawa | Precise object placement, depth, height cues, and transient realism |
 | 46 | [Colibria](https://open.spotify.com/track/4mrkRBRhahbgcfimPihZVN) | Nicola Cruz | Layered percussion, low-end rhythm, width, and front-to-back depth |
 | 48 | [The First Quarter](https://open.spotify.com/track/6VP4NhTeQpgg2rtnIGD0Ir) | Vladislav Delay | Very low textures, patience in the noise floor, and bass control |
 | 49 | [Whispers, Pt. 1](https://open.spotify.com/track/4LHJmwqTJmECv7Z2tpY7V9) | Culprate | Microdetail, dense layering, quick transients, and complex low end |
@@ -216,7 +217,6 @@ The number in the first column is the track's position in the full playlist.
 | 86 | [Angel](https://open.spotify.com/track/7uv632EkfwYhXoqf8rhYrg) | Massive Attack, Horace Andy | Sustained deep bass, mounting pressure, vocal stability, and system control |
 | 98 | [Don't Know Why](https://open.spotify.com/track/1zNXF2svmdlNxfS5XeNUgr) | Norah Jones | Vocal naturalness, piano tone, brush detail, and a locked center image |
 | 100 | [Emerald Rush](https://open.spotify.com/track/5S3F5GL8LASIjPg2PMiU1Q) | Jon Hopkins | Layered electronic motion, bass precision, dynamic build, and clean treble |
-| 112 | [Chocolate Chip Trip](https://open.spotify.com/track/3VcEEhf6NL8oq2e1IxFUVM) | Tool | Drum-kit positioning, huge transient swings, low-end impact, and room scale |
 
 ## Was it worth it?
 
