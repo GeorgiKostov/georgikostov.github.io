@@ -9,9 +9,15 @@ image: /thumbnail.png
 permalink: /posts/51-4-dolby-atmos-home-theater/
 ---
 
+Last year, we bought an apartment, and one of my dreams was to turn the living room into a home theater. I am a huge movie geek, so naturally it was one of the first things I worked on after we moved in. Building it, tuning it, and hearing it come together has been an amazing experience.
+
+This post covers the complete setup: the exact speakers and equipment, what I paid, how everything is positioned, and how I calibrated it. I have also included a collection of movie scenes and timestamps for testing surround sound, gathered over a year of skipping through films in search of the best moments, plus a Spotify playlist for putting a system through its musical paces.
+
 <div class="article-lead">
-  <p>The difficult part was not buying nine speakers. It was fitting them into a real room, then calibrating them until they stopped sounding like separate boxes.</p>
+  <p><strong>TL;DR:</strong> I love this setup. Movies and music still amaze me, and I keep discovering details I had never heard before. If I changed anything in the future, I would add a suspended ceiling with in-ceiling Atmos speakers instead of the Polks and upgrade to a laser projector.</p>
 </div>
+
+The difficult part was not buying nine speakers. It was fitting them into a real room, then calibrating them until they stopped sounding like separate boxes.
 
 The room is roughly **4.5 × 3.35 × 2.5 metres**. The main seat is about three metres from a **120-inch projected image**, and the sofa is about one metre forward of the rear wall.
 
