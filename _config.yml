@@ -31,7 +31,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: "/thumbnail.png"
+      image: "/assets/images/social/georgi-kostov-social.png"
 
 # Navigation Links
 links:

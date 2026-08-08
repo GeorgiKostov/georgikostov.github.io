@@ -5,7 +5,7 @@ header_title: "My 5.1.4 Dolby Atmos build"
 date: 2026-08-07
 last_modified_at: 2026-08-08
 description: "Speaker choices, measured room layout, Atmos placement, Dirac Live calibration, projector notes, and listening references from my 5.1.4 home theater."
-image: /thumbnail.png
+image: /assets/images/social/home-theater-social.png
 permalink: /posts/51-4-dolby-atmos-home-theater/
 ---
 

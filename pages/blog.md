@@ -3,7 +3,7 @@ layout: default
 title: Blog
 permalink: /pages/blog/
 description: "Engineering case studies and practical essays by Georgi Kostov on Unity, XR, AI systems, educational technology, home cinema, and product development."
-image: /thumbnail.png
+image: /assets/images/social/georgi-kostov-social.png
 ---
 <div class="blog-cards">
   <a href="{{ '/posts/51-4-dolby-atmos-home-theater/' | relative_url }}" class="blog-card">
