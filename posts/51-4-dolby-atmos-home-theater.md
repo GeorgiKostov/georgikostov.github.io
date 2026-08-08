@@ -113,6 +113,29 @@ For version 2, I am considering a suspended ceiling with built-in speakers repla
 - Compact speakers made a real 5.1.4 layout practical in a living room.
 - Placement and calibration improved the system more than oversized front speakers would have.
 
+## What to watch: lossless audio, Blu-ray, and streaming
+
+An **Atmos** or **DTS:X** badge describes the immersive format, not necessarily the audio quality underneath it. Atmos can be delivered in **lossless Dolby TrueHD** on a disc or in **lossy Dolby Digital Plus** on a streaming service. Dolby's own format comparison lists [Dolby Digital Plus as lossy and Dolby TrueHD as lossless](https://professional.dolby.com/technologies/dolby-digital-plus/); similarly, [DTS-HD Master Audio is a lossless format](https://consumer.dts.com/professional-auto-solutions/), and disc-based DTS:X can use a lossless master-audio stream.
+
+My order of preference is:
+
+| Source | Audio to look for | What you get |
+| --- | --- | --- |
+| **4K UHD Blu-ray or Blu-ray** | Dolby TrueHD/Atmos, DTS-HD Master Audio/DTS:X, or multichannel LPCM | Usually the best practical source: lossless audio with no dependence on streaming bandwidth. Check the disc, because not every release or language track uses the same format. |
+| **A direct-play copy of a disc I own** | The unchanged TrueHD, DTS-HD Master Audio, or LPCM track | Disc-quality sound without handling the disc, provided the server and player do not transcode it. The [Nvidia Shield TV Pro can pass through TrueHD, DTS-HD, Atmos, and DTS:X over HDMI](https://www.nvidia.com/en-gb/shield/shield-tv-pro/), which is one reason it fits this system so well. |
+| **Kaleidescape movie download** | TrueHD/Atmos or DTS-HD Master Audio/DTS:X | Actual lossless digital delivery, but through a very expensive dedicated player and storage ecosystem. [Kaleidescape says its downloads include lossless soundtracks](https://www.kaleidescape.com/support/article/Dolby-Atmos-availability); this is a download-first system, not normal adaptive streaming. |
+| **Mainstream movie streaming** | Usually Dolby Digital Plus 5.1 or Dolby Digital Plus with Atmos | Convenient and often very good, but lossy. A premium tier may unlock Atmos without making the soundtrack lossless. |
+
+That last distinction matters when choosing a subscription. [Netflix requires a plan that supports Ultra HD for Atmos](https://help.netflix.com/en/node/64066), [Disney+ reserves Atmos for its Premium plan](https://help.disneyplus.com/en-GB/article/disneyplus-en-me-sound-quality), [Max puts Atmos on Premium](https://help.max.com/us-en/answer/detail/000002547), and [Prime Video may require its Ad Free option](https://www.primevideo.com/help?nodeId=TMwh2aig8aCv0WgwDL) for Dolby Atmos on supported titles. [Apple TV+ and Apple movie rentals also offer Atmos](https://support.apple.com/en-us/119599) on compatible devices. These services are useful ways to get an Atmos mix, but **none of those labels means Dolby TrueHD or DTS-HD Master Audio**. Sony Pictures Core is another interesting middle ground: its [Pure Stream mode reaches up to 80 Mbps and supports Atmos and DTS:X](https://electronics.sony.com/sony-pictures-core), but Sony advertises that bitrate for picture quality and does not claim lossless movie audio.
+
+### How much difference does lossless audio make?
+
+On this system, the difference is real but not equally obvious in every scene. In quiet dialogue, a well-encoded stream can sound extremely close. The advantage becomes easier to hear during dense action, music, sharp transients, and deep bass: a good disc track tends to feel less constrained, with more impact, cleaner separation, and more low-level ambience around the room.
+
+The codec is not the only variable. A disc and a stream can use different mixes, levels, or dynamic-range processing, and those changes may be more audible than the compression itself. Lossless audio also cannot rescue a mediocre mix. For a fair comparison I match the volume as closely as possible and disable night mode or dynamic-range compression.
+
+My practical rule is simple: **stream casually, but use Blu-ray or UHD Blu-ray for favourite films, serious listening, and demo scenes**. Lossless sound is worthwhile on a calibrated 5.1.4 system, but it is the final layer of polish after speaker placement, room correction, and the quality of the original mix.
+
 ## Movie demo reference: scenes and timestamps
 
 Whenever I change the calibration, move a speaker, or want to demonstrate the system, I return to the same scenes. This is my quick-reference list for choosing a test by timestamp and by the part of the system I want to hear. Timestamps can shift by a minute or two between editions and cuts.
