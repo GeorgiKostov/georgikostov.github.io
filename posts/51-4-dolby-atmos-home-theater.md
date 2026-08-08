@@ -3,7 +3,7 @@ layout: default
 title: "How I built and calibrated my 5.1.4 Dolby Atmos home theater"
 header_title: "My 5.1.4 Dolby Atmos build"
 date: 2026-08-07
-description: "The speakers, placement compromises, Dirac Live calibration, costs, and movie scenes behind my 5.1.4 Dolby Atmos room with a 120-inch projector setup."
+description: "Speaker choices, measured room layout, Atmos placement, Dirac Live calibration, projector notes, and listening references from my 5.1.4 home theater."
 author: Georgi Kostov
 permalink: /posts/51-4-dolby-atmos-home-theater/
 ---
@@ -11,20 +11,20 @@ permalink: /posts/51-4-dolby-atmos-home-theater/
 # How I built and calibrated my 5.1.4 Dolby Atmos home theater
 
 <div class="article-lead">
-  <p>The interesting part of building a home theater was not buying nine speakers. It was deciding where each one belonged, accepting what my actual room would allow, and calibrating the result until the speakers stopped sounding like separate boxes.</p>
+  <p>The difficult part was not buying nine speakers. It was fitting them into a real room, then calibrating them until they stopped sounding like separate boxes.</p>
 </div>
 
-My room is roughly **4.5 × 3.35 × 2.5 metres**, with the main listening position about three metres from the screen. The visual side is a **projector producing a 120-inch image**, so I wanted the sound to have enough scale to match it.
+The room is roughly **4.5 × 3.35 × 2.5 metres**. The main seat is about three metres from a **120-inch projected image**, and the sofa is about one metre forward of the rear wall.
 
-This is a real room rather than a purpose-built cinema. Walls, furniture, cable routes, and practical mounting locations all affected the design. After researching speaker measurements, AV receivers, center-channel designs, subwoofers, room correction, and the tradeoffs between 5.1.2, 5.1.4, and 7.1.2, I kept coming back to one principle:
+It is a living room, not a purpose-built cinema. Furniture, cable routes, and the ceiling determined what was practical. The principle that survived all the research was simple:
 
 > The goal is not to build the theoretically perfect system. It is to build the best system your room allows, then calibrate it properly.
 
-The result is a **5.1.4 Dolby Atmos system** built around ELAC speakers, six compact Polk speakers, an Onkyo receiver with Dirac Live, and a dedicated subwoofer. After living with it, I would choose 5.1.4 again.
+The result is a **5.1.4 Dolby Atmos system** built around ELAC front speakers, six compact Polks, an Onkyo receiver with Dirac Live, and a dedicated subwoofer.
 
 ## The final system
 
-A 5.1.4 system has five ear-level channels, one subwoofer, and four height channels. Here is what I used and approximately what I paid:
+A 5.1.4 system has five ear-level channels, one subwoofer, and four height channels. These are the prices I actually paid:
 
 | Role | Component | Approx. price |
 | --- | --- | ---: |
@@ -36,139 +36,77 @@ A 5.1.4 system has five ear-level channels, one subwoofer, and four height chann
 | AV receiver | **Onkyo TX-NR7100 with Dirac Live** | €900 |
 | Subwoofer | **Mivoc Hype 10 G2** | €200 |
 | Streaming | **Nvidia Shield** | €220 |
-| Stands, cables, and small parts |  | ~€300–500 |
-| Height installation and lighting |  | ~€800 |
 
-The 5.1.4 audio system itself came to roughly **€2,300**. With streaming, installation, lighting, stands, and cables, the supporting build was about **€3,300**, excluding the projector.
+The 5.1.4 audio system itself came to roughly **€2,300**. The Shield and projector are separate.
 
-That is not a small amount of money, but I did not distribute it evenly. I deliberately spent more on the parts that I expected to matter most.
+## Why I chose the ELAC front stage
 
-## The center speaker mattered more than I expected
+The center carries most dialogue and anchors sound to the image, so I spent more attention on it than I first expected. I chose the **ELAC Uni-Fi 2.0 UC52**, a three-way center with a concentric midrange/tweeter. The two references I used most were [Erin's Audio Corner review](https://www.erinsaudiocorner.com/loudspeakers/elac_uc52/) and [the Audio Science Review discussion of Erin's measurements](https://www.audiosciencereview.com/forum/index.php?threads/elac-uni-fi-2-0-uc52-center-review-by-erin.29845/).
 
-If I could give someone building a surround system one piece of advice, it would be this:
+For left and right I chose **ELAC Debut Reference DBR62** bookshelf speakers. With a subwoofer and bass management, towers did not make sense in a roughly 15 m² room. [Audio Science Review's DBR62 measurements and listening review](https://www.audiosciencereview.com/forum/index.php?threads/elac-debut-reference-dbr-62-speaker-review.12232/) reinforced that choice:
 
-> Do not build a €3,000 home theater and then save €150 on the center speaker.
+> “The ELAC DBR-62 objectively and subjectively meets and exceeds my expectations. It is ‘high-end’ sound on a budget with little to apologize for.”
 
-The center carries much of the dialogue, but that is only part of its job. Together, the front three channels establish where on-screen sounds appear. In practice, the center is the acoustic anchor connecting the projected image to the sound.
+The reviewer also wrote that he was reluctant to stop listening long enough to finish the review. That matched why I kept returning to the DBR62.
 
-Unlike stereo listening, everyone is not always sitting perfectly between the left and right speakers. That makes the center's off-axis behaviour important too.
+## Why six compact Polk speakers and 5.1.4
 
-### Why I chose the ELAC UC52
+The surrounds and all four height channels are **Polk Signature Elite ES10s**. Their small cabinets and built-in mounting options let me place six speakers without turning the room into a studio. I wanted real height speakers just below the ceiling, not upward-firing modules.
 
-I considered cheaper centers, including the ELAC Debut C5.2, but eventually chose the **ELAC Uni-Fi 2.0 UC52**. It is a three-way design with two 5.25-inch bass drivers and a concentric midrange/tweeter assembly intended to provide broad, consistent dispersion.
+With nine amplified channels, the receiver made me choose between 7.1.2 and 5.1.4. I chose **four height channels** because they create a front-to-back overhead field; two heights can tell me that something is above, but four can show it moving across the room.
 
-My front pair comes from ELAC's Debut Reference line, while the center belongs to Uni-Fi 2.0. A perfectly matched left-center-right set is attractive, but I preferred spending the budget on the stronger center instead of buying a weaker one just because its series name matched the fronts.
+## The room in plan and section
 
-That choice has worked well for a sofa shared by more than one listener.
+These are dimensioned layout drawings, not an as-built CAD survey. The room, screen, listening distance, and sofa clearance are measured. The angle guide assumes a seated ear height of about **1.0 m** and Atmos speaker centres around **2.3 m**, so those two values remain estimates until I measure the installed centres precisely.
 
-## Why I chose bookshelf speakers instead of towers
+<figure class="article-figure">
+  <img src="/assets/images/home-theater/layout-top-down.svg" alt="Dimensioned top-down plan of the 4.5 by 3.35 metre home theater, with a 120-inch image, 3 metre listening distance, sofa one metre from the rear wall, and 5.1.4 speaker positions">
+  <figcaption>The top-down plan. The front left and right speakers sit at the room edges, roughly 2.9 m apart, giving an estimated 27° angle to either side of the centre line.</figcaption>
+</figure>
 
-I looked at floor-standing models including the ELAC Debut F6.2, Triangle Borea BR08, DALI Oberon 5, Wharfedale Diamond 12.3, and Klipsch RP-8000F. I kept coming back to the **ELAC Debut Reference DBR62** bookshelf speakers.
+<figure class="article-figure">
+  <img src="/assets/images/home-theater/layout-side.svg" alt="Dimensioned side section of the 4.5 metre long and 2.5 metre high room, showing the sofa position and approximate front and rear Atmos elevation angles">
+  <figcaption>The side section. With the stated height assumptions, the front height is about 26° and the rear height about 46° from the main seat.</figcaption>
+</figure>
 
-Once a system has a capable subwoofer and sensible bass management, the front speakers do not need to produce all of the deepest bass. For my roughly 15 m² room, I would rather put the same budget into excellent bookshelf speakers, a serious center, four real height channels, and room correction.
+<figure class="article-figure">
+  <img src="/assets/images/home-theater/layout-seated-view.svg" alt="Dimensioned front elevation from the main seat, showing a 120-inch image, speakers at the edges of the 3.35 metre wide room, center, subwoofer, and front heights below the ceiling">
+  <figcaption>The front elevation from the sofa: a 120-inch 16:9 image is approximately 2.66 × 1.49 m.</figcaption>
+</figure>
 
-The towers would have consumed more space and budget without improving the system as much as those other choices did.
+## The placement compromise
 
-## Why I used six Polk ES10s
+The sofa sits about one metre from the rear wall. The left and right speakers use almost the full room width, while all four Atmos speakers are mounted immediately below the ceiling. The front pair is high on the front wall rather than cut into the ceiling; the rear pair sits behind the listening position.
 
-The surrounds and all four height speakers are **Polk Signature Elite ES10s**. They are tiny beside the ELACs, and that is exactly why they work here.
+That is not textbook Top Front placement. It is closer to the [Front High + Top Rear layout supported by the Onkyo TX-NR7100](https://support.onkyousa.com/hc/en-us/articles/9734194563860-TX-NR7100-The-Listening-Room-and-the-Speaker-Layout). [Dolby's installation guide](https://www.dolby.com/siteassets/technologies/dolby-atmos/atmos-installation-guidelines-121318_r3.1.pdf?pdf=Installation-Guidelines) remains the reference, but the room made a compromise necessary.
 
-At about 21 centimetres tall, with built-in mounting options, they let me place six speakers around the room without making it feel like a recording studio. For Atmos, I wanted real speakers producing sound from above rather than upward-firing modules reflecting sound off the ceiling.
+The important result is clear vertical separation: ear-level surrounds, plus a distinct layer overhead. The front heights extend the screen upward and the rear pair makes movement over the sofa convincing.
 
-The tradeoff is bass extension. Polk rates the ES10 from around 80 Hz, so I do not assume that the crossover setting for the larger ELACs should also apply to the surrounds and heights. Letting the subwoofer take over earlier can be the better choice.
+## Dirac Live and calibration
 
-## Why 5.1.4 won over 7.1.2
+**Dirac Live** was one of the main reasons I chose the Onkyo. [Dirac Live Room Correction](https://www.dirac.com/products/room-correction/) aligns level, timing, and frequency response across the listening area. In this room it improved dialogue focus, bass integration, and movement between speakers.
 
-The Onkyo has nine amplified channels, which created a choice: two additional ear-level rear channels or a second pair of height speakers.
+My calibration routine is short:
 
-For this room, **four height channels were more valuable than two rear surrounds**.
+1. Put the first microphone position at seated ear height in the main seat.
+2. Cluster the remaining measurements around the sofa, not around the whole room.
+3. Keep the microphone still and the room quiet.
+4. Use a target curve with a little bass lift instead of forcing everything ruler-flat.
 
-Two overhead speakers can tell you that something is above you. Four create a front-to-back overhead space. Rain can stretch across the ceiling. An aircraft can travel over the listening position. A large environment gains a ceiling rather than a vague patch of height.
+Room correction cannot repair bad placement. I move and aim the speakers first, then calibrate.
 
-The TX-NR7100 supports a 5.1.4 configuration, so that is where I chose to spend its extra channels.
+## The projector and the next upgrade
 
-## My Atmos placement is intentionally imperfect
+The **[ViewSonic PX701HD](https://www.viewsonic.com/eu/products/projectors/PX701HD?app=1)** has been good: bright, dependable, and capable of producing the 120-inch Full HD image that shaped the rest of the system. Mine is old now and has used roughly **70% of its bulb life**.
 
-The rear height speakers are close to ideal. They sit about 1.5 metres behind the listening position at roughly 2.5 metres high. With normal seated ear height, that puts them close to the classic 45-degree elevation.
+I am starting to look at a projector upgrade in the next year or two, possibly together with a nicer fixed screen. A better subwoofer is the other obvious upgrade, but the current system is already balanced enough that neither change is urgent.
 
-[Dolby's installation guidance](https://www.dolby.com/siteassets/technologies/dolby-atmos/atmos-installation-guidelines-121318_r3.1.pdf?pdf=Installation-Guidelines) uses 45 degrees as the reference, with a broader range available when the room requires it.
+## What mattered most
 
-The front pair is different. It is mounted high at the front of the room, roughly above the left and right main speakers, rather than partway across the ceiling. That is not textbook Top Front placement. Cutting into the ceiling and running another pair farther into the room was not practical.
-
-It still works extremely well as a front-height layer. Music and effects extend upward from the screen, the front soundstage becomes taller, and the well-positioned rear pair completes the movement behind me.
-
-The useful detail for owners of the same receiver is that [Onkyo explicitly supports a Front High + Top Rear 5.1.4 layout](https://support.onkyousa.com/hc/en-us/articles/9734194563860-TX-NR7100-The-Listening-Room-and-the-Speaker-Layout). That describes my physical setup more honestly than labelling every speaker as a ceiling channel.
-
-The lesson was not that placement diagrams do not matter. They are the correct starting point. But maintaining **clear vertical separation** matters more than reproducing a diagram to the centimetre: an ear-level sound field, plus a distinct layer above it, is what creates the dome.
-
-## The setup order I would use next time
-
-If I were starting again, I would work in this order:
-
-1. **Get the front three speakers right first.** Put the center as close to the screen as practical and aim it at the listening position.
-2. **Keep the surrounds near ear level.** If every speaker is close to the ceiling, there is no meaningful separation from the Atmos layer.
-3. **Choose the channel layout for the room.** With nine channels available, 5.1.4 deserves serious consideration.
-4. **Aim for about 45 degrees of elevation.** Treat the published range as room for a practical compromise, not an excuse to ignore geometry.
-5. **Keep the left/right spacing of the height layer coherent.** Four isolated speakers are less convincing than one continuous overhead field.
-6. **Aim the speakers toward the listening area when their dispersion requires it.**
-7. **Configure what you actually installed.** Front Heights should be declared as Front Heights.
-8. **Run room correction only after the physical setup is right.**
-
-Placement gets the system into the right ballpark. Calibration turns nine speakers into one sound field.
-
-## Dirac Live surprised me most
-
-One of the main reasons I chose the **Onkyo TX-NR7100** was Dirac Live. The room is effectively another component: walls reflect sound, bass wavelengths interact with the room dimensions, and each speaker sits at a different distance from the listener.
-
-A basic equalizer reacts to frequency response: too much energy around 80 Hz means reducing 80 Hz. [Dirac Live Room Correction](https://www.dirac.com/products/room-correction/) also works with timing, impulse response, and phase alignment between channels.
-
-That affects imaging, transient definition, dialogue clarity, bass integration, and how smoothly a sound moves through the room. Dirac measures several microphone positions, models the speaker-and-room combination across the listening area, then uploads correction filters to the receiver.
-
-### How I calibrate it
-
-The receiver plays frequency sweeps through each speaker while a microphone records what arrives at the sofa. I repeat the process from several nearby positions. A few details make a large difference.
-
-**Start where you normally sit.** The first measurement is used to align levels and delays, so the microphone goes at ear height in the main listening position—not on a table or the back of the sofa.
-
-**Measure the listening area, not the room.** The additional positions cluster around the seats that matter. I do not need to optimize the response beside the door.
-
-**Use a stand and make the room quiet.** The microphone should remain still and have line of sight to the speakers. I close the door, turn off anything noisy, and stay out of the way during each sweep.
-
-**Do not worship a flat target.** There is no universally ideal curve. A little extra bass can sound more natural and enjoyable than a ruler-flat response. The aim is coherence, not removing all the character from the system.
-
-## What room correction cannot fix
-
-Dirac is powerful, but it cannot rescue a careless physical setup.
-
-If a speaker points in the wrong direction, move it. If a height speaker is at ear level, software cannot place it on the ceiling. If the subwoofer sits in a severe room cancellation, asking digital processing for more output is not a real solution.
-
-**Physical setup first. Calibration second.**
-
-Room correction is the final layer that aligns speakers already placed sensibly.
-
-## Where I would spend money next
-
-My original system uses a **Mivoc Hype 10 G2**, an inexpensive route to proper low-frequency effects. I also considered the SVS SB-1000, ELAC Debut SUB 3010, Klipsch R-101SW, Magnat Tempus Sub 300A, and REL Tzero MKIII.
-
-If I upgraded one component now, the subwoofer would be near the top of the list. A good sub does more than make explosions louder. It creates scale, gives a score physical weight, and makes large objects feel large. Because the receiver routes low frequencies from the other channels to it, a better sub benefits the whole system.
-
-## What the build taught me
-
-**The center matters more than I expected.** Dialogue and screen anchoring make it one of the most important speakers in a movie system.
-
-**Four height channels are worth the installation.** The real gain is not simply more sound above me; it is a front and rear height plane.
-
-**Imperfect placement can still produce a dramatic improvement.** My front heights are not textbook Top Front speakers, but they make the projected image feel taller and the front soundstage larger.
-
-**Small speakers are useful.** The Polk ES10s fit where larger cabinets simply would not.
-
-**The room matters almost as much as the hardware.** Once the speakers reach a certain level, placement and calibration produce enormous gains.
-
-**A balanced system beats an oversized front pair.** The center, subwoofer, amplification, surrounds, heights, and calibration all need a share of the budget.
-
-The best surround systems are not merely loud. They make the room disappear. A sound appears behind your shoulder without calling attention to a speaker. Dialogue stays attached to the image. Rain occupies the ceiling. Bass hits hard, then stops.
-
-That is what I eventually started listening for.
+- The center speaker matters more than I expected.
+- Four height channels were worth choosing over two extra rear surrounds.
+- Compact speakers made a real 5.1.4 layout practical in a living room.
+- Placement and calibration improved the system more than oversized front speakers would have.
 
 ## Movie demo reference: scenes and timestamps
 

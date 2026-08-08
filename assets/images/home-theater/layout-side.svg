@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 680" role="img" aria-labelledby="title desc">
+  <title id="title">Side section of the 5.1.4 home theater</title>
+  <desc id="desc">A 4.5 metre long and 2.5 metre high room with a 120-inch image, a sofa one metre from the rear wall, ear-level speakers, and front and rear Atmos speakers mounted just below the ceiling.</desc>
+  <defs>
+    <style>
+      .wall{fill:#fff;stroke:#171717;stroke-width:5}.object{fill:#fff;stroke:#171717;stroke-width:3}.soft{fill:#f1f1f1;stroke:#171717;stroke-width:2.5}.guide{fill:none;stroke:#666;stroke-width:2;stroke-dasharray:7 6}.dim{fill:none;stroke:#171717;stroke-width:1.8}.label{font:600 18px Arial,sans-serif;fill:#171717}.small{font:15px Arial,sans-serif;fill:#444}.tiny{font:13px Arial,sans-serif;fill:#555}.center{text-anchor:middle}.end{text-anchor:end}
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto-start-reverse"><path d="M0,0 L8,4 L0,8 Z" fill="#171717"/></marker>
+  </defs>
+
+  <rect width="1000" height="680" fill="#fff"/>
+  <text x="500" y="42" class="label center">Side view</text>
+  <text x="500" y="67" class="small center">Angles use an estimated 1.0 m seated ear height</text>
+
+  <rect x="140" y="110" width="720" height="400" class="wall"/>
+  <line x1="148" y1="195" x2="148" y2="432" stroke="#171717" stroke-width="8"/>
+  <text x="174" y="314" class="tiny center" transform="rotate(-90 174 314)">120-inch image</text>
+
+  <!-- Ear-level speakers -->
+  <rect x="184" y="360" width="42" height="140" rx="4" class="object"/><circle cx="205" cy="405" r="11" class="soft"/><circle cx="205" cy="452" r="16" class="soft"/>
+  <rect x="154" y="460" width="72" height="34" rx="4" class="object"/>
+  <rect x="675" y="365" width="38" height="70" rx="4" class="object"/><circle cx="694" cy="393" r="9" class="soft"/>
+
+  <!-- Sofa and listening position -->
+  <path d="M562 410 Q562 385 588 385 H670 Q690 385 690 408 V495 H552 V438 Q552 418 562 410 Z" class="soft"/>
+  <circle cx="620" cy="345" r="9" fill="#171717"/>
+  <line x1="620" y1="355" x2="620" y2="385" class="guide"/>
+  <text x="620" y="328" class="tiny center">seated ear position</text>
+
+  <!-- Front/rear height speakers -->
+  <g aria-label="height speakers">
+    <rect x="176" y="114" width="44" height="48" rx="4" class="object" transform="rotate(-8 198 138)"/>
+    <circle cx="198" cy="138" r="9" class="soft"/>
+    <rect x="798" y="114" width="44" height="48" rx="4" class="object" transform="rotate(8 820 138)"/>
+    <circle cx="820" cy="138" r="9" class="soft"/>
+    <path d="M198 138 L620 345 L820 138" class="guide"/>
+    <line x1="300" y1="345" x2="842" y2="345" class="guide"/>
+    <path d="M545 345 A75 75 0 0 1 553 313" class="dim"/>
+    <path d="M695 345 A75 75 0 0 0 672 292" class="dim"/>
+  </g>
+  <text x="225" y="186" class="tiny">front height ≈26°</text>
+  <text x="794" y="186" class="tiny center">rear height ≈46°</text>
+  <text x="252" y="128" class="tiny">speaker centres ≈2.3 m high</text>
+
+  <!-- Dimensions -->
+  <line x1="140" y1="550" x2="860" y2="550" class="dim" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <line x1="140" y1="520" x2="140" y2="568" class="dim"/><line x1="860" y1="520" x2="860" y2="568" class="dim"/>
+  <text x="500" y="582" class="label center">4.5 m room depth</text>
+
+  <line x1="690" y1="475" x2="860" y2="475" class="dim" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <text x="775" y="462" class="label center">1.0 m</text>
+
+  <line x1="140" y1="280" x2="620" y2="280" class="dim" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <line x1="620" y1="270" x2="620" y2="294" class="dim"/>
+  <text x="380" y="306" class="small center">≈3.0 m to main listening position</text>
+
+  <line x1="105" y1="110" x2="105" y2="510" class="dim" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <line x1="118" y1="110" x2="92" y2="110" class="dim"/><line x1="118" y1="510" x2="92" y2="510" class="dim"/>
+  <text x="76" y="310" class="label center" transform="rotate(-90 76 310)">2.5 m ceiling</text>
+
+  <text x="140" y="95" class="small">FRONT</text>
+  <text x="860" y="95" class="small end">REAR</text>
+</svg>
