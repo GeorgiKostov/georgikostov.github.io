@@ -21,8 +21,8 @@
   <g aria-label="four height speakers shown as dashed outlines">
     <rect x="164" y="112" width="58" height="66" rx="6" class="height"/>
     <rect x="164" y="578" width="58" height="66" rx="6" class="height"/>
-    <rect x="701" y="117" width="58" height="56" rx="6" class="height"/>
-    <rect x="701" y="583" width="58" height="56" rx="6" class="height"/>
+    <rect x="801" y="117" width="58" height="56" rx="6" class="height"/>
+    <rect x="801" y="583" width="58" height="56" rx="6" class="height"/>
   </g>
 
   <!-- Front L/C/R and left-side subwoofer -->
@@ -45,8 +45,8 @@
     <line x1="666" y1="224" x2="666" y2="532" class="guide"/>
     <circle cx="626" cy="378" r="9" fill="#171717"/>
     <text x="626" y="410" class="tiny center">Main seat</text>
-    <rect x="708" y="124" width="44" height="42" rx="4" class="object"/><circle cx="730" cy="145" r="8" class="soft"/>
-    <rect x="708" y="590" width="44" height="42" rx="4" class="object"/><circle cx="730" cy="611" r="8" class="soft"/>
+    <rect x="808" y="124" width="44" height="42" rx="4" class="object"/><circle cx="830" cy="145" r="8" class="soft"/>
+    <rect x="808" y="590" width="44" height="42" rx="4" class="object"/><circle cx="830" cy="611" r="8" class="soft"/>
   </g>
 
   <!-- Listening geometry -->
