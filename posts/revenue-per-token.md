@@ -1,27 +1,27 @@
 ---
 layout: default
-title: "Revenue per token: how to become Person B in the age of abundant intelligence"
-header_title: "Revenue per token"
+title: "Token Maxxer vs. Token Master: revenue per token in the age of abundant intelligence"
+header_title: "Token Maxxer vs. Token Master"
 date: 2026-08-09
-description: "AI makes production abundant. The scarce founder skill is deciding what deserves to be produced—and turning machine intelligence into evidence, customers, and revenue."
+description: "Token-maxxer culture celebrates AI output at any cost. Token mastery means allocating abundant intelligence toward evidence, customers, and revenue."
 image: /assets/images/revenue-per-token/person-a-person-b.png
 permalink: /posts/revenue-per-token/
 ---
 
 <div class="article-lead">
-  <p>The best AI-native founder will not be the person who produces the most. It will be the person who knows what deserves to be produced.</p>
+  <p>The Token Maxxer asks how much can be produced. The Token Master asks what deserves to be produced.</p>
 </div>
 
 Imagine two founders with access to the same models, coding agents, design tools, and token budget.
 
-**Person A** launches agents in every direction. They generate market reports, rewrite the architecture, create dozens of landing pages, polish onboarding, debate naming, refactor the database, and start several products at once. After a year, Person A has produced an extraordinary amount of work and very little value.
+**The Token Maxxer** launches agents in every direction. They generate market reports, rewrite the architecture, create dozens of landing pages, polish onboarding, debate naming, refactor the database, and start several products at once. After a year, the Maxxer has produced an extraordinary amount of work and very little value.
 
-**Person B** investigates 50 markets, rejects 45 quickly, speaks with customers in the remaining five, tests three offers, and finds one people will pay for. Only then do they build. After a year, Person B has produced much less software and a much more valuable business.
+**The Token Master** investigates 50 markets, rejects 45 quickly, speaks with customers in the remaining five, tests three offers, and finds one people will pay for. Only then do they build. After a year, the Master has produced much less software and a much more valuable business.
 
-Person B has achieved a far better token-to-revenue conversion.
+The Token Master has achieved a far better token-to-revenue conversion.
 
 <figure class="article-figure article-figure--hero">
-  <img src="/assets/images/revenue-per-token/person-a-person-b.svg" alt="Two founders start with the same token budget. Person A disperses it across many outputs and creates little value. Person B filters opportunities through evidence and commitment before concentrating execution on one valuable business.">
+  <img src="/assets/images/revenue-per-token/person-a-person-b.svg" alt="Two founders start with the same token budget. The Token Maxxer disperses it across many outputs and creates little value. The Token Master filters opportunities through evidence and commitment before concentrating execution on one valuable business.">
   <figcaption>Equal access to intelligence does not produce equal outcomes. Allocation is the difference.</figcaption>
 </figure>
 
@@ -56,7 +56,32 @@ A useful mental model is:
 
 This is not an accounting formula. It is deliberately multiplicative: a beautifully built product multiplied by zero demand still produces approximately zero value.
 
-## Person B does not minimize tokens
+## Token-maxxer culture
+
+Token maxxing is the natural posture of an era in which machine intelligence suddenly feels abundant. Models improve every few months, agents work in parallel, and another experiment costs almost nothing compared with hiring a team.
+
+At its best, this culture is a useful rejection of artificial scarcity. You learn agents by using them. Running ten cheap experiments can be more rational than debating one idea for a month. A founder who refuses to spend tokens may be protecting pennies while competitors buy information.
+
+The problem begins when token burn becomes a status signal.
+
+The Maxxer posts screenshots of 30 agents running at once. They celebrate lines of code, prompts executed, apps launched, and billions of tokens consumed. Their default question is “What else can we generate?” The activity is real, impressive, and increasingly disconnected from an external result.
+
+Token-maxxer culture tends to confuse:
+
+- compute with conviction;
+- parallelism with strategy;
+- output with outcomes;
+- novelty with demand;
+- autonomy with the absence of oversight;
+- a full context window with a clear mind.
+
+The seduction is powerful because AI can make every branch look finished. Ten weak ideas can return with research, branding, architecture, and polished prototypes. The presentation quality conceals that no customer has changed their behavior.
+
+The Token Master may ultimately spend **more** tokens than the Maxxer. The difference is not restraint for its own sake. It is gated allocation: each new tranche of intelligence must earn its way through evidence, commitment, or measured performance.
+
+The Maxxer spends because tokens are available. The Master spends because the next question is worth answering.
+
+## The Token Master does not minimize tokens
 
 Revenue per token should not become an argument for using as little AI as possible.
 
@@ -75,9 +100,9 @@ It is wasteful when those tokens produce:
 
 The goal is not minimum token consumption. It is **maximum consequential progress per unit of machine intelligence**.
 
-## Person A and Person B
+## Token Maxxer and Token Master
 
-| Person A | Person B |
+| Token Maxxer | Token Master |
 |---|---|
 | Starts with a product idea | Starts with a customer situation |
 | Uses AI to confirm the idea | Uses AI to find reasons it may fail |
@@ -90,17 +115,17 @@ The goal is not minimum token consumption. It is **maximum consequential progres
 | Interprets compliments as validation | Looks for behavior, sacrifice, and payment |
 | Sees killed projects as failure | Sees cheap rejection as progress |
 
-The biggest difference is that Person B has a much higher **idea mortality rate**.
+The biggest difference is that the Token Master has a much higher **idea mortality rate**.
 
-That sounds negative, but it is a superpower. Person B does not protect ideas. They protect time, attention, and future opportunity.
+That sounds negative, but it is a superpower. The Master does not protect ideas. They protect time, attention, and future opportunity.
 
-## The Person B operating system
+## The Token Master operating system
 
 ### 1. Choose an arena, then set an appetite
 
-Person A begins with: “I want to build an AI plant app.”
+The Maxxer begins with: “I want to build an AI plant app.”
 
-Person B begins with: “Which recurring gardening problems cause balcony owners to lose plants, spend money, or abandon the hobby?”
+The Master begins with: “Which recurring gardening problems cause balcony owners to lose plants, spend money, or abandon the hobby?”
 
 The first framing already contains a solution. The second opens an opportunity space.
 
@@ -243,7 +268,7 @@ Before serious development, answer:
 
 For an early B2B product, founder-led outreach is not an embarrassing temporary tactic. It is a learning channel. Sales conversations reveal language, urgency, objections, authority, budget, and implementation risk.
 
-Person B tries to sell the outcome while the product is still cheap to change.
+The Token Master tries to sell the outcome while the product is still cheap to change.
 
 ### 8. Measure outcomes, then count tokens
 
@@ -261,7 +286,7 @@ This is where literal token measurement becomes useful—but at the level of a w
 
 Do not optimize a cheap failure. A workflow that costs half as much but causes twice as many retries has worse intelligence efficiency.
 
-## A weekly Person B review
+## A weekly Token Master review
 
 Once a week, stop the agents and review the portfolio:
 
@@ -280,7 +305,7 @@ When code, copy, analysis, and design were expensive, producing them was evidenc
 
 AI can make a weak decision look finished. It can add polish before proof, scale a misunderstanding, and generate enough motion to hide the absence of demand.
 
-Person B resists that seduction. They use machine intelligence aggressively, but place it behind a sequence of increasingly expensive gates:
+The Token Master resists that seduction. They use machine intelligence aggressively, but place it behind a sequence of increasingly expensive gates:
 
 ```text
 hypothesis → public signal → customer story → commitment → build → behavior → revenue
@@ -293,3 +318,7 @@ The winning founder will not ask, “How much can these agents make?”
 They will ask:
 
 > **What is the most valuable thing reality is ready to let us prove next?**
+
+---
+
+*AI authorship note: I wrote this essay with AI as an experiment, and because life as a busy family man leaves limited time for long-form writing. The ideas, direction, and final editorial decisions are mine.*

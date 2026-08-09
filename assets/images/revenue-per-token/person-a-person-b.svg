@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
-  <title id="title">Person A and Person B allocate the same AI token budget differently</title>
-  <desc id="desc">Person A disperses tokens across reports, features, rewrites, and products, producing lots of output but little value. Person B filters markets through evidence and commitment before focusing tokens on one valuable business.</desc>
+  <title id="title">The Token Maxxer and Token Master allocate the same AI token budget differently</title>
+  <desc id="desc">The Token Maxxer disperses tokens across reports, features, rewrites, and products, producing lots of output but little value. The Token Master filters markets through evidence and commitment before focusing tokens on one valuable business.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#f7fbfa"/>
@@ -46,9 +46,9 @@
   </g>
 
   <circle cx="142" cy="181" r="38" fill="url(#rose)"/>
-  <text x="142" y="194" text-anchor="middle" class="t head white" style="font-size:34px">A</text>
-  <text x="205" y="177" class="t head">Produce everywhere</text>
-  <text x="205" y="210" class="t sub">Output becomes the goal</text>
+  <text x="142" y="194" text-anchor="middle" class="t head white" style="font-size:34px">X</text>
+  <text x="205" y="177" class="t head">Token Maxxer</text>
+  <text x="205" y="210" class="t sub">Produces everywhere</text>
 
   <rect x="108" y="260" width="142" height="62" rx="31" fill="#fff0f3" stroke="#e7a8b4" stroke-width="2"/>
   <text x="179" y="298" text-anchor="middle" class="t label" fill="#bb3f5b">TOKENS</text>
@@ -74,9 +74,9 @@
   <text x="142" y="741" class="t label">Lots of motion · little evidence · little value</text>
 
   <circle cx="924" cy="181" r="38" fill="url(#teal)"/>
-  <text x="924" y="194" text-anchor="middle" class="t head white" style="font-size:34px">B</text>
-  <text x="987" y="177" class="t head">Filter, then focus</text>
-  <text x="987" y="210" class="t sub">Evidence earns execution</text>
+  <text x="924" y="194" text-anchor="middle" class="t head white" style="font-size:34px">M</text>
+  <text x="987" y="177" class="t head">Token Master</text>
+  <text x="987" y="210" class="t sub">Filters, then focuses</text>
 
   <rect x="892" y="260" width="142" height="62" rx="31" fill="#e9f5f3" stroke="#9bc9c1" stroke-width="2"/>
   <text x="963" y="298" text-anchor="middle" class="t label" fill="#157878">50 MARKETS</text>
@@ -101,5 +101,5 @@
   <text x="1199" y="699" text-anchor="middle" class="t eyebrow white">RESULT</text>
   <text x="1199" y="738" text-anchor="middle" class="t head white" style="font-size:28px">One valuable business</text>
 
-  <text x="800" y="862" text-anchor="middle" class="t label" fill="#516563">Person B's advantage is not fewer tokens. It is a higher bar for earning the next ones.</text>
+  <text x="800" y="862" text-anchor="middle" class="t label" fill="#516563">The Token Master's advantage is not fewer tokens. It is a higher bar for earning the next ones.</text>
 </svg>

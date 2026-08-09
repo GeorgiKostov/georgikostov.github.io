@@ -7,8 +7,8 @@ image: /assets/images/social/georgi-kostov-social.png
 ---
 <div class="blog-cards">
   <a href="{{ '/posts/revenue-per-token/' | relative_url }}" class="blog-card">
-    <h2>Revenue per token: how to become Person B in the age of abundant intelligence</h2>
-    <p>AI makes production abundant. The scarce founder skill is deciding what deserves to be produced—and converting intelligence into evidence, customers, and revenue.</p>
+    <h2>Token Maxxer vs. Token Master: revenue per token in the age of abundant intelligence</h2>
+    <p>Token-maxxer culture celebrates AI output at any cost. Token mastery means converting abundant intelligence into evidence, customers, and revenue.</p>
   </a>
   <a href="{{ '/posts/51-4-dolby-atmos-home-theater/' | relative_url }}" class="blog-card">
     <h2>How I built and calibrated my 5.1.4 Dolby Atmos home theater</h2>
