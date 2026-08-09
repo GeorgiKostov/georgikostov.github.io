@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">The customer commitment ladder</title>
+  <desc id="desc">A rising staircase from model approval and compliments through attention, access, trial, payment, repeat use, renewal, and referral. Higher steps require more observable sacrifice and provide stronger evidence.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7fbfa"/>
+      <stop offset="1" stop-color="#ebf5f3"/>
+    </linearGradient>
+    <linearGradient id="step" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#dcecea"/>
+      <stop offset=".55" stop-color="#60a89e"/>
+      <stop offset="1" stop-color="#157878"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="13" flood-color="#143939" flood-opacity=".13"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#157878"/>
+    </marker>
+    <style>
+      .t { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #233332; }
+      .eyebrow { font-size: 21px; font-weight: 770; letter-spacing: 2.1px; }
+      .head { font-size: 40px; font-weight: 790; }
+      .label { font-size: 22px; font-weight: 720; }
+      .small { font-size: 18px; fill: #647774; }
+      .white { fill: #fff; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="900" rx="36" fill="url(#bg)"/>
+  <text x="74" y="70" class="t eyebrow" fill="#157878">THE COMMITMENT LADDER</text>
+  <text x="74" y="121" class="t head">Evidence gets stronger when the customer gives something up</text>
+  <text x="74" y="158" class="t small" font-size="21">Attention helps. Access is better. Payment and repeated behavior are harder to fake.</text>
+
+  <g filter="url(#shadow)">
+    <path d="M80 710H235V640H390V570H545V500H700V430H855V360H1010V290H1165V220H1320V150H1520V790H80Z" fill="url(#step)" stroke="#b8d4d0" stroke-width="2"/>
+  </g>
+
+  <g class="t label">
+    <text x="157" y="752" text-anchor="middle">Approval</text>
+    <text x="312" y="682" text-anchor="middle">Attention</text>
+    <text x="467" y="612" text-anchor="middle">Access</text>
+    <text x="622" y="542" text-anchor="middle">Trial</text>
+    <text x="777" y="472" text-anchor="middle">Agreement</text>
+    <text x="932" y="402" text-anchor="middle">Payment</text>
+    <text x="1087" y="332" text-anchor="middle" class="white">Repeat use</text>
+    <text x="1242" y="262" text-anchor="middle" class="white">Renewal</text>
+    <text x="1420" y="192" text-anchor="middle" class="white">Referral</text>
+  </g>
+
+  <g class="t small">
+    <text x="157" y="780" text-anchor="middle">“Sounds useful”</text>
+    <text x="312" y="710" text-anchor="middle">30 minutes</text>
+    <text x="467" y="640" text-anchor="middle">workflow · data</text>
+    <text x="622" y="570" text-anchor="middle">prototype</text>
+    <text x="777" y="500" text-anchor="middle">pilot · LOI</text>
+    <text x="932" y="430" text-anchor="middle" fill="#315d58">money</text>
+    <text x="1087" y="360" text-anchor="middle" class="white">habit</text>
+    <text x="1242" y="290" text-anchor="middle" class="white">continued value</text>
+    <text x="1420" y="220" text-anchor="middle" class="white">reputation</text>
+  </g>
+
+  <path d="M116 824H1480" fill="none" stroke="#157878" stroke-width="5" marker-end="url(#arrow)"/>
+  <text x="116" y="863" class="t eyebrow" fill="#607370">LOW SACRIFICE</text>
+  <text x="1480" y="863" text-anchor="end" class="t eyebrow" fill="#157878">HIGH SACRIFICE · STRONG EVIDENCE</text>
+</svg>

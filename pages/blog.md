@@ -6,6 +6,10 @@ description: "Engineering case studies and practical essays by Georgi Kostov on 
 image: /assets/images/social/georgi-kostov-social.png
 ---
 <div class="blog-cards">
+  <a href="{{ '/posts/revenue-per-token/' | relative_url }}" class="blog-card">
+    <h2>Revenue per token: how to become Person B in the age of abundant intelligence</h2>
+    <p>AI makes production abundant. The scarce founder skill is deciding what deserves to be produced—and converting intelligence into evidence, customers, and revenue.</p>
+  </a>
   <a href="{{ '/posts/51-4-dolby-atmos-home-theater/' | relative_url }}" class="blog-card">
     <h2>How I built and calibrated my 5.1.4 Dolby Atmos home theater</h2>
     <p>The speakers, placement compromises, Dirac Live calibration, costs, and movie scenes behind my 5.1.4 room with a 120-inch projector setup.</p>
