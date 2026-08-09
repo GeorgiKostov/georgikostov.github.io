@@ -321,4 +321,4 @@ They will ask:
 
 ---
 
-*AI authorship note: I wrote this essay with AI as an experiment, and because life as a busy family man leaves limited time for long-form writing. The ideas, direction, and final editorial decisions are mine.*
+*AI-boosted Georgi: This post was written with AI as an experiment—and because a busy family man has more ideas than uninterrupted writing time. The experience, opinions, and final editorial decisions are mine.*

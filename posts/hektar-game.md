@@ -71,3 +71,7 @@ HektAR was an exciting project to work on and I’m happy we managed to publish 
 
 *Project partners are Climate Alliance Austria, the Austrian Museum of Society and Economy and the Upper Austria University of Applied Sciences (Playful Interactive Environments research group). The EAT Toolbox was funded by the Federal Ministry of Agriculture, Regions and Tourism and the European Union as part of the Austrian Rural Development Program 2014-2020.*
 
+---
+
+*Written by Georgi, with no LLM in the room—just experience, coffee, and whatever quiet time a busy family man could negotiate.*
+

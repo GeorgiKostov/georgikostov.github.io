@@ -189,3 +189,7 @@ The StoryEngine is useful precisely because it treats AI as replaceable processi
 ---
 
 *Storykept is private by default and built for family stories that should outlast the software used to record them. [storykept.app](https://storykept.app).*
+
+---
+
+*AI-boosted Georgi: This post was written with AI as an experiment—and because a busy family man has more ideas than uninterrupted writing time. The experience, opinions, and final editorial decisions are mine.*

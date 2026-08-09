@@ -231,3 +231,7 @@ That is the technical core of Okolo—one region at a time, and one messy source
 ---
 
 *Explore the live map at [okolo.events](https://okolo.events).*
+
+---
+
+*AI-boosted Georgi: This post was written with AI as an experiment—and because a busy family man has more ideas than uninterrupted writing time. The experience, opinions, and final editorial decisions are mine.*

@@ -157,3 +157,7 @@ That is the result I trust now: not “Haiku is the best model,” but “Haiku 
 ---
 
 *Storykept records family stories by voice. Private by default, built to outlast its users, tested in Bulgarian because that's the language my dad tells his stories in. [storykept.app](https://storykept.app).*
+
+---
+
+*AI-boosted Georgi: This post was written with AI as an experiment—and because a busy family man has more ideas than uninterrupted writing time. The experience, opinions, and final editorial decisions are mine.*
