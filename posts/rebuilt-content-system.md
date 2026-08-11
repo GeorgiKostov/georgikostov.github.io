@@ -225,3 +225,7 @@ The goal was never to produce 203 pieces of content. It was to build a system in
 ---
 
 *Rebuilt turns practical life skills into short lessons, reusable cards, and guided paths. The product is in active development.*
+
+---
+
+*AI-boosted Georgi: This post was written with AI as an experiment—and because a busy family man has more ideas than uninterrupted writing time. The experience, opinions, and final editorial decisions are mine.*

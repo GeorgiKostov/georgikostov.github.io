@@ -258,3 +258,7 @@ Once they are calibrated together, the front wall becomes a soundstage that matc
 That is the moment when all the research, cables, drilling, microphone positions, and placement diagrams make sense.
 
 And then, naturally, I start researching a better subwoofer.
+
+---
+
+*AI-boosted Georgi: This post was written with AI as an experiment—and because a busy family man has more ideas than uninterrupted writing time. The experience, opinions, and final editorial decisions are mine.*

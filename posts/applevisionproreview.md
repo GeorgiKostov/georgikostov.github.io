@@ -50,3 +50,7 @@ I’ve seen a lot about it, so I knew what to expect, but I was still surprised 
 ## Final verdict
 Overall, I liked it as a **3D TV** and for **recording 3D footage**, not much else.  
 **4,000 euros?** Definitely not worth it—get a **Meta Quest** for 10 times less and you can do a lot more.
+
+---
+
+*Written by Georgi, with no LLM in the room—just experience, coffee, and whatever quiet time a busy family man could negotiate.*
