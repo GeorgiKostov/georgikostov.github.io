@@ -120,7 +120,7 @@ Programming, interaction design, VFX
 ## i2f – Interface2Face Mixed Reality Game
 
 <div class="image-container">
-  <img src="/assets/images/i2f_3.jpg" alt="i2f Mixed Reality Game">
+  <img src="/assets/images/i2f_3.jpg" alt="Interface2Face collaborative mixed reality game" width="2160" height="1080" loading="lazy" decoding="async">
 </div>
 
 **Description**:

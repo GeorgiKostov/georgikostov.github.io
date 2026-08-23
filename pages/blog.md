@@ -34,8 +34,8 @@ image: /assets/images/social/georgi-kostov-social.png
     <h2>The Making Of HektAR</h2>
     <p>A farming simulation game that educates players on sustainable agriculture, climate change, and resource management.</p>
   </a>
-    <a href="{{ '/posts/applevisionproreview/' | relative_url }}" class="blog-card">
+  <a href="{{ '/posts/applevisionproreview/' | relative_url }}" class="blog-card">
     <h2>Apple Vision Pro Impressions</h2>
-    <p>Personal impressions of the Apple Vision Pro.</p>
+    <p>Hands-on impressions covering spatial video, 3D movies, passthrough, ergonomics, productivity, gaming, and value.</p>
   </a>
 </div>

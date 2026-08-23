@@ -1,3 +1,12 @@
+---
+layout: default
+title: Archived movie-review extraction notes
+description: "Internal notes from a legacy WordPress media export; not a published article."
+permalink: /extracted/movie-reviews.html
+sitemap: false
+robots: "noindex, nofollow"
+---
+
 # Movie reviews found in the WordPress media export
 
 The supplied WordPress XML contains 46 `attachment` records and no `post` records. The review-body and excerpt fields for the movie-related attachments are empty, so the review prose cannot be recovered from this file.
@@ -81,4 +90,3 @@ These `/recommended/` pages were also identifiable but were excluded from the mo
 - Demon's Souls — video game, parent post ID `404`
 - Blood of Zeus — television series, parent post ID `164`
 - Devs — television miniseries, parent post ID `328`
-

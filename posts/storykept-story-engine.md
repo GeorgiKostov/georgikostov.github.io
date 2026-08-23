@@ -13,7 +13,7 @@ permalink: /posts/storykept-story-engine/
 </div>
 
 <figure class="article-figure article-figure--phone">
-  <img src="/assets/images/projects/storykept-capture.png" alt="Storykept voice capture screen showing a family story being recorded">
+  <img src="/assets/images/projects/storykept-capture.png" alt="Storykept voice capture screen showing a family story being recorded" width="1170" height="2532" fetchpriority="high" decoding="async">
 </figure>
 
 I'm building [Storykept](https://storykept.app), a private, voice-first place for families to record their stories. The first real user is my father, which makes Bulgarian support and a low-friction recording experience product requirements rather than localization polish.

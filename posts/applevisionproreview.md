@@ -8,7 +8,7 @@ permalink: /posts/applevisionproreview/
 ---
 
 <div class="image-container">
-  <img src="/assets/images/avp.jpg" alt="AVP">
+  <img src="/assets/images/avp.jpg" alt="Apple Vision Pro headset viewed from the front" width="3264" height="1836" fetchpriority="high" decoding="async">
 </div>
 
 Finally got my hands on an **AVP** one year after it came out (and the hype is long gone :)).  

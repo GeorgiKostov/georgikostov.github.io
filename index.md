@@ -3,7 +3,7 @@ layout: default
 title: Georgi Kostov
 header_title: Georgi Kostov
 description: "Senior Unity developer, XR specialist, educator, and technical writer building games, simulations, digital twins, and AI-powered products."
-image: /assets/images/me.jpeg
+image: /assets/images/social/georgi-kostov-social.png
 ---
 
 <div class="profile-container">
@@ -24,7 +24,7 @@ image: /assets/images/me.jpeg
   </div>
 </div>
 
-In my professional experience I have worked on games and simulations in a variety of fields: XR, education, climate change, agriculture, logistics, digital twins, city planning, sport, health and civil courage. I am an experienced Unity3D developer with 10 years of practice in every stage of development – concept, design, programming, UX, graphics, publishing, analytics. In addition, I have recently embraced the role of lecturer, guiding and mentoring several student projects each year.
+Since 2015, I have worked on games and simulations across XR, education, climate change, agriculture, logistics, digital twins, city planning, sport, health and civil courage. I am a senior Unity developer with experience across every stage of development—concept, design, programming, UX, graphics, publishing and analytics. I also lecture and mentor several student projects each year.
 
 In my free time I love traveling, cycling, hiking, swimming, spending time with friends and family. I am an avid gamer, sometimes write film critique and always aim to learn something new about the world, which I can reflect in my projects.
 

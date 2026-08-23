@@ -16,6 +16,7 @@ Canonical site: {{ '/' | absolute_url }}
 
 ## Technical articles
 
+- [Token Maxxer vs. Token Master]({{ '/posts/revenue-per-token/' | absolute_url }}): A framework for converting abundant machine intelligence into evidence, customers, and durable value.
 - [Storykept StoryEngine]({{ '/posts/storykept-story-engine/' | absolute_url }}): A traceable pipeline for turning recorded conversations into faithful family stories.
 - [Rebuilt content system]({{ '/posts/rebuilt-content-system/' | absolute_url }}): Evidence, schema, visual, and release rules behind a 203-lesson library.
 - [Okolo event pipeline]({{ '/posts/okolo-event-pipeline/' | absolute_url }}): Crawling, extraction, geocoding, deduplication, and serving for municipal events.

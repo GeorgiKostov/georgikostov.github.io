@@ -32,6 +32,21 @@ defaults:
       path: ""
     values:
       image: "/assets/images/social/georgi-kostov-social.png"
+  # Keep private/supporting artifacts available without presenting them to
+  # search engines as canonical landing pages.
+  - scope:
+      path: "cv2026"
+    values:
+      sitemap: false
+  - scope:
+      path: "output/pdf"
+    values:
+      sitemap: false
+  - scope:
+      path: "extracted"
+    values:
+      sitemap: false
+      robots: "noindex, nofollow"
 
 # Navigation Links
 links:

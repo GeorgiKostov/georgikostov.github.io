@@ -13,7 +13,7 @@ permalink: /posts/okolo-event-pipeline/
 </div>
 
 <figure class="article-figure article-figure--hero">
-  <img src="/assets/images/projects/okolo-linz.png" alt="Okolo Linz identity with colorful event pins arranged around the city">
+  <img src="/assets/images/projects/okolo-linz.png" alt="Okolo Linz identity with colorful event pins arranged around the city" width="1640" height="624" fetchpriority="high" decoding="async">
 </figure>
 
 I'm building [Okolo](https://okolo.events), a family-focused map for discovering what is happening nearby. It started with a simple question: *what can we do with the kids this weekend?* The useful answers are often scattered across dozens of places—a city calendar, a Gemeinde website, a museum programme, a parish page, or a poster on a kindergarten door.

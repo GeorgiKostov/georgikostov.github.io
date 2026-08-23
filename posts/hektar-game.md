@@ -9,14 +9,14 @@ permalink: /posts/hektar-game/
 ## Introduction
 
 <div class="image-container">
-  <img src="/assets/images/hektar/hektar_1.jpeg" alt="Hektar">
+  <img src="/assets/images/hektar/hektar_1.jpeg" alt="HektAR sustainable farming simulation running in Unity" width="4800" height="3200" fetchpriority="high" decoding="async">
 </div>
 
 During my time at Playful Interactive Environments, a research lab at the University of Applied Sciences Upper Austria, I worked on a variety of game projects with an educational purpose. In the case of HektAR, I was responsible for the concept, development, and publishing and was supported by a 3D artist, who took care of visuals, and a team of environmental experts, who provided a lot of the data and content for the game. Creating the entire game took around 1200 hours.
 
 ## Overview
 <div class="image-container">
-  <img src="/assets/images/hektar/hektar_2.jpeg" alt="Hektar">
+  <img src="/assets/images/hektar/hektar_2.jpeg" alt="HektAR farm overview with fields, resources, and environmental indicators" width="1600" height="800" loading="lazy" decoding="async">
 </div>
 In HektAR, players take control of a small virtual farm to meet the needs of a growing community as sustainably as possible. Resources such as land, water and labor can be used to grow various crops as well as to buy and care for animals. The game deals with topics related to food production as well as weather events caused by climate change. Players learn about the demand for agricultural products, the relationship to climate, seasonality, soil degradation, water consumption, and the needs of animals. At the same time, as production increases, various phenomena related to climate change slowly begin to affect the environment. These phenomena include droughts and increased rainfall, which can affect the soil and water supply, as well as pests and diseases that can inhibit crop growth. These events force players to make tough choices that may influence their ability to provide for their community and/or contribute to further climate change events.
 
@@ -47,17 +47,17 @@ Our primary goal was to showcase the relationships between resources using real 
 Below is a glimpse of the data we collected and utilized in the game’s logic.
 <div class="image-container">
   <a href="/assets/images/hektar/hektar_3.jpeg" target="_blank">
-    <img src="/assets/images/hektar/hektar_3.jpeg" alt="Hektar">
+    <img src="/assets/images/hektar/hektar_3.jpeg" alt="HektAR crop and livestock gameplay interface" width="1662" height="831" loading="lazy" decoding="async">
   </a>
 </div>
 <div class="image-container">
   <a href="/assets/images/hektar/hektar_4.jpeg" target="_blank">
-    <img src="/assets/images/hektar/hektar_4.jpeg" alt="Hektar">
+    <img src="/assets/images/hektar/hektar_4.jpeg" alt="HektAR climate and resource-management challenge" width="1075" height="551" loading="lazy" decoding="async">
   </a>
 </div>
 <div class="image-container">
   <a href="/assets/images/hektar/hektar_5.jpeg" target="_blank">
-    <img src="/assets/images/hektar/hektar_5.jpeg" alt="Hektar">
+    <img src="/assets/images/hektar/hektar_5.jpeg" alt="HektAR educational data and sustainability results" width="1130" height="367" loading="lazy" decoding="async">
   </a>
 </div>
 
@@ -74,4 +74,3 @@ HektAR was an exciting project to work on and I’m happy we managed to publish 
 ---
 
 *Written by Georgi, with no LLM in the room—just experience, coffee, and whatever quiet time a busy family man could negotiate.*
-
