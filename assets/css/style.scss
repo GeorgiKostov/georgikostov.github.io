@@ -1185,6 +1185,21 @@ body {
   font-size: 1.35rem;
 }
 
+.link-card-kicker {
+  display: block;
+  margin-bottom: 0.45rem;
+  color: #6a7b79;
+  font-size: 0.73rem;
+  font-weight: 750;
+  letter-spacing: 0.045em;
+  text-transform: uppercase;
+  transition: color 0.25s ease;
+}
+
+.link-card:hover .link-card-kicker {
+  color: rgba(255, 255, 255, 0.76);
+}
+
 .timeline {
   margin-bottom: 1.25rem;
 }
@@ -1206,6 +1221,7 @@ body {
 
 .project-card {
   overflow: hidden;
+  scroll-margin-top: 84px;
   border: 1px solid var(--surface-border);
   border-radius: 16px;
 }

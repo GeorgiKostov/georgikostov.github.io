@@ -34,18 +34,22 @@ image: /assets/images/social/georgi-kostov-social.png
 
 Since 2015, I have worked on games and simulations across XR, education, climate change, agriculture, logistics, digital twins, city planning, sport, health and civil courage. I am a senior Unity developer with experience across every stage of development—concept, design, programming, UX, graphics, publishing and analytics. I also lecture and mentor several student projects each year.
 
-<div class="link-cards">
-  <a href="{{ '/pages/projects/' | relative_url }}" class="link-card">
-    <h3>Projects</h3>
-    <p>Explore my work in XR, games, and simulations.</p>
+<h2 id="featured-work">Featured work</h2>
+<div class="link-cards" aria-labelledby="featured-work">
+  <a href="{{ '/pages/projects/#storykept' | relative_url }}" class="link-card">
+    <span class="link-card-kicker">Voice · Applied AI</span>
+    <h3>Storykept</h3>
+    <p>A voice-first family archive for preserving personal stories across generations.</p>
   </a>
-  <a href="{{ '/pages/blog/' | relative_url }}" class="link-card">
-    <h3>Blog</h3>
-    <p>Read articles and insights on technology and design.</p>
+  <a href="{{ '/pages/projects/#okolo' | relative_url }}" class="link-card">
+    <span class="link-card-kicker">Local discovery · Data</span>
+    <h3>Okolo</h3>
+    <p>A reliable map for finding nearby events without searching dozens of sources.</p>
   </a>
-  <a href="{{ '/pages/publications/' | relative_url }}" class="link-card">
-    <h3>Publications</h3>
-    <p>Discover my research and academic contributions.</p>
+  <a href="{{ '/pages/projects/#paint-clouds' | relative_url }}" class="link-card">
+    <span class="link-card-kicker">Creative tool · Three.js</span>
+    <h3>Paint Clouds</h3>
+    <p>A calm creative studio where gestures become living, shareable clouds.</p>
   </a>
 </div>
 
