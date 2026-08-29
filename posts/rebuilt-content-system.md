@@ -13,7 +13,10 @@ permalink: /posts/rebuilt-content-system/
 </div>
 
 <figure class="article-figure article-figure--phone">
-  <img src="/assets/images/projects/rebuilt-learning.png" alt="Rebuilt mobile lesson experience with dark editorial cards and practical life-skills content" width="920" height="1388" fetchpriority="high" decoding="async">
+  <picture>
+    <source srcset="/assets/images/projects/rebuilt-learning.webp" type="image/webp">
+    <img src="/assets/images/projects/rebuilt-learning.png" alt="Rebuilt mobile lesson experience with dark editorial cards and practical life-skills content" width="920" height="1388" fetchpriority="high" decoding="async">
+  </picture>
 </figure>
 
 [Rebuilt](https://rebuilt.cards/) is a mobile life-skills product for people who want practical help with sleep, focus, energy, money, food, stress, posture, relationships, online pressure, and the other systems adulthood quietly expects you to understand.

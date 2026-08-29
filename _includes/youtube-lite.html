@@ -1,0 +1,9 @@
+<div class="video-container video-facade" data-youtube-id="{{ include.id }}">
+  <a class="video-facade-link" href="https://www.youtube.com/watch?v={{ include.id }}" aria-label="Play {{ include.title }} on YouTube">
+    <img src="https://i.ytimg.com/vi/{{ include.id }}/hqdefault.jpg" alt="" width="480" height="360" loading="lazy" decoding="async">
+    <span class="video-play" aria-hidden="true">
+      <svg viewBox="0 0 24 24" focusable="false"><path d="M8 5v14l11-7z"/></svg>
+    </span>
+    <span class="video-label">Play video</span>
+  </a>
+</div>

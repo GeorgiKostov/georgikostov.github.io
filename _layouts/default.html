@@ -7,8 +7,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="robots" content="{{ page.robots | default: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' }}">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     {% seo %}
     {% feed_meta %}
@@ -22,14 +21,22 @@
 
     <!-- Site Header -->
     <header class="page-header">
-      {% unless page.url == "/" %}
-        <a href="/" class="back-button">←</a>
-      {% endunless %}
-      <h1 class="page-title">{{ page.header_title | default: page.title | default: site.title }}</h1>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="{{ '/' | relative_url }}" class="site-mark" aria-label="Georgi Kostov — home"{% if page.url == '/' %} aria-current="page"{% endif %}>GK</a>
+        <div class="site-nav-links">
+          <a href="{{ '/pages/projects/' | relative_url }}"{% if page.url == '/pages/projects/' %} aria-current="page"{% endif %}>Projects</a>
+          <a href="{{ '/pages/blog/' | relative_url }}"{% if page.url == '/pages/blog/' or page.url contains '/posts/' %} aria-current="page"{% endif %}>Blog</a>
+          <a href="{{ '/pages/publications/' | relative_url }}"{% if page.url == '/pages/publications/' %} aria-current="page"{% endif %}>Publications</a>
+          <a href="mailto:georgikostov1337@gmail.com">Contact</a>
+        </div>
+      </nav>
     </header>
 
     <!-- Main Content -->
     <main id="content" class="main-content" role="main">
+      {% unless page.url == "/" %}
+        <h1 class="content-title">{{ page.title | default: site.title }}</h1>
+      {% endunless %}
       {% if page.date %}
         <p class="article-meta">
           By {{ page.author | default: site.author.name }} ·
@@ -41,5 +48,6 @@
       {% endif %}
       {{ content }}
     </main>
+    {% include youtube-lite-script.html %}
   </body>
 </html>

@@ -25,9 +25,7 @@ HektAR does not aim to compete with farm simulations such as the Farming Simulat
 
 
 ## Gameplay
-<div class="video-container">
-  <iframe src="https://www.youtube.com/embed/EFyVnfK4LEY?si=pVa8qMgiuh7Oj1ss" title="HektAR sustainable farming game video" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
+{% include youtube-lite.html id="EFyVnfK4LEY" title="HektAR sustainable farming game" %}
 The game is played over several years (rounds) and consists of individual steps (phases). Each year consists of three main phases: Annual Planning, Production, and Annual Review. Upon completion, the game moves on to the next year.
 
 At the beginning of a game round, three meals are selected from a selection of typical Austrian dishes as representative of an entire year. Based on this selection, a production list is created with the main ingredients and the total quantities for one year for a small community (e.g. 50 people). If these production goals are met and the community is provided with enough portions, the community will grow and more orders will be received, allowing production to be expanded the next year. However, since the soil, water, and other resources are consumed in production, the goal remains to operate as sustainably as possible.

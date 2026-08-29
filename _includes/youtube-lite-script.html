@@ -1,0 +1,17 @@
+<script>
+  document.querySelectorAll("[data-youtube-id]").forEach((facade) => {
+    facade.addEventListener("click", (event) => {
+      event.preventDefault();
+      const id = facade.dataset.youtubeId;
+      const label = facade.querySelector("a").getAttribute("aria-label").replace(" on YouTube", "");
+      const iframe = document.createElement("iframe");
+      iframe.src = `https://www.youtube-nocookie.com/embed/${id}?autoplay=1`;
+      iframe.title = label;
+      iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+      iframe.referrerPolicy = "strict-origin-when-cross-origin";
+      iframe.allowFullscreen = true;
+      facade.replaceChildren(iframe);
+      iframe.focus();
+    }, { once: true });
+  });
+</script>

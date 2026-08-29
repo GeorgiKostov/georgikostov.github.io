@@ -10,11 +10,11 @@ image: /assets/images/projects/nova-concept.png
 
 ## Professional & Research Projects
 
-## HektAR
+<p class="section-intro">Games and applied-research work across climate education, logistics, mixed reality and participatory design.</p>
 
-<div class="video-container">
-  <iframe src="https://www.youtube.com/embed/EFyVnfK4LEY?si=pVa8qMgiuh7Oj1ss" title="HektAR sustainable farming game video" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
+### HektAR
+
+{% include youtube-lite.html id="EFyVnfK4LEY" title="HektAR sustainable farming game" %}
 
 **Description**:
 HektAR is a farming simulation game where players manage a small virtual farm to meet the needs of a growing community sustainably. By utilizing resources like land, water, and labor, players grow crops, raise animals, and navigate challenges such as soil degradation, water consumption, and climate change-induced phenomena like droughts, pests, and increased rainfall. The game emphasizes decision-making and highlights the relationship between agricultural production and environmental impact.
@@ -28,11 +28,9 @@ Game design, programming, publishing, and UX.
 
 ---
 
-## Logistify
+### Logistify
 
-<div class="video-container">
-  <iframe src="https://www.youtube.com/embed/gR3ciDCLlIQ?si=j4LxDUTbPKGH0SZF" title="Logistify augmented reality logistics game video" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
+{% include youtube-lite.html id="gR3ciDCLlIQ" title="Logistify augmented reality logistics game" %}
 
 **Description**:
 Logistify is an educational augmented reality (AR) game designed to teach players about logistics and transportation, developed in collaboration with the Logistikum in Steyr. It focuses on topics such as supply chains, resource efficiency, and logistics professions.
@@ -49,11 +47,9 @@ Game design, programming, publishing, and UX.
 
 ---
 
-## CATRINA
+### CATRINA
 
-<div class="video-container">
-  <iframe src="https://www.youtube.com/embed/Ltod694yfA0?si=YUFgxZBurxufT_VR" title="CATRINA moral courage virtual reality game video" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
+{% include youtube-lite.html id="Ltod694yfA0" title="CATRINA moral courage virtual reality game" %}
 
 **Description**:
 CATRINA explores how gender and diversity-specific factors influence moral courage and how persuasive gaming concepts can encourage such behavior. Through game-based methods like hybrid board games, VR, and urban games, the project identifies key factors and use cases for persuasive technologies, aiming to raise awareness and stimulate behavioral change.
@@ -69,11 +65,9 @@ Programming, branching story system, interaction design, publishing and UX.
 
 ---
 
-## The Game Changer Suite
+### The Game Changer Suite
 
-<div class="video-container">
-  <iframe src="https://www.youtube.com/embed/gmM1EaHA_BA?si=nnzIo9bjlBoHmVhe" title="Game Changer Suite multiplayer games video" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
+{% include youtube-lite.html id="gmM1EaHA_BA" title="Game Changer Suite multiplayer games" %}
 
 **Description**:
 The Game Changer Suite is a collection of multiplayer game prototypes developed by students at the Hagenberg campus of the University of Applied Sciences Upper Austria. The focus of the Game Changer project is to explore cooperative and competitive gameplay in a co-located setting. Developed specifically for the Ars Electronica Center’s Deep Space, each of the games utilizes the room’s unique laser ranging system as the primary interface. Players can choose between any of the five game prototypes by simply standing on the desired game window; in this way, game selection is a collective, democratic process.
@@ -85,11 +79,9 @@ Designed and developed the game *Tower of Power*, co-designed *Beelzeball*; main
 
 ---
 
-## PIEDeck
+### PIEDeck
 
-<div class="video-container">
-  <iframe src="https://www.youtube.com/embed/7Q2MfE01my4?si=LZYxTSSsLs6pUWRs" title="PIEdeck hybrid reality interaction video" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
+{% include youtube-lite.html id="7Q2MfE01my4" title="PIEdeck hybrid reality interaction" %}
 
 **Description**:
 PIEdeck serves as an experimental environment to explore novel game concepts and other forms of co-located interaction in a hybrid-reality context, combining real physical movement with virtual content in a large-scale setting.
@@ -101,11 +93,9 @@ Design, programming, networking, UX
 
 ---
 
-## Invisible Walls
+### Invisible Walls
 
-<div class="video-container">
-  <iframe src="https://www.youtube.com/embed/lzxrbJNKuW8?si=toRa3cjtURnYqCrH" title="Invisible Walls augmented virtuality installation video" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
+{% include youtube-lite.html id="lzxrbJNKuW8" title="Invisible Walls augmented virtuality installation" %}
 
 **Description**:
 Invisible Walls is an experimental interaction space that was developed for Austria’s largest design festival, the Vienna Design Week 2016. Based on the PIEdeck prototype, the art installation consists of a large-scale projection, a virtual reality (VR) headset that supports hand and finger motions as input, and a sensitive laser position tracking system from the technology forge of the Ars Electronica Futurelab in Linz. Multiple persons can move simultaneously in a 50 square meters room, affect it, thus entering into virtual and real interaction. Additionally, the VR player can get in contact with the other participants with his hands that are also represented in the VR space. With his/her fingers the VR player can manipulate the others’ virtual representation by simply pointing at them or carrying out swipe gestures. This way, Invisible Walls focuses on the theme of reducing the gap between the real and the virtual worlds by granting participants to interact with each other.
@@ -117,7 +107,7 @@ Programming, interaction design, VFX
 
 ---
 
-## i2f – Interface2Face Mixed Reality Game
+### i2f – Interface2Face Mixed Reality Game
 
 <div class="image-container">
   <img src="/assets/images/i2f_3.jpg" alt="Interface2Face collaborative mixed reality game" width="2160" height="1080" loading="lazy" decoding="async">
@@ -132,11 +122,9 @@ Programming, game design, UI, augmented reality prototyping, designed multiple b
 <a href="https://projekte.ffg.at/projekt/3262914" class="external-link" target="_blank" rel="noopener noreferrer">Visit i2f</a>
 ---
 
-## Play!UC
+### Play!UC
 
-<div class="video-container">
-  <iframe src="https://www.youtube.com/embed/wbl0d12rEWg?si=kYH1aCi-4NvJG9MZ" title="Play UC participatory serious games video" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
+{% include youtube-lite.html id="wbl0d12rEWg" title="Play UC participatory serious games" %}
 
 **Description**:
 Play!UC explores the potential of serious games to support participatory processes in urban development projects, addressing challenges like maintaining participant motivation and engaging traditionally underrepresented groups. The project focuses on young adults and their decisions affecting carbon footprints, using games to simplify complex urban planning scenarios. By examining existing and novel game mechanics, Play!UC seeks to develop a toolbox of methods tailored for participatory urban development. These methods are tested in three Living Lab environments in Holland, Belgium, and Austria, ensuring their applicability in real-world settings. The ultimate goal is to create a tested suite of game-based approaches that enhance engagement, promote understanding of urban planning issues, and foster sustainability and inclusivity in decision-making processes.
